@@ -527,7 +527,7 @@
                         <button class="bg-success text-white px-4 py-2 rounded-lg text-sm hover:bg-success-700 transition-smooth">
                             View Training
                         </button>
-                        <button class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition-smooth">
+                        <button class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition-smooth" onclick="document.getElementById('request-support').scrollIntoView({behavior: 'smooth', block: 'start'});">
                             Get Support
                         </button>
                     </div>
@@ -854,7 +854,7 @@
     </section>
 
     <!-- Support Section -->
-    <section class="py-20 bg-surface" id="support">
+    <section class="py-20 bg-surface" id="request-support">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
@@ -894,13 +894,51 @@
                         <div>
                             <label class="block text-sm font-medium text-text-primary mb-2">Country</label>
                             <select class="input-field w-full" required>
-                                <option value>Select your country</option>
+                                <option value="">Select your country</option>
+                                <option value="AG">Antigua and Barbuda</option>
                                 <option value="AR">Argentina</option>
+                                <option value="BS">Bahamas</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BO">Bolivia</option>
                                 <option value="BR">Brazil</option>
+                                <option value="CA">Canada</option>
                                 <option value="CL">Chile</option>
                                 <option value="CO">Colombia</option>
+                                <option value="CR">Costa Rica</option>
+                                <option value="CU">Cuba</option>
+                                <option value="DM">Dominica</option>
+                                <option value="DO">Dominican Republic</option>
+                                <option value="EC">Ecuador</option>
+                                <option value="SV">El Salvador</option>
+                                <option value="GD">Grenada</option>
+                                <option value="GT">Guatemala</option>
+                                <option value="GY">Guyana</option>
+                                <option value="HT">Haiti</option>
+                                <option value="HN">Honduras</option>
+                                <option value="JM">Jamaica</option>
                                 <option value="MX">Mexico</option>
+                                <option value="NI">Nicaragua</option>
+                                <option value="PA">Panama</option>
+                                <option value="PY">Paraguay</option>
                                 <option value="PE">Peru</option>
+                                <option value="KN">Saint Kitts and Nevis</option>
+                                <option value="LC">Saint Lucia</option>
+                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                <option value="SR">Suriname</option>
+                                <option value="TT">Trinidad and Tobago</option>
+                                <option value="US">United States</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="VE">Venezuela</option>
+                                <option value="TC">Turks and Caicos Islands</option>
+                                <option value="AW">Aruba</option>
+                                <option value="CW">Curaçao</option>
+                                <option value="SX">Sint Maarten</option>
+                                <option value="BL">Saint Barthélemy</option>
+                                <option value="MF">Saint Martin</option>
+                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                <option value="GF">French Guiana</option>
+                                <option value="PM">Saint Pierre and Miquelon</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
