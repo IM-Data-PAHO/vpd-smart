@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VPD-SMART Metadata Hub - Deploy World-Class Disease Surveillance in Minutes</title>
+    <meta name="description" content="Get PAHO-approved DHIS2 metadata packages for disease surveillance. Ready to install in under 30 minutes, supported by PAHO's technical expertise." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body class="bg-white">
+    <!-- Navigation Header -->
+    <nav class="bg-white border-b border-border sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <svg class="h-8 w-8 text-primary mr-3" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                    <span class="text-xl font-bold text-primary">VPD-SMART</span>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#packages" class="text-text-secondary hover:text-primary transition-smooth">Packages</a>
+                    <a href="#installation" class="text-text-secondary hover:text-primary transition-smooth">Installation</a>
+                    <a href="#testimonials" class="text-text-secondary hover:text-primary transition-smooth">Success Stories</a>
+                    <a href="#support" class="text-text-secondary hover:text-primary transition-smooth">Support</a>
+                    
+                    <!-- Language Toggle -->
+                    <div class="flex items-center space-x-2">
+                        <button id="lang-en" class="flex items-center px-3 py-1 rounded-md bg-primary text-white text-sm">
+                            <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?q=80&w=100&auto=format&fit=crop" alt="English" class="w-4 h-3 mr-1 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            EN
+                        </button>
+                        <button id="lang-es" class="flex items-center px-3 py-1 rounded-md bg-gray-100 text-gray-600 text-sm hover:bg-gray-200 transition-smooth">
+                            <img src="https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?q=80&w=100&auto=format&fit=crop" alt="Español" class="w-4 h-3 mr-1 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            ES
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2" id="mobile-menu-btn">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary-50 to-secondary-50 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Side - Content -->
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl lg:text-5xl font-bold text-text-primary leading-tight">
+                            Deploy World-Class Disease Surveillance in 
+                            <span class="text-primary">Minutes, Not Months</span>
+                        </h1>
+                        <p class="text-xl text-text-secondary leading-relaxed">
+                            Get PAHO-approved DHIS2 metadata packages for AFP and Measles/Rubella surveillance that typically take 6-12 months to develop, ready to install in under 30 minutes, supported by PAHO's technical expertise.
+                        </p>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="flex items-center space-x-6">
+                        <div class="flex items-center space-x-2">
+                            <svg class="h-5 w-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <span class="text-sm font-medium text-text-secondary">PAHO Approved</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="h-5 w-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <span class="text-sm font-medium text-text-secondary">CIM Supported</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="h-5 w-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <span class="text-sm font-medium text-text-secondary">7+ Countries</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="btn-primary text-lg px-8 py-4 flex items-center justify-center space-x-2">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                            <span>Download Metadata Package</span>
+                        </button>
+                        <button class="btn-secondary text-lg px-8 py-4 flex items-center justify-center space-x-2">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            <span>View GitHub Repository</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Side - Package Preview -->
+                <div class="relative">
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-border">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-lg font-semibold text-text-primary">Available Packages</h3>
+                            <span class="bg-success-100 text-success-700 px-3 py-1 rounded-full text-sm font-medium">Ready to Install</span>
+                        </div>
+
+                            <!-- MR Package -->
+                            <div class="border border-border rounded-lg p-4 hover:border-primary transition-smooth cursor-pointer">
+                                <div class="flex items-start space-x-4">
+                                    <div class="bg-secondary-100 p-3 rounded-lg">
+                                        <svg class="h-6 w-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-text-primary">Measles & Rubella (MR)</h4>
+                                        <p class="text-sm text-text-secondary mt-1">Integrated surveillance system with outbreak investigation tools and vaccination tracking</p>
+                                        <div class="flex items-center mt-2 space-x-4">
+                                            <span class="text-xs bg-gray-100 px-2 py-1 rounded">v1.02</span>
+                                            <span class="text-xs text-success">✓ PAHO Compliant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- AFP Package -->
+                        <div class="space-y-4">
+                            <div class="border border-border rounded-lg p-4 hover:border-primary transition-smooth cursor-pointer">
+                                <div class="flex items-start space-x-4">
+                                    <div class="bg-primary-100 p-3 rounded-lg">
+                                        <svg class="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-text-primary">Acute Flaccid Paralysis (AFP)</h4>
+                                        <p class="text-sm text-text-secondary mt-1">Complete surveillance package with case investigation forms, laboratory tracking, and reporting dashboards</p>
+                                        <div class="flex items-center mt-2 space-x-4">
+                                            <span class="text-xs bg-gray-100 px-2 py-1 rounded">v1.1.0</span>
+                                            <span class="text-xs text-success">✓ PAHO Compliant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="bg-white py-8 border-b border-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+                <div class="flex items-center space-x-8">
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-primary" id="country-counter">7+</div>
+                        <div class="text-sm text-text-secondary">Countries Implemented</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-primary">2.3M+</div>
+                        <div class="text-sm text-text-secondary">Downloads</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-primary">98%</div>
+                        <div class="text-sm text-text-secondary">Success Rate</div>
+                    </div>
+                </div>
+                
+                <!-- Country Flags -->
+                <div class="flex items-center space-x-2">
+                    <span class="text-sm text-text-secondary mr-2">Trusted by:</span>
+                    <div class="flex space-x-1">
+                        <img src="../img/pry.png" alt="Paraguay" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="../img/dom.png" alt="Dominican Republic" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="../img/bol.png" alt="Bolivia" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="../img/chl.png" alt="Chile" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="../img/ecu.png" alt="Ecuador" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="../img/guy.png" alt="Guyana" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="../img/tca.png" alt="Turks and Caicos" class="w-6 h-4 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="py-20 bg-surface" id="problem">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    The Challenge Every Health Ministry Faces
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Custom DHIS2 metadata development is complex, time-consuming, and expensive. Most implementations take months to complete and often lack PAHO compliance.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Timeline Visualization -->
+                <div class="space-y-8">
+                    <div class="bg-white rounded-xl p-8 shadow-card">
+                        <h3 class="text-xl font-semibold text-text-primary mb-6">Traditional Custom Development</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-error-100 p-2 rounded-full">
+                                    <svg class="h-5 w-5 text-error" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium text-text-primary">Requirements Analysis</span>
+                                        <span class="text-sm text-text-secondary">2-3 months</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                                        <div class="bg-error h-2 rounded-full" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-warning-100 p-2 rounded-full">
+                                    <svg class="h-5 w-5 text-warning" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium text-text-primary">Development & Testing</span>
+                                        <span class="text-sm text-text-secondary">4-6 months</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                                        <div class="bg-warning h-2 rounded-full" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-error-100 p-2 rounded-full">
+                                    <svg class="h-5 w-5 text-error" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium text-text-primary">PAHO Compliance Review</span>
+                                        <span class="text-sm text-text-secondary">2-4 months</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                                        <div class="bg-error h-2 rounded-full" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-t pt-4">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-text-primary">Total Timeline:</span>
+                                    <span class="font-bold text-error text-lg">8-13 months</span>
+                                </div>
+                                <div class="flex justify-between items-center mt-2">
+                                    <span class="font-bold text-text-primary">Estimated Cost:</span>
+                                    <span class="font-bold text-error text-lg">$150K - $300K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VPD-SMART Solution -->
+                <div class="space-y-8">
+                    <div class="bg-white rounded-xl p-8 shadow-card border-2 border-success">
+                        <h3 class="text-xl font-semibold text-text-primary mb-6">VPD-SMART Implementation</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-success-100 p-2 rounded-full">
+                                    <svg class="h-5 w-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium text-text-primary">Download Package</span>
+                                        <span class="text-sm text-success font-medium">5 minutes</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                                        <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-success-100 p-2 rounded-full">
+                                    <svg class="h-5 w-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium text-text-primary">Install & Configure</span>
+                                        <span class="text-sm text-success font-medium">15 minutes</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                                        <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-success-100 p-2 rounded-full">
+                                    <svg class="h-5 w-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium text-text-primary">Training & Go-Live</span>
+                                        <span class="text-sm text-success font-medium">10 minutes</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
+                                        <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-t pt-4">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-text-primary">Total Timeline:</span>
+                                    <span class="font-bold text-success text-lg">30 minutes</span>
+                                </div>
+                                <div class="flex justify-between items-center mt-2">
+                                    <span class="font-bold text-text-primary">Cost:</span>
+                                    <span class="font-bold text-success text-lg">FREE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Overview -->
+    <section class="py-20 bg-white" id="packages">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    Pre-Built, PAHO-Approved Metadata Packages
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Skip months of development with our ready-to-install DHIS2 packages, designed by experts and validated by health ministries across the Americas.
+                </p>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="bg-white rounded-xl shadow-card overflow-hidden">
+                <div class="grid md:grid-cols-2">
+                    <!-- Custom Development -->
+                    <div class="p-8 bg-gray-50">
+                        <div class="flex items-center mb-6">
+                            <div class="bg-error-100 p-2 rounded-full mr-3">
+                                <svg class="h-6 w-6 text-error" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-text-primary">Custom Development</h3>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                </svg>
+                                <span class="text-text-secondary">6-12 months development time</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                </svg>
+                                <span class="text-text-secondary">$150K - $300K investment</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                </svg>
+                                <span class="text-text-secondary">Uncertain PAHO compliance</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                </svg>
+                                <span class="text-text-secondary">High technical risk</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
+                                </svg>
+                                <span class="text-text-secondary">Limited ongoing support</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- VPD-SMART Benefits -->
+                    <div class="p-8 bg-success-50">
+                        <div class="flex items-center mb-6">
+                            <div class="bg-success-100 p-2 rounded-full mr-3">
+                                <svg class="h-6 w-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-text-primary">VPD-SMART Packages</h3>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                <span class="text-text-secondary">30 minutes to full deployment</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                <span class="text-text-secondary">Completely free to download</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                <span class="text-text-secondary">PAHO pre-approved standards</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                <span class="text-text-secondary">Battle-tested by 7+ countries</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                <span class="text-text-secondary">PAHO technical support included</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide -->
+    <section class="py-20 bg-surface" id="installation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    Simple 3-Step Installation Process
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Get your surveillance system running in under 30 minutes with our step-by-step guide and automated installation tools.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-card text-center">
+                    <div class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-primary">1</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-text-primary mb-4">Download Package</h3>
+                    <p class="text-text-secondary mb-6">Select your desired surveillance package (AFP or MR) and download the complete metadata bundle with documentation.</p>
+                    <div class="bg-gray-50 rounded-lg p-4 text-left">
+                        <code class="text-sm text-gray-700">
+                            wget https://github.com/paho/vpd-smart/releases/latest/afp-package.zip
+                        </code>
+                        <button class="ml-2 text-primary hover:text-primary-700 transition-smooth" title="Copy to clipboard">
+                            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-card text-center">
+                    <div class="bg-secondary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-secondary">2</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-text-primary mb-4">Import & Configure</h3>
+                    <p class="text-text-secondary mb-6">Use our automated import script to install metadata into your DHIS2 instance with country-specific configurations.</p>
+                    <div class="bg-gray-50 rounded-lg p-4 text-left">
+                        <code class="text-sm text-gray-700">
+                            ./install-vpd-smart.sh --country=BR --package=afp
+                        </code>
+                        <button class="ml-2 text-primary hover:text-primary-700 transition-smooth" title="Copy to clipboard">
+                            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-card text-center">
+                    <div class="bg-success-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-success">3</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-text-primary mb-4">Train & Go Live</h3>
+                    <p class="text-text-secondary mb-6">Access our training materials and support resources to onboard your team and start collecting surveillance data.</p>
+                    <div class="flex justify-center space-x-4">
+                        <button class="bg-success text-white px-4 py-2 rounded-lg text-sm hover:bg-success-700 transition-smooth">
+                            View Training
+                        </button>
+                        <button class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition-smooth">
+                            Get Support
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Requirements -->
+            <div class="mt-16 bg-white rounded-xl p-8 shadow-card">
+                <h3 class="text-xl font-semibold text-text-primary mb-6 text-center">Technical Requirements</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-primary-100 p-4 rounded-lg mb-4">
+                            <svg class="h-8 w-8 text-primary mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-semibold text-text-primary mb-2">DHIS2 Version</h4>
+                        <p class="text-text-secondary">2.39+ or higher</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-secondary-100 p-4 rounded-lg mb-4">
+                            <svg class="h-8 w-8 text-secondary mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-semibold text-text-primary mb-2">Server Resources</h4>
+                        <p class="text-text-secondary">16GB RAM, 4 CPU cores</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-success-100 p-4 rounded-lg mb-4">
+                            <svg class="h-8 w-8 text-success mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-semibold text-text-primary mb-2">Admin Access</h4>
+                        <p class="text-text-secondary">System administrator privileges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white" id="testimonials">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    Trusted by Health Ministries Across the Americas
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    See how countries are transforming their disease surveillance capabilities with VPD-SMART packages.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-card border border-border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Maria Santos" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Dr. Maria Santos</h4>
+                            <p class="text-sm text-text-secondary">Director of Epidemiology, Paraguay MOH</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">"VPD-SMART reduced our AFP surveillance implementation from 8 months to just 2 weeks. The PAHO compliance gave us confidence, and their support was exceptional."</p>
+                    <div class="flex items-center">
+                        <div class="flex text-yellow-400 mr-2">
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                        <span class="text-sm text-text-secondary">5.0</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-card border border-border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pixabay.com/photo/2021/06/04/10/29/doctor-6309793_1280.jpg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Carlos Rodriguez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Dr. Carla Rodriguez</h4>
+                            <p class="text-sm text-text-secondary">EPI Manager, Dominican Republic MOH</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">"The technical documentation was outstanding. Our team had the MR surveillance system running in 45 minutes. Saved us over $200K in development costs."</p>
+                    <div class="flex items-center">
+                        <div class="flex text-yellow-400 mr-2">
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                        <span class="text-sm text-text-secondary">5.0</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-card border border-border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Ana Gutierrez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Dr. Juan Gutierrez</h4>
+                            <p class="text-sm text-text-secondary">Surveillance Coordinator, Cuba MOH</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">"Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments."</p>
+                    <div class="flex items-center">
+                        <div class="flex text-yellow-400 mr-2">
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                        <span class="text-sm text-text-secondary">5.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Success Metrics -->
+            <div class="mt-16 bg-primary-50 rounded-xl p-8">
+                <h3 class="text-2xl font-semibold text-text-primary text-center mb-8">Implementation Success Metrics</h3>
+                <div class="grid md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-2">96%</div>
+                        <div class="text-text-secondary">Faster Implementation</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-2">$250K</div>
+                        <div class="text-text-secondary">Average Cost Savings</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-2">100%</div>
+                        <div class="text-text-secondary">PAHO Compliance</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-2">24/7</div>
+                        <div class="text-text-secondary">Technical Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Integration -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    Open Source & Community Driven
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Join our growing community of health informatics professionals contributing to global disease surveillance standards.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-card p-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- GitHub Stats -->
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            <h3 class="text-2xl font-semibold text-text-primary">PAHO/VPD-SMART</h3>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="bg-gray-50 rounded-lg p-4 text-center">
+                                <div class="text-2xl font-bold text-text-primary mb-1">1,247</div>
+                                <div class="text-sm text-text-secondary">⭐ Stars</div>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-4 text-center">
+                                <div class="text-2xl font-bold text-text-primary mb-1">342</div>
+                                <div class="text-sm text-text-secondary">🍴 Forks</div>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-4 text-center">
+                                <div class="text-2xl font-bold text-text-primary mb-1">89</div>
+                                <div class="text-sm text-text-secondary">👥 Contributors</div>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-4 text-center">
+                                <div class="text-2xl font-bold text-text-primary mb-1">2.3M</div>
+                                <div class="text-sm text-text-secondary">📥 Downloads</div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <button class="w-full btn-secondary flex items-center justify-center space-x-2">
+                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                <span>View on GitHub</span>
+                            </button>
+                            <button class="w-full bg-gray-100 text-gray-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-smooth flex items-center justify-center space-x-2">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                </svg>
+                                <span>Documentation</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity -->
+                    <div class="space-y-6">
+                        <h4 class="text-xl font-semibold text-text-primary">Recent Activity</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="bg-success w-2 h-2 rounded-full mt-2"></div>
+                                <div class="flex-1">
+                                    <p class="text-sm text-text-primary font-medium">v1.1.0 Released</p>
+                                    <p class="text-xs text-text-secondary">Enhanced AFP case investigation forms with PAHO 2025 updates</p>
+                                    <p class="text-xs text-text-secondary mt-1">2 days ago</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="bg-primary w-2 h-2 rounded-full mt-2"></div>
+                                <div class="flex-1">
+                                    <p class="text-sm text-text-primary font-medium">MR Package Update</p>
+                                    <p class="text-xs text-text-secondary">Added support for DHIS2 2.40+ compatibility</p>
+                                    <p class="text-xs text-text-secondary mt-1">1 week ago</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="bg-secondary w-2 h-2 rounded-full mt-2"></div>
+                                <div class="flex-1">
+                                    <p class="text-sm text-text-primary font-medium">Community Contribution</p>
+                                    <p class="text-xs text-text-secondary">Brazil MOH contributed Portuguese translations</p>
+                                    <p class="text-xs text-text-secondary mt-1">2 weeks ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Get answers to common questions about VPD-SMART implementation and support.
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white border border-border rounded-lg">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-smooth" onclick="toggleFAQ(1)">
+                        <span class="font-semibold text-text-primary">How long does installation typically take?</span>
+                        <svg class="h-5 w-5 text-text-secondary transform transition-transform" id="faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-1">
+                        <p class="text-text-secondary">Most installations complete in 15-30 minutes using our automated scripts. This includes metadata import, configuration, and basic testing. Manual installations may take 1-2 hours depending on customization needs.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white border border-border rounded-lg">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-smooth" onclick="toggleFAQ(2)">
+                        <span class="font-semibold text-text-primary">What DHIS2 versions are supported?</span>
+                        <svg class="h-5 w-5 text-text-secondary transform transition-transform" id="faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-2">
+                        <p class="text-text-secondary">VPD-SMART packages support DHIS2 versions 2.39 and higher. We recommend using the latest stable version for optimal performance and security. Compatibility matrices are available in our documentation.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white border border-border rounded-lg">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-smooth" onclick="toggleFAQ(3)">
+                        <span class="font-semibold text-text-primary">Is technical support included?</span>
+                        <svg class="h-5 w-5 text-text-secondary transform transition-transform" id="faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-3">
+                        <p class="text-text-secondary">Yes! PAHO provides comprehensive technical support including installation assistance, troubleshooting, and ongoing maintenance guidance. Support is available in English and Spanish through multiple channels.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white border border-border rounded-lg">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-smooth" onclick="toggleFAQ(4)">
+                        <span class="font-semibold text-text-primary">Can I customize the packages for my country?</span>
+                        <svg class="h-5 w-5 text-text-secondary transform transition-transform" id="faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-4">
+                        <p class="text-text-secondary">Absolutely! The packages include country-specific configuration options and can be customized for local requirements while maintaining PAHO compliance. Our documentation includes customization guides and best practices.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="bg-white border border-border rounded-lg">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-smooth" onclick="toggleFAQ(5)">
+                        <span class="font-semibold text-text-primary">What training resources are available?</span>
+                        <svg class="h-5 w-5 text-text-secondary transform transition-transform" id="faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-5">
+                        <p class="text-text-secondary">We provide comprehensive training materials including video tutorials, user manuals, webinar recordings, and hands-on workshops. All materials are available in English and Spanish with country-specific examples.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="py-20 bg-surface" id="support">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    Get Implementation Support
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Our technical experts are ready to help you successfully deploy VPD-SMART packages in your health system.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white rounded-xl p-8 shadow-card">
+                    <h3 class="text-xl font-semibold text-text-primary mb-6">Request Technical Support</h3>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-text-primary mb-2">First Name</label>
+                                <input type="text" class="input-field w-full" placeholder="Maria" required />
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-text-primary mb-2">Last Name</label>
+                                <input type="text" class="input-field w-full" placeholder="Rodriguez" required />
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-text-primary mb-2">Email Address</label>
+                            <input type="email" class="input-field w-full" placeholder="maria.rodriguez@health.gov" required />
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-text-primary mb-2">Organization</label>
+                            <input type="text" class="input-field w-full" placeholder="Ministry of Health" required />
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-text-primary mb-2">Country</label>
+                            <select class="input-field w-full" required>
+                                <option value>Select your country</option>
+                                <option value="AR">Argentina</option>
+                                <option value="BR">Brazil</option>
+                                <option value="CL">Chile</option>
+                                <option value="CO">Colombia</option>
+                                <option value="MX">Mexico</option>
+                                <option value="PE">Peru</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-text-primary mb-2">Package Interest</label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="mr-2" value="afp" />
+                                    <span class="text-text-secondary">Acute Flaccid Paralysis (AFP)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="mr-2" value="mr" />
+                                    <span class="text-text-secondary">Measles & Rubella (MR)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-text-primary mb-2">Message</label>
+                            <textarea class="input-field w-full h-32" placeholder="Describe your implementation needs or questions..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-full">
+                            Send Support Request
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Support Options -->
+                <div class="space-y-8">
+                    <div class="bg-white rounded-xl p-6 shadow-card">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-primary-100 p-3 rounded-lg">
+                                <svg class="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-text-primary mb-2">Live Chat Support</h4>
+                                <p class="text-text-secondary mb-4">Get instant help from our technical team during business hours (9 AM - 5 PM EST).</p>
+                                <button class="text-primary hover:text-primary-700 font-medium">Start Chat →</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-card">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-secondary-100 p-3 rounded-lg">
+                                <svg class="h-6 w-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-text-primary mb-2">Email Support</h4>
+                                <p class="text-text-secondary mb-4">Send detailed questions and receive comprehensive responses within 24 hours.</p>
+                                <a href="mailto:vpd-smart@paho.org" class="text-secondary hover:text-secondary-700 font-medium">vpd-smart@paho.org →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-card">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-success-100 p-3 rounded-lg">
+                                <svg class="h-6 w-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-text-primary mb-2">Documentation</h4>
+                                <p class="text-text-secondary mb-4">Access comprehensive guides, tutorials, and troubleshooting resources.</p>
+                                <button class="text-success hover:text-success-700 font-medium">View Docs →</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-card">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-warning-100 p-3 rounded-lg">
+                                <svg class="h-6 w-6 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-text-primary mb-2">Community Forum</h4>
+                                <p class="text-text-secondary mb-4">Connect with other implementers and share experiences in our community forum.</p>
+                                <button class="text-warning hover:text-warning-700 font-medium">Join Forum →</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 bg-primary text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl lg:text-4xl text-primary-100 font-bold mb-4">
+                Start Your Implementation Today
+            </h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+                Join 7+ countries already using VPD-SMART packages to transform their disease surveillance capabilities. Download now and be operational in 30 minutes.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <button class="btn-primary bg-white text-primary hover:bg-gray-100 text-lg px-8 py-4">
+                    <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                    Download Package Now
+                </button>
+                <button class="btn-secondary hover:bg-primary-800 text-lg px-8 py-4">
+                    <svg class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </button>
+            </div>
+
+            <div class="flex items-center justify-center space-x-8 text-primary-200">
+                <div class="flex items-center space-x-2">
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                    </svg>
+                    <span>Free Download</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                    </svg>
+                    <span>30-Min Setup</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                    </svg>
+                    <span>PAHO Approved</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg class="h-8 w-8 text-primary mr-3" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <span class="text-xl font-bold">VPD-SMART</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        Accelerating disease surveillance implementation across the Americas with PAHO-approved DHIS2 metadata packages.
+                    </p>
+                    <div class="flex space-x-4">
+                        <img src="../img/paho_en.png" alt="PAHO Logo" class="h-8 w-auto" style="filter: brightness(0) invert(0.7);" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                    </div>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Documentation</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Installation Guide</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Training Materials</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Video Tutorials</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Best Practices</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Technical Support</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Community Forum</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">GitHub Issues</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Terms of Use</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">License</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Security</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-smooth">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    © <span id="copyright-year"></span> Pan American Health Organization. All Rights Reserved.
+                </p>
+                <div class="flex items-center space-x-4 mt-4 md:mt-0">
+                    <span class="text-gray-400 text-sm">Available in:</span>
+                    <button class="text-gray-400 hover:text-white text-sm transition-smooth">English</button>
+                    <span class="text-gray-600">|</span>
+                    <button class="text-gray-400 hover:text-white text-sm transition-smooth">Español</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // FAQ Toggle Function
+        function toggleFAQ(id) {
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Language Toggle
+        document.getElementById('lang-en').addEventListener('click', function() {
+            this.classList.add('bg-primary', 'text-white');
+            this.classList.remove('bg-gray-100', 'text-gray-600');
+            document.getElementById('lang-es').classList.remove('bg-primary', 'text-white');
+            document.getElementById('lang-es').classList.add('bg-gray-100', 'text-gray-600');
+        });
+
+        document.getElementById('lang-es').addEventListener('click', function() {
+            this.classList.add('bg-primary', 'text-white');
+            this.classList.remove('bg-gray-100', 'text-gray-600');
+            document.getElementById('lang-en').classList.remove('bg-primary', 'text-white');
+            document.getElementById('lang-en').classList.add('bg-gray-100', 'text-gray-600');
+        });
+
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            // Mobile menu functionality would be implemented here
+            console.log('Mobile menu clicked');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Counter animation
+        function animateCounter() {
+            const counter = document.getElementById('country-counter');
+            let count = 0;
+            const target = 7;
+            const increment = target / 30;
+            
+            const timer = setInterval(() => {
+                count += increment;
+                if (count >= target) {
+                    counter.textContent = target + '+';
+                    clearInterval(timer);
+                } else {
+                    counter.textContent = Math.floor(count) + '+';
+                }
+            }, 50);
+        }
+
+        // Trigger counter animation when page loads
+        window.addEventListener('load', animateCounter);
+        // Set current year in footer
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+
+</body>
+</html>
