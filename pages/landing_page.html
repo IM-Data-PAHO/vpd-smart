@@ -700,20 +700,20 @@
                         
                         <div class="grid grid-cols-2 gap-6">
                             <div class="bg-gray-50 rounded-lg p-4 text-center">
-                                <div class="text-2xl font-bold text-text-primary mb-1">1,247</div>
+                                <div class="text-2xl font-bold text-text-primary mb-1" id="star-count">1,247</div>
                                 <div class="text-sm text-text-secondary">⭐ Stars</div>
                             </div>
                             <div class="bg-gray-50 rounded-lg p-4 text-center">
-                                <div class="text-2xl font-bold text-text-primary mb-1">342</div>
+                                <div class="text-2xl font-bold text-text-primary mb-1" id="forks-count">342</div>
                                 <div class="text-sm text-text-secondary">🍴 Forks</div>
                             </div>
                             <div class="bg-gray-50 rounded-lg p-4 text-center">
-                                <div class="text-2xl font-bold text-text-primary mb-1">89</div>
-                                <div class="text-sm text-text-secondary">👥 Contributors</div>
+                                <div class="text-2xl font-bold text-text-primary mb-1" id="watchers-count">89</div>
+                                <div class="text-sm text-text-secondary">👁️ Watchers</div>
                             </div>
                             <div class="bg-gray-50 rounded-lg p-4 text-center">
-                                <div class="text-2xl font-bold text-text-primary mb-1">2.3M</div>
-                                <div class="text-sm text-text-secondary">📥 Downloads</div>
+                                <div class="text-2xl font-bold text-text-primary mb-1" id="updated-at"></div>
+                                <div class="text-sm text-text-secondary">📆 Last Updated</div>
                             </div>
                         </div>
 
@@ -1190,6 +1190,21 @@
         window.addEventListener('load', animateCounter);
         // Set current year in footer
         document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        // gets vpd-smart Github repo stats
+        fetch('https://api.github.com/repos/IM-Data-PAHO/vpd-smart')
+            .then(response => response.json())
+            .then(data => {
+                const starCount = data.stargazers_count;
+                document.getElementById('star-count').textContent = `${starCount}`;
+                const forksCount = data.forks_count;
+                document.getElementById('forks-count').textContent = `${forksCount}`;
+                const watchersCount = data.watchers_count;
+                document.getElementById('watchers-count').textContent = `${watchersCount}`;
+                const updatedAt = data.updated_at;
+                document.getElementById('updated-at').textContent = `${updatedAt.split('T')[0]}`;
+            })
+            .catch(error => console.error('Error fetching star count:', error));
+
     </script>
 <script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
 
