@@ -24,19 +24,19 @@
                 
                 <!-- Navigation Links -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#packages" class="text-text-secondary hover:text-primary transition-smooth">Packages</a>
-                    <a href="#installation" class="text-text-secondary hover:text-primary transition-smooth">Installation</a>
-                    <a href="#testimonials" class="text-text-secondary hover:text-primary transition-smooth">Success Stories</a>
-                    <a href="#support" class="text-text-secondary hover:text-primary transition-smooth">Support</a>
+                    <a href="#packages" data-translate="nav_package" class="text-text-secondary hover:text-primary transition-smooth">Packages</a>
+                    <a href="#installation" data-translate="nav_installation" class="text-text-secondary hover:text-primary transition-smooth">Installation</a>
+                    <a href="#testimonials" data-translate="nav_testimonials" class="text-text-secondary hover:text-primary transition-smooth">Success Stories</a>
+                    <a href="#request-support" data-translate="nav_support" class="text-text-secondary hover:text-primary transition-smooth">Support</a>
                     
                     <!-- Language Toggle -->
-                    <div class="flex items-center space-x-2">
-                        <button id="lang-en" class="flex items-center px-3 py-1 rounded-md bg-primary text-white text-sm">
-                            <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?q=80&w=100&auto=format&fit=crop" alt="English" class="w-4 h-3 mr-1 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                     <div class="flex items-center space-x-2">
+                        <button id="lang-en" class="flex items-center px-3 py-1 rounded-md bg-primary text-white text-sm" data-lang="en">
+                            <img src="../img/usa.png" alt="English" class="w-4 h-3 mr-1 object-cover rounded-sm" />
                             EN
                         </button>
-                        <button id="lang-es" class="flex items-center px-3 py-1 rounded-md bg-gray-100 text-gray-600 text-sm hover:bg-gray-200 transition-smooth">
-                            <img src="https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?q=80&w=100&auto=format&fit=crop" alt="Español" class="w-4 h-3 mr-1 object-cover rounded-sm" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <button id="lang-es" class="flex items-center px-3 py-1 rounded-md bg-gray-100 text-gray-600 text-sm hover:bg-gray-200 transition-smooth" data-lang="es">
+                            <img src="../img/esp.png" alt="Español" class="w-4 h-3 mr-1 object-cover rounded-sm" />
                             ES
                         </button>
                     </div>
@@ -173,12 +173,12 @@
             <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
                 <div class="flex items-center space-x-8">
                     <div class="text-center">
-                        <div class="text-2xl font-bold text-primary" id="country-counter">7+</div>
+                        <div class="text-2xl font-bold text-primary" id="country-counter">3</div>
                         <div class="text-sm text-text-secondary">Countries Implemented</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-2xl font-bold text-primary">2.3M+</div>
-                        <div class="text-sm text-text-secondary">Downloads</div>
+                        <div class="text-2xl font-bold text-primary" id="implementation-counter">4+</div>
+                        <div class="text-sm text-text-secondary">Countries on implementation phase</div>
                     </div>
                     <div class="text-center">
                         <div class="text-2xl font-bold text-primary">98%</div>
@@ -608,9 +608,9 @@
                 <!-- Testimonial 2 -->
                 <div class="bg-white rounded-xl p-6 shadow-card border border-border">
                     <div class="flex items-center mb-4">
-                        <img src="https://images.pixabay.com/photo/2021/06/04/10/29/doctor-6309793_1280.jpg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Carlos Rodriguez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <img src="https://img.freepik.com/foto-gratis/intento-ser-mejor-doctor_329181-2188.jpg" alt="Dr. Carlos Rodriguez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
                         <div>
-                            <h4 class="font-semibold text-text-primary">Dr. Carla Rodriguez</h4>
+                            <h4 class="font-semibold text-text-primary">Dr. Carlos Rodriguez</h4>
                             <p class="text-sm text-text-secondary">EPI Manager, Dominican Republic MOH</p>
                         </div>
                     </div>
@@ -632,7 +632,7 @@
                     <div class="flex items-center mb-4">
                         <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Ana Gutierrez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
                         <div>
-                            <h4 class="font-semibold text-text-primary">Dr. Juan Gutierrez</h4>
+                            <h4 class="font-semibold text-text-primary">Dra. Juana Gutierrez</h4>
                             <p class="text-sm text-text-secondary">Surveillance Coordinator, Cuba MOH</p>
                         </div>
                     </div>
@@ -869,7 +869,7 @@
                 <!-- Contact Form -->
                 <div class="bg-white rounded-xl p-8 shadow-card">
                     <h3 class="text-xl font-semibold text-text-primary mb-6">Request Technical Support</h3>
-                    <form class="space-y-6">
+                    <form class="space-y-6" onsubmit="event.preventDefault(); document.getElementById('support-modal').classList.remove('hidden');">
                         <div class="grid md:grid-cols-2 gap-4">
                             <div>
                                 <label class="block text-sm font-medium text-text-primary mb-2">First Name</label>
@@ -1032,6 +1032,13 @@
                 </div>
             </div>
         </div>
+        <div id="support-modal" class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50 hidden">
+            <div class="bg-white rounded-xl p-8 shadow-lg max-w-sm w-full text-center">
+                <h3 class="text-xl font-semibold text-text-primary mb-4">Thank you for contacting us!</h3>
+                <p class="text-text-secondary mb-6">Our technical team will get back to you soon.</p>
+                <button onclick="document.getElementById('support-modal').classList.add('hidden')" class="btn-primary px-6 py-2">Close</button>
+            </div>
+        </div>
     </section>
 
     <!-- Final CTA -->
@@ -1154,7 +1161,6 @@
             </div>
         </div>
     </footer>
-
     <!-- JavaScript -->
     <script>
         // FAQ Toggle Function
@@ -1206,11 +1212,29 @@
             });
         });
 
-        // Counter animation
-        function animateCounter() {
+        // Contry counter animation
+        function animateCountryCounter() {
             const counter = document.getElementById('country-counter');
             let count = 0;
-            const target = 7;
+            const target = 3;
+            const increment = target / 30;
+            
+            const timer = setInterval(() => {
+                count += increment;
+                if (count >= target) {
+                    counter.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    counter.textContent = Math.floor(count);
+                }
+            }, 50);
+        }
+
+        // Implementation counter animation
+        function animateImplementationCounter() {
+            const counter = document.getElementById('implementation-counter');
+            let count = 0;
+            const target = 4;
             const increment = target / 30;
             
             const timer = setInterval(() => {
@@ -1224,8 +1248,10 @@
             }, 50);
         }
 
+
         // Trigger counter animation when page loads
-        window.addEventListener('load', animateCounter);
+        window.addEventListener('load', animateCountryCounter);
+        window.addEventListener('load', animateImplementationCounter);
         // Set current year in footer
         document.getElementById('copyright-year').textContent = new Date().getFullYear();
         // gets vpd-smart Github repo stats
@@ -1245,6 +1271,8 @@
 
     </script>
 <script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+<script src="../js/language-switcher.js"></script>
+<script src="../js/translations.js"></script>
 
 </body>
 </html>
