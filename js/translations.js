@@ -101,6 +101,7 @@ const translations = {
         
         // Footer
         footer_all_rights: "Todos los derechos reservados.",
+        footer_paho: "Organización Panamericana de la Salud.",
         footer_terms: "Términos y Condiciones",
         footer_privacy: "Política de Privacidad",
         
@@ -223,6 +224,7 @@ const translations = {
         
         // Footer
         footer_all_rights: "All rights reserved.",
+        footer_paho: "Pan American Health Organization.",
         footer_terms: "Terms and Conditions",
         footer_privacy: "Privacy Policy",
         
