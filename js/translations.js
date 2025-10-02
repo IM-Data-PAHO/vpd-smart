@@ -1,8 +1,18 @@
-// Translation data for InnovAI website
+// Translation data for VPD-SMART website
 const translations = {
     es: {
-        // Navigation
-        back_to_home: "Volver al inicio",
+        // Landing Page - Navigation
+        nav_package: "Paquetes",
+        nav_installation: "Instalación",
+        nav_testimonials: "Historias de éxito",
+        nav_support: "Ayuda",
+        
+        // Hero Section
+        hero_title: "Implementa vigilancia mundial de enfermedades en minutos, no meses",
+        hero_subtitle: "Obtén paquetes de metadatos DHIS2 aprobados por la OPS para vigilancia de enfermedades. Listos para instalar en menos de 30 minutos, con soporte técnico de la OPS.",
+        hero_cta_download: "Descargar paquete de metadatos",
+        hero_cta_github: "Ver repositorio en GitHub",
+
         
         // Terms and Conditions
         terms_title: "Términos y Condiciones - InnovAI",
@@ -98,35 +108,146 @@ const translations = {
         privacy_contact_dpo: "Delegado de Protección de Datos:",
         privacy_contact_address: "Dirección:",
         privacy_contact_phone: "Teléfono:",
-        
+                // Trust Indicators
+        trust_paho: "Aprobado por la OPS",
+        trust_cim: "Soporte CIM",
+        trust_countries: "7+ países",
+
+        // Packages Section
+        packages_title: "Paquetes de metadatos preaprobados por la OPS",
+        packages_subtitle: "Evita meses de desarrollo con nuestros paquetes DHIS2 listos para instalar, diseñados por expertos y validados por ministerios de salud en las Américas.",
+        mr_package_title: "Sarampión y Rubéola (MR)",
+        mr_package_desc: "Sistema integrado de vigilancia con herramientas de investigación de brotes y seguimiento de vacunación",
+        afp_package_title: "Parálisis Flácida Aguda (AFP)",
+        afp_package_desc: "Paquete completo de vigilancia con formularios de investigación de casos, seguimiento de laboratorio y tableros de informes",
+        ready_to_install: "Listo para instalar",
+        compliant: "✓ Cumple con la OPS",
+
+        // Installation Section
+        installation_title: "Proceso de instalación en 3 pasos",
+        installation_subtitle: "Pon en marcha tu sistema de vigilancia en menos de 30 minutos con nuestra guía paso a paso y herramientas automatizadas.",
+        step1_title: "Descargar paquete",
+        step1_desc: "Selecciona el paquete de vigilancia deseado (AFP o MR) y descarga el paquete completo de metadatos con documentación.",
+        step2_title: "Importar y configurar",
+        step2_desc: "Utiliza nuestro script automatizado para instalar los metadatos en tu instancia DHIS2 con configuraciones específicas por país.",
+        step3_title: "Capacitar y poner en marcha",
+        step3_desc: "Accede a materiales de capacitación y recursos de soporte para iniciar la recolección de datos.",
+        view_training: "Ver capacitación",
+        get_support: "Solicitar ayuda",
+
+        // Technical Requirements
+        tech_requirements: "Requisitos técnicos",
+        dhis2_version: "Versión DHIS2",
+        dhis2_version_desc: "2.39+ o superior",
+        server_resources: "Recursos del servidor",
+        server_resources_desc: "16GB RAM, 4 núcleos CPU",
+        admin_access: "Acceso administrador",
+        admin_access_desc: "Privilegios de administrador del sistema",
+
+        // Testimonials
+        testimonials_title: "Confiado por ministerios de salud en las Américas",
+        testimonials_subtitle: "Descubre cómo los países están transformando la vigilancia de enfermedades con VPD-SMART.",
+        testimonial1_quote: "VPD-SMART redujo nuestra implementación de vigilancia AFP de 8 meses a solo 2 semanas. La conformidad OPS nos dio confianza y el soporte fue excepcional.",
+        testimonial2_quote: "La documentación técnica fue excelente. Nuestro equipo tuvo el sistema MR funcionando en 45 minutos. Nos ahorró más de $200K en costos de desarrollo.",
+        testimonial3_quote: "Finalmente, una solución lista para usar. El soporte bilingüe y las personalizaciones regionales facilitaron la adopción en nuestros 32 departamentos.",
+
+        // Success Metrics
+        metrics_title: "Métricas de éxito de implementación",
+        metric_faster: "Implementación más rápida",
+        metric_savings: "Ahorro promedio de costos",
+        metric_compliance: "Conformidad OPS",
+        metric_support: "Soporte técnico 24/7",
+
+        // GitHub Section
+        github_title: "Código abierto y comunidad",
+        github_subtitle: "Únete a nuestra comunidad de profesionales de informática en salud que contribuyen a los estándares globales de vigilancia.",
+        github_cta: "Ver en GitHub",
+        github_docs: "Documentación",
+        github_stars: "Estrellas",
+        github_forks: "Bifurcaciones",
+        github_watchers: "Observadores",
+        github_updated: "Última actualización",
+
+        // FAQ Section
+        faq_title: "Preguntas frecuentes",
+        faq_subtitle: "Respuestas a preguntas comunes sobre la implementación y soporte de VPD-SMART.",
+        faq1_q: "¿Cuánto tiempo toma la instalación?",
+        faq1_a: "La mayoría de las instalaciones se completan en 15-30 minutos usando nuestros scripts automatizados. Las instalaciones manuales pueden tomar 1-2 horas según las necesidades de personalización.",
+        faq2_q: "¿Qué versiones de DHIS2 son compatibles?",
+        faq2_a: "Los paquetes VPD-SMART son compatibles con DHIS2 2.39 y superiores. Recomendamos usar la última versión estable.",
+        faq3_q: "¿El soporte técnico está incluido?",
+        faq3_a: "¡Sí! La OPS brinda soporte técnico integral, incluyendo asistencia de instalación, resolución de problemas y mantenimiento.",
+        faq4_q: "¿Puedo personalizar los paquetes para mi país?",
+        faq4_a: "¡Por supuesto! Los paquetes incluyen opciones de configuración específicas por país y pueden personalizarse manteniendo la conformidad OPS.",
+        faq5_q: "¿Qué recursos de capacitación están disponibles?",
+        faq5_a: "Ofrecemos materiales de capacitación completos, incluyendo tutoriales en video, manuales, grabaciones de seminarios y talleres prácticos. Todo disponible en inglés y español.",
+        // Support Section
+        support_title: "Solicita soporte de implementación",
+        support_subtitle: "Nuestros expertos técnicos están listos para ayudarte a implementar VPD-SMART en tu sistema de salud.",
+        support_form_title: "Solicitar soporte técnico",
+        support_first_name: "Nombre",
+        support_last_name: "Apellido",
+        support_email: "Correo electrónico",
+        support_org: "Organización",
+        support_country: "País",
+        support_interest: "Interés en paquete",
+        support_afp: "Parálisis Flácida Aguda (AFP)",
+        support_mr: "Sarampión y Rubéola (MR)",
+        support_message: "Mensaje",
+        support_message_placeholder: "Describe tus necesidades o preguntas...",
+        support_submit: "Enviar solicitud de soporte",
+        support_thanks_title: "¡Gracias por contactarnos!",
+        support_thanks_msg: "Nuestro equipo técnico te contactará pronto.",
+
         // Footer
-        footer_all_rights: "Todos los derechos reservados.",
         footer_paho: "Organización Panamericana de la Salud.",
-        footer_terms: "Términos y Condiciones",
-        footer_privacy: "Política de Privacidad",
+        footer_all_rights: "Todos los derechos reservados.",
+        footer_terms: "Términos y condiciones",
+        footer_privacy: "Política de privacidad",
+        footer_available: "Disponible en:",
+        footer_en: "Inglés",
+        footer_es: "Español",
+
+        // Otros textos
+        available_packages: "Paquetes disponibles",
+        trusted_by: "Confiado por:",
+        free_download: "Descarga gratuita",
+        setup_30min: "Configuración en 30 minutos",
+        paho_approved: "Aprobado por la OPS",
+        start_today: "Comienza tu implementación hoy",
+        start_cta: "Descargar ahora",
+        view_github: "Ver en GitHub",
+        view_docs: "Ver documentación",
+        join_forum: "Unirse al foro",
+        start_chat: "Iniciar chat",
+        email_support: "Soporte por correo",
+        live_chat: "Chat en vivo",
+        documentation: "Documentación",
+        community_forum: "Foro comunitario",
+        technical_support: "Soporte técnico",
+        contact_us: "Contáctanos",
+        faq: "Preguntas frecuentes",
+        privacy_policy: "Política de privacidad",
+        terms_of_use: "Términos de uso",
+        license: "Licencia",
+        security: "Seguridad",
+        compliance: "Conformidad"
         
-        // Landing Page - Navigation
-        nav_package: "Paquetes",
-        nav_installation: "Instalación",
-        nav_testimonials: "Historias de éxito",
-        nav_support: "Ayuda",
-        
-        // Landing Page - Hero Section
-        hero_corfo_support: "Buscando respaldo de CORFO",
-        hero_registered_users: "registrados",
-        hero_main_title: "InnovAI: Potenciando la Innovación Colaborativa para un Futuro Sostenible",
-        hero_subtitle: "Estamos creando la primera plataforma interdisciplinaria que conecta a chilenos de distintas áreas del saber para transformar desafíos locales en soluciones de impacto global.",
-        hero_discover_platform: "Descubrir la Plataforma",
-        hero_register_updates: "Registrarse para Actualizaciones",
-        hero_stat1_label: "Reducción en tiempo de desarrollo",
-        hero_stat2_label: "Más conexiones interdisciplinarias",
-        hero_stat3_label: "En fondos CORFO disponibles"
+
     },
     
     en: {
-        // Navigation
-        back_to_home: "Back to Home",
-        
+        // Landing Page - Navigation
+        nav_package: "Packages",
+        nav_installation: "Installation",
+        nav_testimonials: "Success Stories",
+        nav_support: "Support",
+        // Hero Section
+        hero_title: "Deploy World-Class Disease Surveillance in Minutes, Not Months",
+        hero_subtitle: "Get PAHO-approved DHIS2 metadata packages for disease surveillance. Ready to install in under 30 minutes, supported by PAHO's technical expertise.",
+        hero_cta_download: "Download Metadata Package",
+        hero_cta_github: "View GitHub Repository",
+
         // Terms and Conditions
         terms_title: "Terms and Conditions - InnovAI",
         terms_meta_description: "Terms and conditions for using the InnovAI platform for interdisciplinary collaboration.",
@@ -222,28 +343,131 @@ const translations = {
         privacy_contact_address: "Address:",
         privacy_contact_phone: "Phone:",
         
+        // Trust Indicators
+        trust_paho: "PAHO Approved",
+        trust_cim: "CIM Supported",
+        trust_countries: "7+ Countries",
+
+        // Packages Section
+        packages_title: "Pre-Built, PAHO-Approved Metadata Packages",
+        packages_subtitle: "Skip months of development with our ready-to-install DHIS2 packages, designed by experts and validated by health ministries across the Americas.",
+        mr_package_title: "Measles & Rubella (MR)",
+        mr_package_desc: "Integrated surveillance system with outbreak investigation tools and vaccination tracking",
+        afp_package_title: "Acute Flaccid Paralysis (AFP)",
+        afp_package_desc: "Complete surveillance package with case investigation forms, laboratory tracking, and reporting dashboards",
+        ready_to_install: "Ready to Install",
+        compliant: "✓ PAHO Compliant",
+
+        // Installation Section
+        installation_title: "Simple 3-Step Installation Process",
+        installation_subtitle: "Get your surveillance system running in under 30 minutes with our step-by-step guide and automated installation tools.",
+        step1_title: "Download Package",
+        step1_desc: "Select your desired surveillance package (AFP or MR) and download the complete metadata bundle with documentation.",
+        step2_title: "Import & Configure",
+        step2_desc: "Use our automated import script to install metadata into your DHIS2 instance with country-specific configurations.",
+        step3_title: "Train & Go Live",
+        step3_desc: "Access our training materials and support resources to onboard your team and start collecting surveillance data.",
+        view_training: "View Training",
+        get_support: "Get Support",
+
+        // Technical Requirements
+        tech_requirements: "Technical Requirements",
+        dhis2_version: "DHIS2 Version",
+        dhis2_version_desc: "2.39+ or higher",
+        server_resources: "Server Resources",
+        server_resources_desc: "16GB RAM, 4 CPU cores",
+        admin_access: "Admin Access",
+        admin_access_desc: "System administrator privileges",
+
+        // Testimonials
+        testimonials_title: "Trusted by Health Ministries Across the Americas",
+        testimonials_subtitle: "See how countries are transforming their disease surveillance capabilities with VPD-SMART packages.",
+        testimonial1_quote: "VPD-SMART reduced our AFP surveillance implementation from 8 months to just 2 weeks. The PAHO compliance gave us confidence, and their support was exceptional.",
+        testimonial2_quote: "The technical documentation was outstanding. Our team had the MR surveillance system running in 45 minutes. Saved us over $200K in development costs.",
+        testimonial3_quote: "Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments.",
+
+        // Success Metrics
+        metrics_title: "Implementation Success Metrics",
+        metric_faster: "Faster Implementation",
+        metric_savings: "Average Cost Savings",
+        metric_compliance: "PAHO Compliance",
+        metric_support: "Technical Support 24/7",
+
+        // GitHub Section
+        github_title: "Open Source & Community Driven",
+        github_subtitle: "Join our growing community of health informatics professionals contributing to global disease surveillance standards.",
+        github_cta: "View on GitHub",
+        github_docs: "Documentation",
+        github_stars: "Stars",
+        github_forks: "Forks",
+        github_watchers: "Watchers",
+        github_updated: "Last Updated",
+
+        // FAQ Section
+        faq_title: "Frequently Asked Questions",
+        faq_subtitle: "Get answers to common questions about VPD-SMART implementation and support.",
+        faq1_q: "How long does installation typically take?",
+        faq1_a: "Most installations complete in 15-30 minutes using our automated scripts. Manual installations may take 1-2 hours depending on customization needs.",
+        faq2_q: "What DHIS2 versions are supported?",
+        faq2_a: "VPD-SMART packages support DHIS2 versions 2.39 and higher. We recommend using the latest stable version for optimal performance and security.",
+        faq3_q: "Is technical support included?",
+        faq3_a: "Yes! PAHO provides comprehensive technical support including installation assistance, troubleshooting, and ongoing maintenance guidance.",
+        faq4_q: "Can I customize the packages for my country?",
+        faq4_a: "Absolutely! The packages include country-specific configuration options and can be customized for local requirements while maintaining PAHO compliance.",
+        faq5_q: "What training resources are available?",
+        faq5_a: "We provide comprehensive training materials including video tutorials, user manuals, webinar recordings, and hands-on workshops. All materials are available in English and Spanish with country-specific examples.",
+
+        // Support Section
+        support_title: "Get Implementation Support",
+        support_subtitle: "Our technical experts are ready to help you successfully deploy VPD-SMART packages in your health system.",
+        support_form_title: "Request Technical Support",
+        support_first_name: "First Name",
+        support_last_name: "Last Name",
+        support_email: "Email Address",
+        support_org: "Organization",
+        support_country: "Country",
+        support_interest: "Package Interest",
+        support_afp: "Acute Flaccid Paralysis (AFP)",
+        support_mr: "Measles & Rubella (MR)",
+        support_message: "Message",
+        support_message_placeholder: "Describe your implementation needs or questions...",
+        support_submit: "Send Support Request",
+        support_thanks_title: "Thank you for contacting us!",
+        support_thanks_msg: "Our technical team will get back to you soon.",
+
         // Footer
-        footer_all_rights: "All rights reserved.",
         footer_paho: "Pan American Health Organization.",
+        footer_all_rights: "All Rights Reserved.",
         footer_terms: "Terms and Conditions",
         footer_privacy: "Privacy Policy",
-        
-        // Landing Page - Navigation
-        nav_package: "Packages",
-        nav_installation: "Installation",
-        nav_testimonials: "Success Stories",
-        nav_support: "Support",
-        
-        // Landing Page - Hero Section
-        hero_corfo_support: "Seeking CORFO backing",
-        hero_registered_users: "registered",
-        hero_main_title: "InnovAI: Empowering Collaborative Innovation for a Sustainable Future",
-        hero_subtitle: "We are creating the first interdisciplinary platform that connects Chileans from different areas of knowledge to transform local challenges into global impact solutions.",
-        hero_discover_platform: "Discover the Platform",
-        hero_register_updates: "Register for Updates",
-        hero_stat1_label: "Reduction in development time",
-        hero_stat2_label: "More interdisciplinary connections",
-        hero_stat3_label: "In available CORFO funds"
+        footer_available: "Available in:",
+        footer_en: "English",
+        footer_es: "Spanish",
+
+        // Other texts
+        available_packages: "Available Packages",
+        trusted_by: "Trusted by:",
+        free_download: "Free Download",
+        setup_30min: "30-Min Setup",
+        paho_approved: "PAHO Approved",
+        start_today: "Start Your Implementation Today",
+        start_cta: "Download Now",
+        view_github: "View on GitHub",
+        view_docs: "View Documentation",
+        join_forum: "Join Forum",
+        start_chat: "Start Chat",
+        email_support: "Email Support",
+        live_chat: "Live Chat Support",
+        documentation: "Documentation",
+        community_forum: "Community Forum",
+        technical_support: "Technical Support",
+        contact_us: "Contact Us",
+        faq: "FAQ",
+        privacy_policy: "Privacy Policy",
+        terms_of_use: "Terms of Use",
+        license: "License",
+        security: "Security",
+        compliance: "Compliance"
     }
 };
 
