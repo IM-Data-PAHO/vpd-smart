@@ -19,15 +19,70 @@ const translations = {
         trust_cim: "Soporte CIM",
         trust_countries: "7+ Países",
 
+        // Trust bar
+        trust_implemented: "Países Implementados",
+        trust_on_implementation: "Países en fase de implementación",
+        trust_success_rate: "Tasa de Éxito",
+        trusted_by: "Confiado por:",
+        
+
         // Packages Section
-        packages_title: "Paquetes de Metadatos Aprobados por la OPS",
-        packages_subtitle: "Evita meses de desarrollo con nuestros paquetes de DHIS2 listos para instalar. Diseñados por expertos y validados por diversos Ministerios de Salud en las Américas.",
         mr_package_title: "Sarampión y Rubéola (MR)",
         mr_package_desc: "Sistema integrado de vigilancia con herramientas de investigación de brotes y seguimiento de vacunación",
-        afp_package_title: "Parálisis Flácida Aguda (AFP)",
+        afp_package_title: "Parálisis Flácida Aguda (PFA)",
         afp_package_desc: "Paquete completo de vigilancia con formularios de investigación de casos, seguimiento de laboratorio y tableros de informes",
         ready_to_install: "Listo para instalar",
         compliant: "✓ Validado por la OPS",
+
+        // Problem Section
+        problem_title: "El Desafío que Enfrenta Cada Ministerio de Salud",
+        problem_subtitle: "Construir un sistema de vigilancia desde cero puede tomar de 6 a 12 meses y costar más de USD$150K, con altos riesgos de retrasos y sobrecostos.",
+        problem_traditional: "Desarrollo Personalizado Tradicional",
+        problem_traditional_requirement: "Análisis de Requisitos",
+        problem_traditional_requirement_time: "2-3 Meses",
+        problem_traditional_design: "Diseño, Desarrollo y Pruebas del Sistema",
+        problem_traditional_design_time: "4-6 Meses",
+        problem_traditional_training: "Capacitación de Usuarios y Puesta en Marcha",
+        problem_traditional_training_time: "2-4 Meses",
+        problem_traditional_timeline: "Cronograma Total:",
+        problem_traditional_time: "8-13 Meses",
+        problem_traditional_support: "Mantenimiento y Soporte:",
+        problem_traditional_maintenance: "Constante 24/7",
+        problem_traditional_estimated_cost: "Costo Estimado:",
+        problem_traditional_cost: "USD$150K - USD$300K",
+
+        // Problem VPD-SMART
+        problem_vpdsmart: "Implementación de VPD-SMART",
+        problem_vpdsmart_download: "Descargar Paquete",
+        problem_vpdsmart_download_time: "5 Minutos",
+        problem_vpdsmart_setup: "Instalar y Configurar",
+        problem_vpdsmart_setup_time: "30 Minutos",
+        problem_vpdsmart_training: "Capacitación y Puesta en Marcha",
+        problem_vpdsmart_training_time: "1-2 Horas asincrónicas",
+        problem_vpdsmart_timeline: "Cronograma Total:",
+        problem_vpdsmart_time: "Menos de 1 Día",
+        problem_vpdsmart_support: "Mantenimiento y Soporte:",
+        problem_vpdsmart_maintenance: "Soporte Integral de OPS",
+        problem_vpdsmart_estimated_cost: "Costo Estimado:",
+        problem_vpdsmart_cost: "Gratis para descargar y usar",
+
+
+
+
+        // Solution Section 
+        solution_title: "Paquetes de Metadatos Preconstruidos y Aprobados por la OPS",
+        solution_subtitle: "Evita meses de desarrollo con nuestros paquetes DHIS2 listos para instalar, diseñados por expertos y validados por diversos Ministerios de Salud en las Américas.",
+        solution_custom: "Desarrollo Personalizado",
+        solution_slow: "6-12 Meses de desarrollo",
+        solution_costly: "Costo USD$150K - USD$300K",
+        solution_risky: "Alto riesgo de retrasos y sobrecostos",
+        solution_support: "Soporte limitado",
+        solution_vpdsmart: "Paquetes VPD-SMART",
+        solution_instant: "Despliegue instantáneo",
+        solution_affordable: "Completamente gratis para descargar y usar",
+        solution_paho: "Estándares preaprobados por la OPS",
+        solution_expert: "Soporte técnico experto",
+        solution_proven: "Probado en más de 7 países",
 
         // Installation Section
         installation_title: "Proceso de instalación en 3 pasos",
@@ -53,15 +108,18 @@ const translations = {
         // Testimonials
         testimonials_title: "Confiado por ministerios de salud en las Américas",
         testimonials_subtitle: "Descubre cómo los países están transformando la vigilancia de enfermedades con VPD-SMART.",
-        testimonial1_quote: "VPD-SMART redujo nuestra implementación de vigilancia AFP de 8 meses a solo 2 semanas. La conformidad OPS nos dio confianza y el soporte fue excepcional.",
-        testimonial2_quote: "La documentación técnica fue excelente. Nuestro equipo tuvo el sistema MR funcionando en 45 minutos. Nos ahorró más de $200K en costos de desarrollo.",
+        testimonial1_quote: "VPD-SMART redujo nuestra implementación de vigilancia AFP de 8 meses a solo 2 semanas. La compatiblidad con OPS nos dio confianza y el soporte fue excepcional.",
+        testimonial1_position: "Directora de Epidemiología - Ministerio de Salud, Paraguay",
+        testimonial2_quote: "La documentación técnica fue excelente. Nuestro equipo tuvo el sistema de SR funcionando en 45 minutos. Nos ahorró más de $200K en costos de desarrollo.",
+        testimonial2_position: "Gerente de EPI - Ministerio de Salud, República Dominicana",
         testimonial3_quote: "Finalmente, una solución lista para usar. El soporte bilingüe y las personalizaciones regionales facilitaron la adopción en nuestros 32 departamentos.",
-
+        testimonial3_position: "Coordinadora de Vigilancia - Ministerio de Salud, Cuba",
+       
         // Success Metrics
         metrics_title: "Métricas de éxito de implementación",
         metric_faster: "Implementación más rápida",
         metric_savings: "Ahorro promedio de costos",
-        metric_compliance: "Conformidad OPS",
+        metric_compliance: "Compatibilidad con OPS",
         metric_support: "Soporte técnico 24/7",
 
         // GitHub Section
@@ -74,6 +132,18 @@ const translations = {
         github_watchers: "👁️ Observadores",
         github_updated: "📆 Última actualización",
 
+        // Recent Activity
+        recent_activity: "Actividad reciente",
+        recent_afp_version: "v1.1.0 Lanzada",
+        recent_afp_text: "Mejoras en formularios de investigación de casos AFP con actualizaciones OPS 2025",
+        recent_afp_days: "hace 2 días",
+        recent_mr_update: "Actualización del paquete MR",
+        recent_mr_text: "Se agregó soporte para compatibilidad con DHIS2 2.40+",
+        recent_mr_weeks: "hace 1 semana",
+        recent_community: "Contribuciones de la comunidad",
+        recent_community_text: "Nuevas plantillas de tableros y mejoras de localización",
+        recent_community_weeks: "hace 2 semanas",
+
         // FAQ Section
         faq_title: "Preguntas frecuentes",
         faq_subtitle: "Respuestas a preguntas comunes sobre la implementación y soporte de VPD-SMART.",
@@ -84,9 +154,10 @@ const translations = {
         faq3_q: "¿El soporte técnico está incluido?",
         faq3_a: "¡Sí! La OPS brinda soporte técnico integral, incluyendo asistencia de instalación, resolución de problemas y mantenimiento.",
         faq4_q: "¿Puedo personalizar los paquetes para mi país?",
-        faq4_a: "¡Por supuesto! Los paquetes incluyen opciones de configuración específicas por país y pueden personalizarse manteniendo la conformidad OPS.",
+        faq4_a: "¡Por supuesto! Los paquetes incluyen opciones de configuración específicas por país y pueden personalizarse manteniendo la compatibilidad con OPS.",
         faq5_q: "¿Qué recursos de capacitación están disponibles?",
         faq5_a: "Ofrecemos materiales de capacitación completos, incluyendo tutoriales en video, manuales, grabaciones de seminarios y talleres prácticos. Todo disponible en inglés y español.",
+
         // Support Section
         support_title: "Solicita soporte de implementación",
         support_subtitle: "Nuestros expertos técnicos están listos para ayudarte a implementar VPD-SMART en tu sistema de salud.",
@@ -95,15 +166,30 @@ const translations = {
         support_last_name: "Apellido",
         support_email: "Correo electrónico",
         support_org: "Organización",
+        support_org_placeholder: "Ministerio de Salud",
+        support_country_select: "Elige tu país",
         support_country: "País",
         support_interest: "Interés en paquete",
-        support_afp: "Parálisis Flácida Aguda (AFP)",
-        support_mr: "Sarampión y Rubéola (MR)",
+        support_afp: "Parálisis Flácida Aguda (PFA)",
+        support_mr: "Sarampión y Rubéola (SR)",
         support_message: "Mensaje",
         support_message_placeholder: "Describe tus necesidades o preguntas...",
         support_submit: "Enviar solicitud de soporte",
         support_thanks_title: "¡Gracias por contactarnos!",
         support_thanks_msg: "Nuestro equipo técnico te contactará pronto.",
+
+        // Support options
+        live_chat: "Chat en Vivo",
+        start_chat: "Iniciar chat →",
+        chat_text: "Obten ayuda instantánea de nuestro equipo técnico durante el horario laboral (9 AM - 5 PM EST).",
+        email_support: "Soporte por Correo",
+        email_text: "Envía tus preguntas y recibe respuestas completas en 24 horas.",
+        join_forum: "Unirse al Foro",
+        documentation: "Documentación",
+        doc_text: "Accede a guías, tutoriales y recursos de solución de problemas.",
+        view_docs: "Ver Documentación",
+        community_forum: "Foro Comunitario",
+        forum_text: "Conecta con otros implementadores y comparte experiencias en nuestro foro comunitario.",
 
         // Footer
         footer_paho: "Organización Panamericana de la Salud.",
@@ -124,20 +210,13 @@ const translations = {
 
         // Otros textos
         available_packages: "Paquetes disponibles",
-        trusted_by: "Confiado por:",
         free_download: "Descarga Gratuita",
         setup_30min: "Configuración en 30 minutos",
-        paho_approved: "Aprobado por la OPS",
+        cta_text: "Unete a más de 7 países que yá usan los paquetes VPD-SMART para transformar sus capacidades de vigilancia epidemiológica. Descarga ahora y despliega en 30 minutos.",
         start_today: "Comienza tú Implementación Hoy",
         start_cta: "Descargar Ahora",
         view_github: "Ver en GitHub",
         view_docs: "Ver Documentación",
-        join_forum: "Unirse al Foro",
-        start_chat: "Iniciar chat →",
-        email_support: "Soporte por Correo",
-        live_chat: "Chat en Vivo",
-        documentation: "Documentación",
-        community_forum: "Foro Comunitario",
         technical_support: "Soporte Técnico",
         contact_us: "Contáctanos",
         faq: "Preguntas frecuentes",
@@ -145,7 +224,7 @@ const translations = {
         terms_of_use: "Términos de uso",
         license: "Licencia",
         security: "Seguridad",
-        compliance: "Conformidad",
+        compliance: "Cumplimiento",
         
         // Terms and Conditions
         terms_title: "Términos y Condiciones - VPD-SMART",
@@ -263,9 +342,14 @@ const translations = {
         trust_cim: "CIM Supported",
         trust_countries: "7+ Countries",
 
+        // Trust bar
+
+        trust_implemented: "Countries Implemented",
+        trust_on_implementation: "Countries on implementation phase",
+        trust_success_rate: "Success Rate",
+        trusted_by: "Trusted by:",
+
         // Packages Section
-        packages_title: "Pre-Built, PAHO-Approved Metadata Packages",
-        packages_subtitle: "Skip months of development with our ready-to-install DHIS2 packages, designed by experts and validated by diverse Health Ministries across the Americas.",
         mr_package_title: "Measles & Rubella (MR)",
         mr_package_desc: "Integrated surveillance system with outbreak investigation tools and vaccination tracking",
         afp_package_title: "Acute Flaccid Paralysis (AFP)",
@@ -273,6 +357,55 @@ const translations = {
         ready_to_install: "Ready to Install",
         compliant: "✓ PAHO Compliant",
 
+        // Problem Section
+        problem_title: "The Challenge Every Health Ministry Faces",
+        problem_subtitle: "Building a surveillance system from scratch can take 6-12 months and cost upwards of USD$150K, with high risks of delays and budget overruns.",
+        problem_traditional: "Traditional Custom Development",
+        problem_traditional_requirement: "Requirements Analysis",
+        problem_traditional_requirement_time: "2-3 Months",
+        problem_traditional_design: "System Design, Development and Testing",
+        problem_traditional_design_time: "4-6 Months",
+        problem_traditional_training: "User Training & Go-Live",
+        problem_traditional_training_time: "2-4 Months",
+        problem_traditional_timeline: "Total Timeline:",
+        problem_traditional_time: "8-13 months",
+        problem_traditional_support: "Maintenance & Support:",
+        problem_traditional_maintenance: "Ongoing 24/7",
+        problem_traditional_estimated_cost: "Estimated Cost:",
+        problem_traditional_cost: "USD$150K - USD$300K",
+
+        // Problem VPD-SMART
+
+        problem_vpdsmart: "VPD-SMART Implementation",
+        problem_vpdsmart_download: "Download Package",
+        problem_vpdsmart_download_time: "5 Minutes",
+        problem_vpdsmart_setup: "Install & Configure",
+        problem_vpdsmart_setup_time: "30 Minutes",
+        problem_vpdsmart_training: "User Training & Go-Live",
+        problem_vpdsmart_training_time: "1-2 Hours asynchronous",
+        problem_vpdsmart_timeline: "Total Timeline:",
+        problem_vpdsmart_time: "Under 1 Day",
+        problem_vpdsmart_support: "Maintenance & Support:",
+        problem_vpdsmart_maintenance: "Comprehensive PAHO Support",
+        problem_vpdsmart_estimated_cost: "Estimated Cost:",
+        problem_vpdsmart_cost: "Free to Download & Use",
+
+        // Solution Section
+        solution_title: "Pre-Built, PAHO-Approved Metadata Packages",
+        solution_subtitle: "Skip months of development with our ready-to-install DHIS2 packages, designed by experts and validated by diverse Health Ministries across the Americas.",
+        solution_custom: "Custom Development",
+        solution_slow: "6-12 Months Development time",
+        solution_costly: "USD$150K - USD$300K Cost",
+        solution_no_standard: "No Standardization",
+        solution_risky: "High Risk of Delays & Overruns",
+        solution_support: "Limited Support",
+        solution_vpdsmart: "VPD-SMART Packages",
+        solution_instant: "Instant Deployment",
+        solution_affordable: "Completely free to download and use",
+        solution_paho: "PAHO pre-approved standards",
+        solution_expert: "Expert technical support",
+        solution_proven: "Proven in 7+ countries",
+       
         // Installation Section
         installation_title: "Simple 3-Step Installation Process",
         installation_subtitle: "Get your surveillance system running in under 30 minutes with our step-by-step guide and automated installation tools.",
@@ -298,9 +431,12 @@ const translations = {
         testimonials_title: "Trusted by Health Ministries Across the Americas",
         testimonials_subtitle: "See how countries are transforming their disease surveillance capabilities with VPD-SMART packages.",
         testimonial1_quote: "VPD-SMART reduced our AFP surveillance implementation from 8 months to just 2 weeks. The PAHO compliance gave us confidence, and their support was exceptional.",
+        testimonial1_position: "Director of Epidemiology, Paraguay MOH",
         testimonial2_quote: "The technical documentation was outstanding. Our team had the MR surveillance system running in 45 minutes. Saved us over $200K in development costs.",
+        testimonial2_position: "EPI Manager, Dominican Republic MOH",
         testimonial3_quote: "Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments.",
-
+        testimonial3_position: "Surveillance Coordinator, Cuba MOH",
+        
         // Success Metrics
         metrics_title: "Implementation Success Metrics",
         metric_faster: "Faster Implementation",
@@ -317,6 +453,19 @@ const translations = {
         github_forks: "🍴Forks",
         github_watchers: "👁️ Watchers",
         github_updated: "📆 Last Updated",
+
+        // Recent Activity
+        recent_activity: "Actividad reciente",
+        recent_afp_version: "v1.1.0 Released",
+        recent_afp_text: "Enhanced AFP case investigation forms with PAHO 2025 updates",
+        recent_afp_days: "2 days ago",
+        recent_mr_update: "MR Package Update",
+        recent_mr_text: "Added support for DHIS2 2.40+ compatibility",
+        recent_mr_weeks: "1 week ago",
+        recent_community: "Community Contributions",
+        recent_community_text: "New dashboard templates and localization improvements",
+        recent_community_weeks: "2 weeks ago",
+
 
         // FAQ Section
         faq_title: "Frequently Asked Questions",
@@ -340,15 +489,31 @@ const translations = {
         support_last_name: "Last Name",
         support_email: "Email Address",
         support_org: "Organization",
+        support_org_placeholder: "Ministry of Health",
+        support_country_select: "Select your Country",
         support_country: "Country",
         support_interest: "Package Interest",
         support_afp: "Acute Flaccid Paralysis (AFP)",
-        support_mr: "Measles & Rubella (MR)",
+        support_mr: "Measles & Rubella (SR)",
         support_message: "Message",
         support_message_placeholder: "Describe your implementation needs or questions...",
         support_submit: "Send Support Request",
         support_thanks_title: "Thank you for contacting us!",
         support_thanks_msg: "Our technical team will get back to you soon.",
+
+        // Support options
+        live_chat: "Live Chat Support",
+        start_chat: "Start chat →",
+        chat_text: "Get instant help from our technical team during business hours (9 AM - 5 PM EST).",
+        email_support: "Email Support",
+        email_text: "Send detailed questions and receive comprehensive responses within 24 hours.",
+        join_forum: "Join Forum",
+        documentation: "Documentation",
+        doc_text: "Access comprehensive guides, tutorials, and troubleshooting resources.",
+        view_docs: "View Documentation",
+        community_forum: "Community Forum",
+        forum_text: "Connect with other implementers and share experiences in our community forum.",
+
 
         // Footer
         footer_paho: "Pan American Health Organization.",
@@ -369,9 +534,9 @@ const translations = {
 
         // Other texts
         available_packages: "Available Packages",
-        trusted_by: "Trusted by:",
         free_download: "Free Download",
         setup_30min: "30-Min Setup",
+        cta_text: "Join 7+ countries already using VPD-SMART packages to transform their disease surveillance capabilities. Download now and be operational in 30 minutes.",
         start_today: "Start Your Implementation Today",
         start_cta: "Download Package Now",
         view_github: "View on GitHub",

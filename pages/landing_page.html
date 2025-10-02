@@ -174,15 +174,15 @@
                 <div class="flex items-center space-x-8">
                     <div class="text-center">
                         <div class="text-2xl font-bold text-primary" id="country-counter">3</div>
-                        <div class="text-sm text-text-secondary">Countries Implemented</div>
+                        <div data-translate="trust_implemented" class="text-sm text-text-secondary">Countries Implemented</div>
                     </div>
                     <div class="text-center">
                         <div class="text-2xl font-bold text-primary" id="implementation-counter">4+</div>
-                        <div class="text-sm text-text-secondary">Countries on implementation phase</div>
+                        <div data-translate="trust_on_implementation" class="text-sm text-text-secondary">Countries on implementation phase</div>
                     </div>
                     <div class="text-center">
                         <div class="text-2xl font-bold text-primary">98%</div>
-                        <div class="text-sm text-text-secondary">Success Rate</div>
+                        <div data-translate="trust_success_rate" class="text-sm text-text-secondary">Success Rate</div>
                     </div>
                 </div>
                 
@@ -206,10 +206,10 @@
     <section class="py-20 bg-surface" id="problem">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                <h2 data-translate="problem_title" class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
                     The Challenge Every Health Ministry Faces
                 </h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                <p data-translate="problem_subtitle" class="text-xl text-text-secondary max-w-3xl mx-auto">
                     Custom DHIS2 metadata development is complex, time-consuming, and expensive. Most implementations take months to complete and often lack PAHO compliance.
                 </p>
             </div>
@@ -218,7 +218,7 @@
                 <!-- Timeline Visualization -->
                 <div class="space-y-8">
                     <div class="bg-white rounded-xl p-8 shadow-card">
-                        <h3 class="text-xl font-semibold text-text-primary mb-6">Traditional Custom Development</h3>
+                        <h3 data-translate="problem_traditional" class="text-xl font-semibold text-text-primary mb-6">Traditional Custom Development</h3>
                         <div class="space-y-6">
                             <div class="flex items-center space-x-4">
                                 <div class="bg-error-100 p-2 rounded-full">
@@ -228,8 +228,8 @@
                                 </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
-                                        <span class="font-medium text-text-primary">Requirements Analysis</span>
-                                        <span class="text-sm text-text-secondary">2-3 months</span>
+                                        <span data-translate="problem_traditional_requirement" class="font-medium text-text-primary">Requirements Analysis</span>
+                                        <span data-translate="problem_traditional_requirement_time" class="text-sm text-text-secondary">2-3 months</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-error h-2 rounded-full" style="width: 25%"></div>
@@ -245,8 +245,8 @@
                                 </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
-                                        <span class="font-medium text-text-primary">Development & Testing</span>
-                                        <span class="text-sm text-text-secondary">4-6 months</span>
+                                        <span data-translate="problem_traditional_design" class="font-medium text-text-primary">Development & Testing</span>
+                                        <span data-translate="problem_traditional_design_time" class="text-sm text-text-secondary">4-6 months</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-warning h-2 rounded-full" style="width: 50%"></div>
@@ -262,8 +262,8 @@
                                 </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
-                                        <span class="font-medium text-text-primary">PAHO Compliance Review</span>
-                                        <span class="text-sm text-text-secondary">2-4 months</span>
+                                        <span data-translate="problem_traditional_training" class="font-medium text-text-primary">User Training & Go-Live</span>
+                                        <span data-translate="problem_traditional_training_time" class="text-sm text-text-secondary">2-4 months</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-error h-2 rounded-full" style="width: 75%"></div>
@@ -273,12 +273,16 @@
 
                             <div class="border-t pt-4">
                                 <div class="flex justify-between items-center">
-                                    <span class="font-bold text-text-primary">Total Timeline:</span>
-                                    <span class="font-bold text-error text-lg">8-13 months</span>
+                                    <span data-translate="problem_traditional_timeline" class="font-bold text-text-primary">Total Timeline:</span>
+                                    <span data-translate="problem_traditional_time" class="font-bold text-error text-lg">8-13 months</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-2">
-                                    <span class="font-bold text-text-primary">Estimated Cost:</span>
-                                    <span class="font-bold text-error text-lg">$150K - $300K</span>
+                                    <span data-translate="problem_traditional_support" class="font-bold text-text-primary">Maintenance & Support:</span>
+                                    <span data-translate="problem_traditional_maintenance" class="font-bold text-error text-lg">Ongoing 24/7</span>
+                                </div>
+                                <div class="flex justify-between items-center mt-2">
+                                    <span data-translate="problem_traditional_estimated_cost" class="font-bold text-text-primary">Estimated Cost:</span>
+                                    <span data-translate="problem_traditional_cost" class="font-bold text-error text-lg">USD$150K - USD$300K</span>
                                 </div>
                             </div>
                         </div>
@@ -288,7 +292,7 @@
                 <!-- VPD-SMART Solution -->
                 <div class="space-y-8">
                     <div class="bg-white rounded-xl p-8 shadow-card border-2 border-success">
-                        <h3 class="text-xl font-semibold text-text-primary mb-6">VPD-SMART Implementation</h3>
+                        <h3 data-translate="problem_vpdsmart" class="text-xl font-semibold text-text-primary mb-6">VPD-SMART Implementation</h3>
                         <div class="space-y-6">
                             <div class="flex items-center space-x-4">
                                 <div class="bg-success-100 p-2 rounded-full">
@@ -298,8 +302,8 @@
                                 </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
-                                        <span class="font-medium text-text-primary">Download Package</span>
-                                        <span class="text-sm text-success font-medium">5 minutes</span>
+                                        <span data-translate="problem_vpdsmart_download" class="font-medium text-text-primary">Download Package</span>
+                                        <span data-translate="problem_vpdsmart_download_time" class="text-sm text-success font-medium">5 minutes</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
@@ -315,8 +319,8 @@
                                 </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
-                                        <span class="font-medium text-text-primary">Install & Configure</span>
-                                        <span class="text-sm text-success font-medium">15 minutes</span>
+                                        <span data-translate="problem_vpdsmart_setup" class="font-medium text-text-primary">Install & Configure</span>
+                                        <span data-translate="problem_vpdsmart_setup_time" class="text-sm text-success font-medium">30 minutes</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
@@ -332,8 +336,8 @@
                                 </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
-                                        <span class="font-medium text-text-primary">Training & Go-Live</span>
-                                        <span class="text-sm text-success font-medium">10 minutes</span>
+                                        <span data-translate="problem_vpdsmart_training" class="font-medium text-text-primary">Training & Go-Live</span>
+                                        <span data-translate="problem_vpdsmart_training_time" class="text-sm text-success font-medium">1-2 Hours asynchronous</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
@@ -343,12 +347,16 @@
 
                             <div class="border-t pt-4">
                                 <div class="flex justify-between items-center">
-                                    <span class="font-bold text-text-primary">Total Timeline:</span>
-                                    <span class="font-bold text-success text-lg">30 minutes</span>
+                                    <span data-translate="problem_vpdsmart_timeline" class="font-bold text-text-primary">Total Timeline:</span>
+                                    <span data-translate="problem_vpdsmart_time" class="font-bold text-success text-lg">Under 1 Day</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span data-translate="problem_vpdsmart_support" class="font-bold text-text-primary">Maintenance & Support:</span>
+                                    <span data-translate="problem_vpdsmart_maintenance" class="font-bold text-success text-lg">Comprehensive PAHO Support</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-2">
-                                    <span class="font-bold text-text-primary">Cost:</span>
-                                    <span class="font-bold text-success text-lg">FREE</span>
+                                    <span data-translate="problem_vpdsmart_estimated_cost" class="font-bold text-text-primary">Estimated Cost:</span>
+                                    <span data-translate="problem_vpdsmart_cost" class="font-bold text-success text-lg">Free to Download & Use</span>
                                 </div>
                             </div>
                         </div>
@@ -362,10 +370,10 @@
     <section class="py-20 bg-white" id="packages">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 data-translate="packages_title" class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                <h2 data-translate="solution_title" class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
                     Pre-Built, PAHO-Approved Metadata Packages
                 </h2>
-                <p data-translate="packages_subtitle" class="text-xl text-text-secondary max-w-3xl mx-auto">
+                <p data-translate="solution_subtitle" class="text-xl text-text-secondary max-w-3xl mx-auto">
                     Skip months of development with our ready-to-install DHIS2 packages, designed by experts and validated by health ministries across the Americas.
                 </p>
             </div>
@@ -381,38 +389,38 @@
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-text-primary">Custom Development</h3>
+                            <h3 data-translate="solution_custom" class="text-xl font-semibold text-text-primary">Custom Development</h3>
                         </div>
                         <ul class="space-y-4">
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
                                 </svg>
-                                <span class="text-text-secondary">6-12 months development time</span>
+                                <span data-translate="solution_slow" class="text-text-secondary">6-12 months development time</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
                                 </svg>
-                                <span class="text-text-secondary">$150K - $300K investment</span>
+                                <span data-translate="solution_costly" class="text-text-secondary">USD$150K - USD$300K investment</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
                                 </svg>
-                                <span class="text-text-secondary">Uncertain PAHO compliance</span>
+                                <span data-translate="solution_no_standard" class="text-text-secondary">Uncertain PAHO compliance</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
                                 </svg>
-                                <span class="text-text-secondary">High technical risk</span>
+                                <span data-translate="solution_risky" class="text-text-secondary">High technical risk</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-error mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"/>
                                 </svg>
-                                <span class="text-text-secondary">Limited ongoing support</span>
+                                <span data-translate="solution_support" class="text-text-secondary">Limited ongoing support</span>
                             </li>
                         </ul>
                     </div>
@@ -425,38 +433,38 @@
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-text-primary">VPD-SMART Packages</h3>
+                            <h3 data-translate="solution_vpdsmart" class="text-xl font-semibold text-text-primary">VPD-SMART Packages</h3>
                         </div>
                         <ul class="space-y-4">
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                                 </svg>
-                                <span class="text-text-secondary">30 minutes to full deployment</span>
+                                <span data-translate="solution_instant" class="text-text-secondary">30 minutes to full deployment</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                                 </svg>
-                                <span class="text-text-secondary">Completely free to download</span>
+                                <span data-translate="solution_affordable" class="text-text-secondary">Completely free to download</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                                 </svg>
-                                <span class="text-text-secondary">PAHO pre-approved standards</span>
+                                <span data-translate="solution_paho" class="text-text-secondary">PAHO pre-approved standards</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                                 </svg>
-                                <span class="text-text-secondary">Battle-tested by 7+ countries</span>
+                                <span data-translate="solution_expert" class="text-text-secondary">PAHO technical support included</span>
                             </li>
                             <li class="flex items-start space-x-3">
                                 <svg class="h-5 w-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                                 </svg>
-                                <span class="text-text-secondary">PAHO technical support included</span>
+                                <span data-translate="solution_proven" class="text-text-secondary">Battle-tested by 7+ countries</span>
                             </li>
                         </ul>
                     </div>
@@ -589,7 +597,7 @@
                         <img src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Maria Santos" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
                         <div>
                             <h4 class="font-semibold text-text-primary">Dr. Maria Santos</h4>
-                            <p class="text-sm text-text-secondary">Director of Epidemiology, Paraguay MOH</p>
+                            <p data-translate="testimonial1_position" class="text-sm text-text-secondary">Director of Epidemiology, Paraguay MOH</p>
                         </div>
                     </div>
                     <p data-translate="testimonial1_quote" class="text-text-secondary mb-4">"VPD-SMART reduced our AFP surveillance implementation from 8 months to just 2 weeks. The PAHO compliance gave us confidence, and their support was exceptional."</p>
@@ -611,7 +619,7 @@
                         <img src="https://img.freepik.com/foto-gratis/intento-ser-mejor-doctor_329181-2188.jpg" alt="Dr. Carlos Rodriguez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
                         <div>
                             <h4 class="font-semibold text-text-primary">Dr. Carlos Rodriguez</h4>
-                            <p class="text-sm text-text-secondary">EPI Manager, Dominican Republic MOH</p>
+                            <p data-translate="testimonial2_position" class="text-sm text-text-secondary">EPI Manager, Dominican Republic MOH</p>
                         </div>
                     </div>
                     <p data-translate="testimonial2_quote" class="text-text-secondary mb-4">"The technical documentation was outstanding. Our team had the MR surveillance system running in 45 minutes. Saved us over $200K in development costs."</p>
@@ -633,7 +641,7 @@
                         <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dr. Ana Gutierrez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
                         <div>
                             <h4 class="font-semibold text-text-primary">Dra. Juana Gutierrez</h4>
-                            <p class="text-sm text-text-secondary">Surveillance Coordinator, Cuba MOH</p>
+                            <p data-translate="testimonial3_position" class="text-sm text-text-secondary">Surveillance Coordinator, Cuba MOH</p>
                         </div>
                     </div>
                     <p data-translate="testimonial3_quote" class="text-text-secondary mb-4">"Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments."</p>
@@ -659,7 +667,7 @@
                         <div data-translate="metric_faster" class="text-text-secondary">Faster Implementation</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-bold text-primary mb-2">$250K</div>
+                        <div class="text-3xl font-bold text-primary mb-2">USD$150K</div>
                         <div data-translate="metric_savings" class="text-text-secondary">Average Cost Savings</div>
                     </div>
                     <div>
@@ -737,32 +745,32 @@
 
                     <!-- Recent Activity -->
                     <div class="space-y-6">
-                        <h4 class="text-xl font-semibold text-text-primary">Recent Activity</h4>
+                        <h4 data-translate="recent_activity" class="text-xl font-semibold text-text-primary">Recent Activity</h4>
                         <div class="space-y-4">
                             <div class="flex items-start space-x-3 p-4 bg-gray-50 rounded-lg">
                                 <div class="bg-success w-2 h-2 rounded-full mt-2"></div>
                                 <div class="flex-1">
-                                    <p class="text-sm text-text-primary font-medium">v1.1.0 Released</p>
-                                    <p class="text-xs text-text-secondary">Enhanced AFP case investigation forms with PAHO 2025 updates</p>
-                                    <p class="text-xs text-text-secondary mt-1">2 days ago</p>
+                                    <p data-translate="recent_afp_version" class="text-sm text-text-primary font-medium">v1.1.0 Released</p>
+                                    <p data-translate="recent_afp_text" class="text-xs text-text-secondary">Enhanced AFP case investigation forms with PAHO 2025 updates</p>
+                                    <p data-translate="recent_afp_days" class="text-xs text-text-secondary mt-1">2 days ago</p>
                                 </div>
                             </div>
                             
                             <div class="flex items-start space-x-3 p-4 bg-gray-50 rounded-lg">
                                 <div class="bg-primary w-2 h-2 rounded-full mt-2"></div>
                                 <div class="flex-1">
-                                    <p class="text-sm text-text-primary font-medium">MR Package Update</p>
-                                    <p class="text-xs text-text-secondary">Added support for DHIS2 2.40+ compatibility</p>
-                                    <p class="text-xs text-text-secondary mt-1">1 week ago</p>
+                                    <p data-translate="recent_mr_update" class="text-sm text-text-primary font-medium">MR Package Update</p>
+                                    <p data-translate="recent_mr_text" class="text-xs text-text-secondary">Added support for DHIS2 2.40+ compatibility</p>
+                                    <p data-translate="recent_mr_weeks" class="text-xs text-text-secondary mt-1">1 week ago</p>
                                 </div>
                             </div>
                             
                             <div class="flex items-start space-x-3 p-4 bg-gray-50 rounded-lg">
                                 <div class="bg-secondary w-2 h-2 rounded-full mt-2"></div>
                                 <div class="flex-1">
-                                    <p class="text-sm text-text-primary font-medium">Community Contribution</p>
-                                    <p class="text-xs text-text-secondary">Brazil MOH contributed Portuguese translations</p>
-                                    <p class="text-xs text-text-secondary mt-1">2 weeks ago</p>
+                                    <p data-translate="recent_community" class="text-sm text-text-primary font-medium">Community Contribution</p>
+                                    <p data-translate="recent_community_text" class="text-xs text-text-secondary">Brazil MOH contributed Portuguese translations</p>
+                                    <p data-translate="recent_community_weeks" class="text-xs text-text-secondary mt-1">2 weeks ago</p>
                                 </div>
                             </div>
                         </div>
@@ -888,13 +896,13 @@
                         
                         <div>
                             <label data-translate="support_org" class="block text-sm font-medium text-text-primary mb-2">Organization</label>
-                            <input type="text" class="input-field w-full" placeholder="Ministry of Health" required />
+                            <input data-translate="support_org_placeholder" type="text" class="input-field w-full" placeholder="Ministry of Health" required />
                         </div>
                         
                         <div>
                             <label data-translate="support_country" class="block text-sm font-medium text-text-primary mb-2">Country</label>
                             <select class="input-field w-full" required>
-                                <option value="">Select your country</option>
+                                <option data-translate="support_country_select" value="">Select your country</option>
                                 <option value="AG">Antigua and Barbuda</option>
                                 <option value="AR">Argentina</option>
                                 <option value="BS">Bahamas</option>
@@ -979,7 +987,7 @@
                             </div>
                             <div>
                                 <h4 data-translate="live_chat" class="font-semibold text-text-primary mb-2">Live Chat Support</h4>
-                                <p class="text-text-secondary mb-4">Get instant help from our technical team during business hours (9 AM - 5 PM EST).</p>
+                                <p data-translate="chat_text" class="text-text-secondary mb-4">Get instant help from our technical team during business hours (9 AM - 5 PM EST).</p>
                                 <button data-translate="start_chat" class="text-primary hover:text-primary-700 font-medium">Start Chat →</button>
                             </div>
                         </div>
@@ -994,7 +1002,7 @@
                             </div>
                             <div>
                                 <h4 data-translate="email_support" class="font-semibold text-text-primary mb-2">Email Support</h4>
-                                <p class="text-text-secondary mb-4">Send detailed questions and receive comprehensive responses within 24 hours.</p>
+                                <p data-translate="email_text" class="text-text-secondary mb-4">Send detailed questions and receive comprehensive responses within 24 hours.</p>
                                 <a href="mailto:vpd-smart@paho.org" class="text-secondary hover:text-secondary-700 font-medium">vpd-smart@paho.org →</a>
                             </div>
                         </div>
@@ -1009,8 +1017,8 @@
                             </div>
                             <div>
                                 <h4 data-translate="documentation" class="font-semibold text-text-primary mb-2">Documentation</h4>
-                                <p class="text-text-secondary mb-4">Access comprehensive guides, tutorials, and troubleshooting resources.</p>
-                                <button class="text-success hover:text-success-700 font-medium">View Docs →</button>
+                                <p data-translate="doc_text" class="text-text-secondary mb-4">Access comprehensive guides, tutorials, and troubleshooting resources.</p>
+                                <button data-translate="view_docs" class="text-success hover:text-success-700 font-medium">View Docs →</button>
                             </div>
                         </div>
                     </div>
@@ -1024,7 +1032,7 @@
                             </div>
                             <div>
                                 <h4 data-translate="community_forum" class="font-semibold text-text-primary mb-2">Community Forum</h4>
-                                <p class="text-text-secondary mb-4">Connect with other implementers and share experiences in our community forum.</p>
+                                <p data-translate="forum_text" class="text-text-secondary mb-4">Connect with other implementers and share experiences in our community forum.</p>
                                 <button data-translate="join_forum" class="text-warning hover:text-warning-700 font-medium">Join Forum →</button>
                             </div>
                         </div>
@@ -1047,7 +1055,7 @@
             <h2 data-translate="start_today" class="text-3xl lg:text-4xl text-primary-100 font-bold mb-4">
                 Start Your Implementation Today
             </h2>
-            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+            <p data-translate="cta_text" class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
                 Join 7+ countries already using VPD-SMART packages to transform their disease surveillance capabilities. Download now and be operational in 30 minutes.
             </p>
             
