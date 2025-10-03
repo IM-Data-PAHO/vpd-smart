@@ -10,7 +10,7 @@ const translations = {
         // Hero Section
         hero_title: "Despliega Vigilancia Epidemiológica en",
         hero_title_blue: "Minutos, no Meses",
-        hero_subtitle: "Obtén el paquete de metadatos de DHIS2 aprobado por OPS para la vigilancia de Enfermedades Prevenibles por Vacunación (EPV). Listo para instalar en  menos de 30 minutos. Incluye soporte técnico de OPS.",
+        hero_subtitle: "Obtén el paquete de metadatos de DHIS2 aprobado por OPS para la vigilancia de Enfermedades Prevenibles por Vacunación (EPV). Listo para instalar en  menos de 30 - 60 minutos. Incluye soporte técnico de OPS.",
         hero_cta_download: "Descargar Paquete de Metadatos",
         hero_cta_github: "Ver Repositorio de GitHub",
 
@@ -92,7 +92,7 @@ const translations = {
 
         // Installation Section
         installation_title: "Proceso de instalación en 3 pasos",
-        installation_subtitle: "Pon en marcha tu sistema de vigilancia en menos de 30 minutos con nuestra guía paso a paso y herramientas automatizadas.",
+        installation_subtitle: "Pon en marcha tu sistema de vigilancia en menos de 30 - 60 minutos con nuestra guía paso a paso y herramientas automatizadas.",
         step1_title: "Descargar Paquete",
         step1_desc: "Selecciona el paquete de vigilancia deseado (AFP o MR) y descarga el paquete completo de metadatos con documentación.",
         step2_title: "Importar y Configurar",
@@ -154,7 +154,7 @@ const translations = {
         faq_title: "Preguntas frecuentes",
         faq_subtitle: "Respuestas a preguntas comunes sobre la implementación y soporte de VPD-SMART.",
         faq1_q: "¿Cuánto tiempo toma la instalación?",
-        faq1_a: "La mayoría de las instalaciones se completan en 15-30 minutos usando nuestros scripts automatizados. Las instalaciones manuales pueden tomar 1-2 horas según las necesidades de personalización.",
+        faq1_a: "La mayoría de las instalaciones se completan en 30 - 60 minutos usando nuestros scripts automatizados. Las instalaciones manuales pueden tomar 1-2 horas según las necesidades de personalización.",
         faq2_q: "¿Qué versiones de DHIS2 son compatibles?",
         faq2_a: "Los paquetes VPD-SMART son compatibles con DHIS2 2.39 y superiores. Recomendamos usar la última versión estable.",
         faq3_q: "¿El soporte técnico está incluido?",
@@ -179,7 +179,7 @@ const translations = {
         support_afp: "Parálisis Flácida Aguda (PFA)",
         support_mr: "Sarampión y Rubéola (SR)",
         support_message: "Mensaje",
-        support_message_placeholder: "Describe tus necesidades o preguntas...",
+        support_message_placeholder: "Describe tus necesidades o preguntas",
         support_submit: "Enviar solicitud de soporte",
         support_thanks_title: "¡Gracias por contactarnos!",
         support_thanks_msg: "Nuestro equipo técnico te contactará pronto.",
@@ -217,8 +217,8 @@ const translations = {
         // Otros textos
         available_packages: "Paquetes disponibles",
         free_download: "Descarga Gratuita",
-        setup_30min: "Configuración en 30 minutos",
-        cta_text: "Unete a más de 7 países que yá usan los paquetes VPD-SMART para transformar sus capacidades de vigilancia epidemiológica. Descarga ahora y despliega en 30 minutos.",
+        setup_30min: "Configuración en 30 - 60 minutos",
+        cta_text: "Unete a más de 7 países que yá usan los paquetes VPD-SMART para transformar sus capacidades de vigilancia epidemiológica. Descarga ahora y despliega en 30 - 60 minutos.",
         start_today: "Comienza tú Implementación Hoy",
         start_cta: "Descargar Ahora",
         view_github: "Ver en GitHub",
@@ -339,7 +339,7 @@ const translations = {
         // Hero Section
         hero_title: "Deploy World-Class Disease Surveillance in",
         hero_title_blue: "Minutes, Not Months",
-        hero_subtitle: "Get PAHO-approved DHIS2 metadata packages for Vaccine Preventable Diseases (VPD) surveillance. Ready to install in under 30 minutes, supported by PAHO's technical expertise.",
+        hero_subtitle: "Get PAHO-approved DHIS2 metadata packages for Vaccine Preventable Diseases (VPD) surveillance. Ready to install in under - 60 minutes, supported by PAHO's technical expertise.",
         hero_cta_download: "Download Metadata Package",
         hero_cta_github: "View GitHub Repository",
 
@@ -425,7 +425,7 @@ const translations = {
         
         // Installation Section
         installation_title: "Simple 3-Step Installation Process",
-        installation_subtitle: "Get your surveillance system running in under 30 minutes with our step-by-step guide and automated installation tools.",
+        installation_subtitle: "Get your surveillance system running in under 30 - 60 minutes with our step-by-step guide and automated installation tools.",
         step1_title: "Download Package",
         step1_desc: "Select your desired surveillance package (AFP or MR) and download the complete metadata bundle with documentation.",
         step2_title: "Import & Configure",
@@ -488,7 +488,7 @@ const translations = {
         faq_title: "Frequently Asked Questions",
         faq_subtitle: "Get answers to common questions about VPD-SMART implementation and support.",
         faq1_q: "How long does installation typically take?",
-        faq1_a: "Most installations complete in 15-30 minutes using our automated scripts. Manual installations may take 1-2 hours depending on customization needs.",
+        faq1_a: "Most installations complete in 30 - 60 minutes using our automated scripts. Manual installations may take 1-2 hours depending on customization needs.",
         faq2_q: "What DHIS2 versions are supported?",
         faq2_a: "VPD-SMART packages support DHIS2 versions 2.39 and higher. We recommend using the latest stable version for optimal performance and security.",
         faq3_q: "Is technical support included?",
@@ -513,7 +513,7 @@ const translations = {
         support_afp: "Acute Flaccid Paralysis (AFP)",
         support_mr: "Measles & Rubella (SR)",
         support_message: "Message",
-        support_message_placeholder: "Describe your implementation needs or questions...",
+        support_message_placeholder: "Describe your implementation needs or questions",
         support_submit: "Send Support Request",
         support_thanks_title: "Thank you for contacting us!",
         support_thanks_msg: "Our technical team will get back to you soon.",
@@ -553,7 +553,7 @@ const translations = {
         available_packages: "Available Packages",
         free_download: "Free Download",
         setup_30min: "30-Min Setup",
-        cta_text: "Join 7+ countries already using VPD-SMART packages to transform their disease surveillance capabilities. Download now and be operational in 30 minutes.",
+        cta_text: "Join 7+ countries already using VPD-SMART packages to transform their disease surveillance capabilities. Download now and be operational in 30 - 60 minutes.",
         start_today: "Start Your Implementation Today",
         start_cta: "Download Package Now",
         view_github: "View on GitHub",
