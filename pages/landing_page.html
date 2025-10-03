@@ -273,16 +273,16 @@
 
                             <div class="border-t pt-4">
                                 <div class="flex justify-between items-center">
-                                    <span data-translate="problem_traditional_timeline" class="font-bold text-text-primary">Total Timeline:</span>
-                                    <span data-translate="problem_traditional_time" class="font-bold text-error text-lg">8-13 months</span>
+                                    <span data-translate="problem_traditional_timeline" class="text-text-primary">Total Timeline:</span>
+                                    <span data-translate="problem_traditional_time" class="text-error text-lg">8-13 months</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-2">
-                                    <span data-translate="problem_traditional_support" class="font-bold text-text-primary">Maintenance & Support:</span>
-                                    <span data-translate="problem_traditional_maintenance" class="font-bold text-error text-lg">Ongoing 24/7</span>
+                                    <span data-translate="problem_traditional_estimated_cost" class="text-text-primary">Estimated Cost:</span>
+                                    <span data-translate="problem_traditional_cost" class="text-error text-lg">USD$150K - USD$300K</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-2">
-                                    <span data-translate="problem_traditional_estimated_cost" class="font-bold text-text-primary">Estimated Cost:</span>
-                                    <span data-translate="problem_traditional_cost" class="font-bold text-error text-lg">USD$150K - USD$300K</span>
+                                    <span data-translate="problem_traditional_support" class="text-text-primary">Maintenance & Support:</span>
+                                    <span data-translate="problem_traditional_maintenance" class="text-error text-lg">Ongoing 24/7 (assumed by the country)</span>
                                 </div>
                             </div>
                         </div>
@@ -320,7 +320,7 @@
                                 <div class="flex-1">
                                     <div class="flex justify-between items-center">
                                         <span data-translate="problem_vpdsmart_setup" class="font-medium text-text-primary">Install & Configure</span>
-                                        <span data-translate="problem_vpdsmart_setup_time" class="text-sm text-success font-medium">30 minutes</span>
+                                        <span data-translate="problem_vpdsmart_setup_time" class="text-sm text-success font-medium">30 - 60 minutes</span>
                                     </div>
                                     <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
                                         <div class="bg-success h-2 rounded-full" style="width: 100%"></div>
@@ -347,16 +347,16 @@
 
                             <div class="border-t pt-4">
                                 <div class="flex justify-between items-center">
-                                    <span data-translate="problem_vpdsmart_timeline" class="font-bold text-text-primary">Total Timeline:</span>
-                                    <span data-translate="problem_vpdsmart_time" class="font-bold text-success text-lg">Under 1 Day</span>
-                                </div>
-                                <div class="flex justify-between items-center">
-                                    <span data-translate="problem_vpdsmart_support" class="font-bold text-text-primary">Maintenance & Support:</span>
-                                    <span data-translate="problem_vpdsmart_maintenance" class="font-bold text-success text-lg">Comprehensive PAHO Support</span>
+                                    <span data-translate="problem_vpdsmart_timeline" class="text-text-primary">Total Timeline:</span>
+                                    <span data-translate="problem_vpdsmart_time" class="text-success text-lg">Under 1 Day</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-2">
-                                    <span data-translate="problem_vpdsmart_estimated_cost" class="font-bold text-text-primary">Estimated Cost:</span>
-                                    <span data-translate="problem_vpdsmart_cost" class="font-bold text-success text-lg">Free to Download & Use</span>
+                                    <span data-translate="problem_vpdsmart_estimated_cost" class=" text-text-primary">Estimated Cost:</span>
+                                    <span data-translate="problem_vpdsmart_cost" class="text-success text-lg">Free to Download & Use</span>
+                                </div>
+                                <div class="flex justify-between items-center mt-2">
+                                    <span data-translate="problem_vpdsmart_support" class="text-text-primary">Maintenance & Support:</span>
+                                    <span data-translate="problem_vpdsmart_maintenance" class="text-success text-lg">Comprehensive PAHO Support</span>
                                 </div>
                             </div>
                         </div>
@@ -472,7 +472,66 @@
             </div>
         </div>
     </section>
-
+    <!-- Benefit Section: VPD-SMART Advanced Widgets -->
+    <section class="py-20 bg-white" id="vpd-benefits">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 data-translate="benefits_title" class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                    VPD-SMART Advanced Widgets & Tools
+                </h2>
+                <p data-translate="benefits_subtitle" class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Enhance your DHIS2 experience with exclusive widgets and integrations designed for real-world surveillance workflows.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Customised Line Listing -->
+                <div class="bg-white rounded-xl shadow-card p-6 flex flex-col items-center">
+                    <img src="../img/line-listing-screenshot.png" alt="Customised Line Listing" class="rounded-lg mb-4 w-full h-40 object-cover" />
+                    <h3 data-translate="benefit_line_listing_title" class="text-xl font-semibold text-text-primary mb-2">
+                        Customised Line Listing
+                    </h3>
+                    <p data-translate="benefit_line_listing_desc" class="text-text-secondary text-center mb-4">
+                        Includes "Link-to-case" in Capture App for rapid case investigation and data validation.
+                    </p>
+                    <a href="https://github.com/IM-Data-PAHO/vpd-smart/tree/main/widgets/line-listing" target="_blank" class="inline-block">
+                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Epi Week Widget -->
+                <div class="bg-white rounded-xl shadow-card p-6 flex flex-col items-center">
+                    <img src="../img/epiweek-widget.png" alt="Epi Week Widget" class="rounded-lg mb-4 w-full h-40 object-cover" />
+                    <h3 data-translate="benefit_epiweek_title" class="text-xl font-semibold text-text-primary mb-2">
+                        Epi Week Widget
+                    </h3>
+                    <p data-translate="benefit_epiweek_desc" class="text-text-secondary text-center mb-4">
+                        Instantly view the current epidemiological week on dashboards for timely reporting.
+                    </p>
+                    <a href="https://github.com/IM-Data-PAHO/vpd-smart/tree/main/widgets/epiweek" target="_blank" class="inline-block">
+                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+                <!-- VPD-Tools Widget -->
+                <div class="bg-white rounded-xl shadow-card p-6 flex flex-col items-center">
+                    <img src="../img/vpd-tools-widget.png" alt="VPD-Tools Widget" class="rounded-lg mb-4 w-full h-40 object-cover" />
+                    <h3 data-translate="benefit_tools_title" class="text-xl font-semibold text-text-primary mb-2">
+                        VPD-Tools Widget
+                    </h3>
+                    <p data-translate="benefit_tools_desc" class="text-text-secondary text-center mb-4">
+                        Add a direct link to the Investigation Form from the Capture App for seamless workflow.
+                    </p>
+                    <a href="https://github.com/IM-Data-PAHO/vpd-smart/tree/main/widgets/vpd-tools" target="_blank" class="inline-block">
+                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Installation Guide -->
     <section class="py-20 bg-surface" id="installation">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -24,7 +24,6 @@ const translations = {
         trust_on_implementation: "Países en fase de implementación",
         trust_success_rate: "Tasa de Éxito",
         trusted_by: "Confiado por:",
-        
 
         // Packages Section
         mr_package_title: "Sarampión y Rubéola (MR)",
@@ -47,7 +46,7 @@ const translations = {
         problem_traditional_timeline: "Cronograma Total:",
         problem_traditional_time: "8-13 Meses",
         problem_traditional_support: "Mantenimiento y Soporte:",
-        problem_traditional_maintenance: "Constante 24/7",
+        problem_traditional_maintenance: "Constante 24/7 (asumido por el país)",
         problem_traditional_estimated_cost: "Costo Estimado:",
         problem_traditional_cost: "USD$150K - USD$300K",
 
@@ -56,7 +55,7 @@ const translations = {
         problem_vpdsmart_download: "Descargar Paquete",
         problem_vpdsmart_download_time: "5 Minutos",
         problem_vpdsmart_setup: "Instalar y Configurar",
-        problem_vpdsmart_setup_time: "30 Minutos",
+        problem_vpdsmart_setup_time: "30 - 60 Minutos",
         problem_vpdsmart_training: "Capacitación y Puesta en Marcha",
         problem_vpdsmart_training_time: "1-2 Horas asincrónicas",
         problem_vpdsmart_timeline: "Cronograma Total:",
@@ -65,9 +64,6 @@ const translations = {
         problem_vpdsmart_maintenance: "Soporte Integral de OPS",
         problem_vpdsmart_estimated_cost: "Costo Estimado:",
         problem_vpdsmart_cost: "Gratis para descargar y usar",
-
-
-
 
         // Solution Section 
         solution_title: "Paquetes de Metadatos Preconstruidos y Aprobados por la OPS",
@@ -83,6 +79,16 @@ const translations = {
         solution_paho: "Estándares preaprobados por la OPS",
         solution_expert: "Soporte técnico experto",
         solution_proven: "Probado en más de 7 países",
+
+        // Features Section
+                benefits_title: "Widgets y Herramientas Avanzadas de VPD-SMART",
+        benefits_subtitle: "Mejora tu experiencia DHIS2 con widgets exclusivos y herramientas integradas para flujos reales de vigilancia.",
+        benefit_line_listing_title: "Listado Personalizado de Casos",
+        benefit_line_listing_desc: "Incluye \"Enlace al caso\" en la app Capture para investigación rápida y validación de datos.",
+        benefit_epiweek_title: "Widget de Semana Epidemiológica",
+        benefit_epiweek_desc: "Visualiza instantáneamente la semana epidemiológica actual en los tableros para reportes oportunos.",
+        benefit_tools_title: "Widget VPD-Tools",
+        benefit_tools_desc: "Agrega un enlace directo al formulario de investigación desde la app Capture para un flujo de trabajo ágil.",
 
         // Installation Section
         installation_title: "Proceso de instalación en 3 pasos",
@@ -370,7 +376,7 @@ const translations = {
         problem_traditional_timeline: "Total Timeline:",
         problem_traditional_time: "8-13 months",
         problem_traditional_support: "Maintenance & Support:",
-        problem_traditional_maintenance: "Ongoing 24/7",
+        problem_traditional_maintenance: "24/7 (assumed by the country)",
         problem_traditional_estimated_cost: "Estimated Cost:",
         problem_traditional_cost: "USD$150K - USD$300K",
 
@@ -380,7 +386,7 @@ const translations = {
         problem_vpdsmart_download: "Download Package",
         problem_vpdsmart_download_time: "5 Minutes",
         problem_vpdsmart_setup: "Install & Configure",
-        problem_vpdsmart_setup_time: "30 Minutes",
+        problem_vpdsmart_setup_time: "30 - 60 Minutes",
         problem_vpdsmart_training: "User Training & Go-Live",
         problem_vpdsmart_training_time: "1-2 Hours asynchronous",
         problem_vpdsmart_timeline: "Total Timeline:",
@@ -405,7 +411,18 @@ const translations = {
         solution_paho: "PAHO pre-approved standards",
         solution_expert: "Expert technical support",
         solution_proven: "Proven in 7+ countries",
-       
+        
+        // Features Section
+        benefits_title: "VPD-SMART Advanced Widgets & Tools",
+        benefits_subtitle: "Enhance your DHIS2 experience with exclusive widgets and integrations designed for real-world surveillance workflows.",
+        benefit_line_listing_title: "Customised Line Listing",
+        benefit_line_listing_desc: "Includes \"Link-to-case\" in Capture App for rapid case investigation and data validation.",
+        benefit_epiweek_title: "Epi Week Widget",
+        benefit_epiweek_desc: "Instantly view the current epidemiological week on dashboards for timely reporting.",
+        benefit_tools_title: "VPD-Tools Widget",
+        benefit_tools_desc: "Add a direct link to the Investigation Form from the Capture App for seamless workflow.",
+
+        
         // Installation Section
         installation_title: "Simple 3-Step Installation Process",
         installation_subtitle: "Get your surveillance system running in under 30 minutes with our step-by-step guide and automated installation tools.",
