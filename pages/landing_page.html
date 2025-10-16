@@ -626,7 +626,7 @@
                     <h3 data-translate="step3_title" class="text-xl font-semibold text-text-primary mb-4">Train & Go Live</h3>
                     <p data-translate="step3_desc" class="text-text-secondary mb-6">Access our training materials and support resources to onboard your team and start collecting surveillance data.</p>
                     <div class="flex justify-center space-x-4">
-                        <button data-translate="view_training" class="bg-success text-white px-4 py-2 rounded-lg text-sm hover:bg-success-700 transition-smooth">
+                        <button onclick="window.open('https://academy.dhis2.org/courses/', '_blank')" class="bg-success text-white px-4 py-2 rounded-lg text-sm hover:bg-success-700 transition-smooth">
                             View Training
                         </button>
                         <button data-translate="get_support" class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition-smooth" onclick="document.getElementById('request-support').scrollIntoView({behavior: 'smooth', block: 'start'});">
@@ -828,7 +828,7 @@
                                 <span data-translate="github_cta">View on GitHub</span>
                             </button>
                             </a>
-                            <button class="w-full bg-gray-100 text-gray-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-smooth flex items-center justify-center space-x-2">
+                            <button onclick="window.open('https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-240/metadata.html', '_blank')" class="w-full bg-gray-100 text-gray-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-smooth flex items-center justify-center space-x-2">
                                 <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
                                 </svg>
@@ -1112,7 +1112,7 @@
                             <div>
                                 <h4 data-translate="documentation" class="font-semibold text-text-primary mb-2">Documentation</h4>
                                 <p data-translate="doc_text" class="text-text-secondary mb-4">Access comprehensive guides, tutorials, and troubleshooting resources.</p>
-                                <button data-translate="view_docs" class="text-success hover:text-success-700 font-medium">View Docs →</button>
+                                <button onclick="window.open('https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-240/metadata.html', '_blank')" data-translate="view_docs" class="text-success hover:text-success-700 font-medium">View Docs →</button>
                             </div>
                         </div>
                     </div>
@@ -1217,9 +1217,9 @@
                 <div>
                     <h4 data-translate="footer_resources" class="font-semibold mb-4">Resources</h4>
                     <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a data-translate="footer_documentation" href="javascript:void(0)" class="hover:text-white transition-smooth">Documentation</a></li>
+                        <li><a data-translate="footer_documentation" href="https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-240/metadata.html" class="hover:text-white transition-smooth">Documentation</a></li>
                         <li><a data-translate="footer_guide" href="javascript:void(0)" class="hover:text-white transition-smooth">Installation Guide</a></li>
-                        <li><a data-translate="footer_training" href="javascript:void(0)" class="hover:text-white transition-smooth">Training Materials</a></li>
+                        <li><a data-translate="footer_training" href="https://academy.dhis2.org/courses" class="hover:text-white transition-smooth">Training Materials</a></li>
                         <li><a data-translate="footer_video" href="javascript:void(0)" class="hover:text-white transition-smooth">Video Tutorials</a></li>
                         <li><a data-translate="footer_best_practices" href="javascript:void(0)" class="hover:text-white transition-smooth">Best Practices</a></li>
                     </ul>
