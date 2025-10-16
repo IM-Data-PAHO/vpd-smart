@@ -539,31 +539,31 @@
     <section class="py-20 bg-white" id="geo-info">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
+                <h2 data-translate="geo_title" class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
                     Geographical Information Update
                 </h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto py-8">
+                <p data-translate="geo_subtitle" class="text-xl text-text-secondary max-w-3xl mx-auto py-8">
                     To enhance the analytical capabilities of VPD-SMART, accurate and granular geographical boundaries for Level 0 (country), Level 1 (region), and Level 2 (district) administrative divisions (ADM) are available.
                 </p>
             </div>
-            <div class="bg-primary-50 rounded-xl p-8 shadow-card mb-8">
-                <h3 class="text-xl font-semibold text-primary mb-4">Spatial Analysis & GIS Integration</h3>
-                <p class="text-text-secondary mb-4">
-                    The integration of geographical information using the <strong>GML format</strong> and the PAHO-created <strong>GIS_CODE</strong> enables accurate visualization and spatial analysis of VPD data. This spatial analysis capacity is crucial for informing targeted public health interventions and policies, and for facilitating spatially oriented research on VPD distribution and determinants, thereby directly impacting the system's utility for policy and research.
-                </p>
-                <a href="https://im-data-paho.github.io/vpd-smart" target="_blank" class="inline-block mt-2 text-primary font-semibold hover:underline">
-                    Further information & GIS resources →
-                </a>
-            </div>
-            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-4">
                 <div class="flex-1 text-center">
                     <img src="../img/geo-boundaries.png" alt="Geographical Boundaries Example" class="rounded-lg mx-auto mb-4 w-full max-w-md object-cover" />
-                    <p class="text-sm text-text-secondary">Example: Level 0 & Level 1 boundaries visualized in VPD-SMART</p>
+                    <p data-translate="geo_level" class="text-sm text-text-secondary">Example: Level 0 & Level 1 boundaries visualized in VPD-SMART dashboards</p>
                 </div>
                 <div class="flex-1 text-center">
                     <img src="../img/gis-code-example.png" alt="GIS Code Integration" class="rounded-lg mx-auto mb-4 w-full max-w-md object-cover" />
-                    <p class="text-sm text-text-secondary">Integration of GIS_CODE for spatial analysis and reporting</p>
+                    <p data-translate="geo_integration" class="text-sm text-text-secondary">Integration of GIS_CODE for spatial analysis and reporting</p>
                 </div>
+            </div>
+            <div class="bg-primary-50 rounded-xl p-8 shadow-card mb-8">
+                <h3 data-translate="geo_spatial" class="text-xl font-semibold text-primary mb-4">Spatial Analysis & GIS Integration</h3>
+                <p class="text-text-secondary mb-4">
+                    <span data-translate="geo_spatial_desc" >The integration of geographical information using the </span><strong data-translate="geo_gml">GML format</strong> <span data-translate="geo_and">and the PAHO-created</span> <strong>GIS_CODE</strong> <span data-translate="geo_spatial_desc2"> enables accurate visualization and spatial analysis of VPD data. This spatial analysis capacity is crucial for informing targeted public health interventions and policies, and for facilitating spatially oriented research on VPD distribution and determinants, thereby directly impacting the system's utility for policy and research.</span>
+                </p>
+                <a data-translate="geo_further" href="https://github.com/IM-Data-PAHO/vpd-smart/tree/main/maps/" target="_blank" class="inline-block mt-2 text-primary font-semibold hover:underline">
+                    Further information & GIS resources →
+                </a>
             </div>
         </div>
     </section>

@@ -81,7 +81,7 @@ const translations = {
         solution_proven: "Probado en más de 7 países",
 
         // Features Section
-                benefits_title: "Widgets y Herramientas Avanzadas de VPD-SMART",
+        benefits_title: "Widgets y Herramientas Avanzadas de VPD-SMART",
         benefits_subtitle: "Mejora tu experiencia DHIS2 con widgets exclusivos y herramientas integradas para flujos reales de vigilancia.",
         benefit_line_listing_title: "Listado Personalizado de Casos",
         benefit_line_listing_desc: "Incluye \"Enlace al caso\" en la app Capture para investigación rápida y validación de datos.",
@@ -89,6 +89,18 @@ const translations = {
         benefit_epiweek_desc: "Visualiza instantáneamente la semana epidemiológica actual en los tableros para reportes oportunos.",
         benefit_tools_title: "Widget VPD-Tools",
         benefit_tools_desc: "Agrega un enlace directo al formulario de investigación desde la app Capture para un flujo de trabajo ágil.",
+
+        // Geographical Information Section
+        geo_title: "Actualización de Información Geográfica",
+        geo_subtitle: "Mejora las capacidades analíticas de VPD-SMART con límites geográficos precisos y detallados para divisiones administrativas de Nivel 0 (país), Nivel 1 (región) y Nivel 2 (distrito).",
+        geo_spatial: "Análisis Espacial e Integración GIS",
+        geo_spatial_desc: "La integración de información geográfica utilizando el ",
+        geo_gml: "formato GML",
+        geo_and: "y el ",
+        geo_spatial_desc2: "creado por la OPS permite una visualización precisa y un análisis espacial de los datos de VPD. Esta capacidad de análisis espacial es crucial para informar intervenciones y políticas de salud pública dirigidas, y para facilitar la investigación orientada espacialmente sobre la distribución y los determinantes de VPD, impactando directamente en la utilidad del sistema para políticas e investigación.",
+        geo_further: "Más información y recursos GIS →",
+        geo_level: "Ejemplo: Límites de Nivel 0 y Nivel 1 visualizados en los tableros de VPD-SMART",
+        geo_integration: "Integración de GIS_CODE para análisis y reportes espaciales",
 
         // Installation Section
         installation_title: "Proceso de instalación en 3 pasos",
@@ -422,7 +434,19 @@ const translations = {
         benefit_tools_title: "VPD-Tools Widget",
         benefit_tools_desc: "Add a direct link to the Investigation Form from the Capture App for seamless workflow.",
 
-        
+        // Geographical Information Section
+        geo_title: "Geographical Information Update",
+        geo_subtitle: "Enhance VPD-SMART's analytical capabilities with accurate, detailed geographic boundaries for Admin Level 0 (country), Level 1 (region), and Level 2 (district).",
+        geo_spatial: "Spatial Analysis & GIS Integration",
+        geo_spatial_desc: "The integration of geographical information using the  ",
+        geo_and: "and the PAHO-created",
+        geo_gml: "GML format",
+        geo_and: "and the PAHO-created ",
+        geo_spatial_desc2: "enables accurate visualization and spatial analysis of VPD data. This spatial analysis capacity is crucial for informing targeted public health interventions and policies, and for facilitating spatially oriented research on VPD distribution and determinants, thereby directly impacting the system's utility for policy and research.",
+        geo_further: "Further information & GIS resources →",
+        geo_level: "Example: Level 0 & Level 1 boundaries visualized in VPD-SMART dashboards",
+        geo_integration: "Integration of GIS_CODE for spatial analysis and reporting",
+
         // Installation Section
         installation_title: "Simple 3-Step Installation Process",
         installation_subtitle: "Get your surveillance system running in under 30 - 60 minutes with our step-by-step guide and automated installation tools.",
