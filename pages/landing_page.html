@@ -605,10 +605,13 @@
                         <span class="text-2xl font-bold text-secondary">2</span>
                     </div>
                     <h3 data-translate="step2_title" class="text-xl font-semibold text-text-primary mb-4">Import & Configure</h3>
-                    <p data-translate="step2_desc" class="text-text-secondary mb-6">Use our automated import script to install metadata into your DHIS2 instance with country-specific configurations.</p>
+                    <p data-translate="step2_desc" class="text-text-secondary mb-6">Use DHIS2 native API to install metadata into your local instance with country-specific configurations.</p>
                     <div class="bg-gray-50 rounded-lg p-4 text-left">
                         <code class="text-sm text-gray-700">
-                            ./install-vpd-smart.sh --country=PER --package=afp
+                            curl -X POST "https://your-dhis2-instance.org/api/metadata" \
+                            -H "Content-Type: application/json" \
+                            -u username:password \
+                            -d @metadata-afp.json
                         </code>
                         <button class="ml-2 text-primary hover:text-primary-700 transition-smooth" title="Copy to clipboard">
                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1082,7 +1085,7 @@
                             <div>
                                 <h4 data-translate="live_chat" class="font-semibold text-text-primary mb-2">Live Chat Support</h4>
                                 <p data-translate="chat_text" class="text-text-secondary mb-4">Get instant help from our technical team during business hours (9 AM - 5 PM EST).</p>
-                                <button data-translate="start_chat" class="text-primary hover:text-primary-700 font-medium">Start Chat →</button>
+                                <button data-translate="start_chat" class="text-primary hover:text-primary-700 font-medium">Available Soon</button>
                             </div>
                         </div>
                     </div>
@@ -1127,7 +1130,7 @@
                             <div>
                                 <h4 data-translate="community_forum" class="font-semibold text-text-primary mb-2">Community Forum</h4>
                                 <p data-translate="forum_text" class="text-text-secondary mb-4">Connect with other implementers and share experiences in our community forum.</p>
-                                <button data-translate="join_forum" class="text-warning hover:text-warning-700 font-medium">Join Forum →</button>
+                                <button data-translate="join_forum" class="text-warning hover:text-warning-700 font-medium">Available Soon</button>
                             </div>
                         </div>
                     </div>

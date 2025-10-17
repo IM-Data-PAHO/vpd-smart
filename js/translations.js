@@ -198,11 +198,11 @@ const translations = {
 
         // Support options
         live_chat: "Chat en Vivo",
-        start_chat: "Iniciar chat →",
+        start_chat: "Pronto Disponible",
         chat_text: "Obten ayuda instantánea de nuestro equipo técnico durante el horario laboral (9 AM - 5 PM EST).",
         email_support: "Soporte por Correo",
         email_text: "Envía tus preguntas y recibe respuestas completas en 24 horas.",
-        join_forum: "Unirse al Foro",
+        join_forum: "Pronto Disponible",
         documentation: "Documentación",
         doc_text: "Accede a guías, tutoriales y recursos de solución de problemas.",
         view_docs: "Ver Documentación",
@@ -544,11 +544,11 @@ const translations = {
 
         // Support options
         live_chat: "Live Chat Support",
-        start_chat: "Start chat →",
+        start_chat: "Available Soon",
         chat_text: "Get instant help from our technical team during business hours (9 AM - 5 PM EST).",
         email_support: "Email Support",
         email_text: "Send detailed questions and receive comprehensive responses within 24 hours.",
-        join_forum: "Join Forum",
+        join_forum: "Available Soon",
         documentation: "Documentation",
         doc_text: "Access comprehensive guides, tutorials, and troubleshooting resources.",
         view_docs: "View Documentation",
@@ -582,8 +582,8 @@ const translations = {
         start_cta: "Download Package Now",
         view_github: "View on GitHub",
         view_docs: "View Documentation",
-        join_forum: "Join Forum",
-        start_chat: "Start Chat →",
+        join_forum: "Available Soon",
+        start_chat: "Available Soon",
         email_support: "Email Support",
         live_chat: "Live Chat Support",
         documentation: "Documentation",

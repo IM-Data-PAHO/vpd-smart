@@ -1,0 +1,5 @@
+<svg viewBox="0 0 24 24" fill="none">
+    <polygon points="12,2 17,7 12,12 7,7" fill="#3B82F6" opacity="1"/>
+    <polygon points="12,7 17,12 12,17 7,12" fill="#3B82F6" opacity="0.8"/>
+    <polygon points="12,12 17,17 12,22 7,17" fill="#3B82F6" opacity="0.6"/>
+</svg>
