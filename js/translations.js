@@ -126,8 +126,8 @@ const translations = {
         // Testimonials
         testimonials_title: "Confiado por ministerios de salud en las Américas",
         testimonials_subtitle: "Descubre cómo los países están transformando la vigilancia de enfermedades con VPD-SMART.",
-        testimonial1_quote: "VPD-SMART redujo nuestra implementación de vigilancia AFP de 8 meses a solo 2 semanas. La compatiblidad con OPS nos dio confianza y el soporte fue excepcional.",
-        testimonial1_position: "Directora de Epidemiología - Ministerio de Salud, Paraguay",
+        testimonial1_quote: "La implementación del DHIS2 junto al equipo OPS WDC fue una experiencia muy enriquecedora. El entrenamiento online y el apoyo presencial resultaron clave para fortalecer las capacidades del equipo local y adaptar el sistema a nuestras necesidades. El trabajo conjunto se destacó por una colaboración técnica constante y un enfoque práctico. Dado que el país dispone de un servidor institucional, quisimos aprovechar esa infraestructura para realizar la instalación a nivel local, en coherencia con las políticas de gobernanza de datos del sector público. Esta decisión asegura soberanía, seguridad y trazabilidad de la información, además de fortalecer la autonomía y sostenibilidad del proyecto, estamos muy agradecidos del trabajo en conjunto.",
+        testimonial1_position: "Coordinadora Oficina Gestión de la Información",
         testimonial2_quote: "La documentación técnica fue excelente. Nuestro equipo tuvo el sistema de SR funcionando en 45 minutos. Nos ahorró más de $200K en costos de desarrollo.",
         testimonial2_position: "Gerente de EPI - Ministerio de Salud, República Dominicana",
         testimonial3_quote: "Finalmente, una solución lista para usar. El soporte bilingüe y las personalizaciones regionales facilitaron la adopción en nuestros 32 departamentos.",
@@ -471,8 +471,8 @@ const translations = {
         // Testimonials
         testimonials_title: "Trusted by Health Ministries Across the Americas",
         testimonials_subtitle: "See how countries are transforming their disease surveillance capabilities with VPD-SMART packages.",
-        testimonial1_quote: "VPD-SMART reduced our AFP surveillance implementation from 8 months to just 2 weeks. The PAHO compliance gave us confidence, and their support was exceptional.",
-        testimonial1_position: "Director of Epidemiology, Paraguay MOH",
+        testimonial1_quote: "The implementation of DHIS2 together with the OPS WDC team was a very enriching experience. Online training and on-site support were key to strengthening the local team's capacities and adapting the system to our needs. The collaborative work stood out for constant technical collaboration and a practical approach. Since the country has an institutional server, we wanted to take advantage of that infrastructure to carry out the installation locally, in line with the public sector's data governance policies. This decision ensures sovereignty, security and traceability of information, in addition to strengthening the autonomy and sustainability of the project. We are very grateful for the joint work.",
+        testimonial1_position: "Information Management Office Coordinator",
         testimonial2_quote: "The technical documentation was outstanding. Our team had the MR surveillance system running in 45 minutes. Saved us over $200K in development costs.",
         testimonial2_position: "EPI Manager, Dominican Republic MOH",
         testimonial3_quote: "Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments.",
