@@ -130,8 +130,8 @@ const translations = {
         testimonial1_position: "Coordinadora Oficina Gestión de la Información - Ministerio de Salud, Chile",
         testimonial2_quote: "VPD-SMART ha demostrado ser una solución tecnológica robusta, ágil y necesaria que optimiza la labor diaria de los equipos de salud en Paraguay. Confiamos en que su expansión gradual fortalecerá nuestra capacidad de respuesta epidemiológica y consolidará la protección de la salud pública en todo el territorio nacional.",
         testimonial2_position: "Gerente de EPI - Ministerio de Salud, Paraguay",
-        testimonial3_quote: "Finalmente, una solución lista para usar. El soporte bilingüe y las personalizaciones regionales facilitaron la adopción en nuestros 32 departamentos.",
-        testimonial3_position: "Coordinadora de Vigilancia - Ministerio de Salud, Cuba",
+        testimonial3_quote: "La adopción formal del sistema VPD-SMART constituye un avance decisivo en la modernización de la vigilancia epidemiológica de enfermedades prevenibles por vacunación en la República Dominicana. Destacamos como fortalezas fundamentales la alta adaptabilidad del sistema a nuestra división territorial y organizativa de salud, la efectividad en la estandarización y validación automática de datos, y el valioso acompañamiento técnico proporcionado por la OPS.",
+        testimonial3_position: "Coordinadora de Vigilancia - Ministerio de Salud, República Dominicana",
        
         // Success Metrics
         metrics_title: "Métricas de éxito de implementación",
@@ -475,8 +475,8 @@ const translations = {
         testimonial1_position: "Information Management Office Coordinator, Chilean MOH",
         testimonial2_quote: "VPD-SMART has proven to be a robust, agile, and essential technological solution that streamlines the daily work of healthcare teams in Paraguay. We are confident that its gradual expansion will strengthen our response capabilities and consolidate the protection of public health across the entire national territory.",
         testimonial2_position: "EPI Manager, Paraguay MOH",
-        testimonial3_quote: "Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments.",
-        testimonial3_position: "Surveillance Coordinator, Cuba MOH",
+        testimonial3_quote: "The formal adoption of the VPD-SMART system represents a decisive step forward in modernizing the epidemiological surveillance of vaccine-preventable diseases in the Dominican Republic. We highlight as key strengths the system's high adaptability to our health and territorial administrative divisions, its effectiveness in data standardization and automatic validation, and the valuable technical support provided by PAHO.",
+        testimonial3_position: "Surveillance Coordinator, Dominican Republic MOH",
         
         // Success Metrics
         metrics_title: "Implementation Success Metrics",
