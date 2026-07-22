@@ -473,8 +473,8 @@ const translations = {
         testimonials_subtitle: "See how countries are transforming their disease surveillance capabilities with VPD-SMART packages.",
         testimonial1_quote: "The implementation of DHIS2 together with the OPS WDC team was a very enriching experience. Online training and on-site support were key to strengthening the local team's capacities and adapting the system to our needs. The collaborative work stood out for constant technical collaboration and a practical approach. Since the country has an institutional server, we wanted to take advantage of that infrastructure to carry out the installation locally, in line with the public sector's data governance policies. This decision ensures sovereignty, security and traceability of information, in addition to strengthening the autonomy and sustainability of the project. We are very grateful for the joint work.",
         testimonial1_position: "Information Management Office Coordinator, Chilean MOH",
-        testimonial2_quote: "The technical documentation was outstanding. Our team had the MR surveillance system running in 45 minutes. Saved us over $200K in development costs.",
-        testimonial2_position: "EPI Manager, Dominican Republic MOH",
+        testimonial2_quote: "VPD-SMART has proven to be a robust, agile, and essential technological solution that streamlines the daily work of healthcare teams in Paraguay. We are confident that its gradual expansion will strengthen our response capabilities and consolidate the protection of public health across the entire national territory.",
+        testimonial2_position: "EPI Manager, Paraguay MOH",
         testimonial3_quote: "Finally, a solution that works out of the box. The bilingual support and regional customizations made adoption seamless across our 32 departments.",
         testimonial3_position: "Surveillance Coordinator, Cuba MOH",
         
