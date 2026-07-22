@@ -128,8 +128,8 @@ const translations = {
         testimonials_subtitle: "Descubre cómo los países están transformando la vigilancia de enfermedades con VPD-SMART.",
         testimonial1_quote: "La implementación del DHIS2 junto al equipo OPS WDC fue una experiencia muy enriquecedora. El entrenamiento online y el apoyo presencial resultaron clave para fortalecer las capacidades del equipo local y adaptar el sistema a nuestras necesidades. El trabajo conjunto se destacó por una colaboración técnica constante y un enfoque práctico. Dado que el país dispone de un servidor institucional, quisimos aprovechar esa infraestructura para realizar la instalación a nivel local, en coherencia con las políticas de gobernanza de datos del sector público. Esta decisión asegura soberanía, seguridad y trazabilidad de la información, además de fortalecer la autonomía y sostenibilidad del proyecto, estamos muy agradecidos del trabajo en conjunto.",
         testimonial1_position: "Coordinadora Oficina Gestión de la Información - Ministerio de Salud, Chile",
-        testimonial2_quote: "La documentación técnica fue excelente. Nuestro equipo tuvo el sistema de SR funcionando en 45 minutos. Nos ahorró más de $200K en costos de desarrollo.",
-        testimonial2_position: "Gerente de EPI - Ministerio de Salud, República Dominicana",
+        testimonial2_quote: "VPD-SMART ha demostrado ser una solución tecnológica robusta, ágil y necesaria que optimiza la labor diaria de los equipos de salud en Paraguay. Confiamos en que su expansión gradual fortalecerá nuestra capacidad de respuesta epidemiológica y consolidará la protección de la salud pública en todo el territorio nacional.",
+        testimonial2_position: "Gerente de EPI - Ministerio de Salud, Paraguay",
         testimonial3_quote: "Finalmente, una solución lista para usar. El soporte bilingüe y las personalizaciones regionales facilitaron la adopción en nuestros 32 departamentos.",
         testimonial3_position: "Coordinadora de Vigilancia - Ministerio de Salud, Cuba",
        
