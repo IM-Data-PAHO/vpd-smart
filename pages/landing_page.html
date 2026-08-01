@@ -606,12 +606,13 @@
                     </div>
                     <h3 data-translate="step2_title" class="text-xl font-semibold text-text-primary mb-4">Import & Configure</h3>
                     <p data-translate="step2_desc" class="text-text-secondary mb-6">Use DHIS2 native API to install metadata into your local instance with country-specific configurations.</p>
+                    <p data-translate="step2_command_note" class="text-sm text-text-secondary mb-3">Run this command from the project root so the ./metadata/metadata-afp.json path resolves correctly.</p>
                     <div class="bg-gray-50 rounded-lg p-4 text-left">
                         <code class="text-sm text-gray-700">
-                            curl -X POST "https://your-dhis2-instance.org/api/metadata" \
+                            curl -X POST "https://your-dhis2-instance.org/api/metadata?importStrategy=CREATE_AND_UPDATE&mergeMode=REPLACE&atomicMode=ALL" \
                             -H "Content-Type: application/json" \
                             -u username:password \
-                            -d @metadata-afp.json
+                            --data-binary @"./metadata/metadata-afp.json"
                         </code>
                         <button class="ml-2 text-primary hover:text-primary-700 transition-smooth" title="Copy to clipboard">
                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
