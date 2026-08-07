@@ -25,7 +25,7 @@
       <ogr:REGION_N>Non-Latin Caribbean</ogr:REGION_N>
       <ogr:REGION_C>CAR</ogr:REGION_C>
       <ogr:WHO_REGION>AMRO</ogr:WHO_REGION>
-      <ogr:GIS_CODE>BB</ogr:GIS_CODE>
+      <ogr:CODE>BRB</ogr:CODE>
       <ogr:POP2018>288371</ogr:POP2018>
       <ogr:LONGITUDE>-59.556389519</ogr:LONGITUDE>
       <ogr:LATITUDE>13.172262076</ogr:LATITUDE>
