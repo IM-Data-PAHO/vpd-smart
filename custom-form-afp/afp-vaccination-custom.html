@@ -1,0 +1,2142 @@
+<style type="text/css">div#C9dBVr0UBuJ-hnUCN1JeofZ-val {
+    width: 100%;
+  }
+  div#C9dBVr0UBuJ-hnUCN1JeofZ-val .Select.has-value span div {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 10px;
+  }
+  div#C9dBVr0UBuJ-hnUCN1JeofZ-val .Select.is-open span div {
+    white-space: normal;
+  }
+  .containerbox {
+    border: 1px solid #e8edf2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .containertitle {
+    color: #212934;
+    padding: 4px 8px;
+    /* font-size: 14px; */
+    font-weight: 500;
+    margin-bottom: 8px;
+    background-color: #e8edf2;
+  }
+  .marginbox {
+    margin-bottom: 16px;
+  }
+
+  .frow {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+  }
+
+  #frow-WaZDJCVch0I {
+    position: absolute;
+    left: -99999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  #frow-WaZDJCVch0I.is-visible {
+    position: static;
+    left: auto;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+
+  #table-vaccination-history {
+    position: absolute;
+    left: -99999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  #table-vaccination-history.is-visible {
+    position: static;
+    left: auto;
+    width: 40%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .flabel {
+    flex: 1;
+    padding-top: 13px;
+  }
+  .flabel span {
+    /* font-size: 14px; */
+  }
+
+  .fitem {
+    flex: 2;
+    height: 40px;
+  }
+
+  .jss421 {
+    padding-top: 13px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+  }
+
+  .column2 {
+    float: left;
+    width: 43%;
+    padding: 5px;
+  }
+
+  .column3 {
+    float: left;
+    width: 51%;
+    padding: 5px;
+  }
+
+  .column4 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+
+  .column5 {
+    float: left;
+    width: 3%;
+    padding: 5px;
+  }
+
+  .styleDiv {
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .custom_subtitle {
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 35px;
+    padding-left: 5px;
+    border-top: 1px solid rgb(227, 227, 227);
+    border-left: 1px solid rgb(227, 227, 227);
+    border-right: 1px solid rgb(227, 227, 227);
+  }
+
+  .custom_content {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+
+  .custom-table2 {
+    width: 60%;
+  }
+  .custom_body_content {
+    border-bottom: 1px solid rgb(227, 227, 227);
+    border-top: 1px solid rgb(227, 227, 227);
+    border-left: 1px solid rgb(227, 227, 227);
+    border-right: 1px solid rgb(227, 227, 227);
+    padding-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .custom-td {
+    width: 30%;
+    padding: 9px;
+  }
+
+  .custom-table tbody tr:nth-child(odd) {
+    background: #ebf0f6;
+  }
+
+  .custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .order {
+    width: 120px;
+  }
+
+  .paralysis-section {
+    overflow: visible;
+  }
+
+  .paralysis-section .containertitle {
+    margin-bottom: 0;
+  }
+
+  #table-paralysis .paralysis-extremity-title {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 4px;
+  }
+
+  #table-paralysis {
+    table-layout: fixed;
+    width: calc(100% - 24px);
+    max-width: none;
+    margin: 12px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: visible;
+  }
+
+  #table-paralysis .paralysis-col-label {
+    width: 26%;
+  }
+
+  #table-paralysis .paralysis-col-data {
+    width: 37%;
+  }
+
+  #table-paralysis td {
+    vertical-align: middle;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 6px 8px;
+  }
+
+  #table-paralysis td:first-child {
+    padding-right: 12px;
+    white-space: nowrap;
+  }
+
+  #table-paralysis td:nth-child(2) {
+    padding-right: 12px;
+  }
+
+  #table-paralysis td:nth-child(3) {
+    padding-right: 4px;
+  }
+
+  #table-paralysis .paralysis-detail-cell {
+    display: table-cell;
+    position: relative;
+  }
+
+  #table-paralysis [id$="-val"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  div[data-test="dhis2-uicore-popper"] .menu {
+    width: auto !important;
+    min-width: 12rem !important;
+  }
+
+  tr.paralysis-detail-row-hidden {
+    visibility: collapse;
+    height: 0;
+    line-height: 0;
+  }
+
+  tr.paralysis-detail-row-hidden td {
+    height: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    border: none !important;
+  }
+</style>
+<script type="text/javascript">
+  function getEvent(p_eventId) {
+    return fetch(
+      window.location.origin + "/api/tracker/events/" + p_eventId + ".json",
+      {
+        type: "GET",
+        credentials: "include",
+        cache: "force-cache",
+      },
+    )
+      .then((response) => response.json())
+      .then((events) =>
+        isLegacy(events.trackedEntity, events.enrollment),
+      );
+  }
+
+  function isLegacy(p_tei, p_enrollment) {
+    return fetch(
+      window.location.origin +
+        "/api/tracker/trackedEntities/" +
+        p_tei +
+        ".json?fields=enrollments[*]",
+      {
+        type: "GET",
+        credentials: "include",
+        cache: "force-cache",
+      },
+    )
+      .then((response) => response.json())
+      .then((tei) =>
+        tei.enrollments.forEach((val) => {
+          if (val["enrollment"] == p_enrollment) {
+            val.attributes.forEach((attr) => {
+              if (attr["attribute"] === "b7Lnzn5TPNC") //polfcUD0qDH
+              {
+                document.getElementById("LtNqxSVPiOa").style.display = "block";
+              }
+            });
+          }
+        }),
+      );
+  }
+  var url = window.parent.location.href;
+  var urlParams = "";
+  var eventId = "";
+  var enrollment = "";
+  console.log(url);
+  params = url.split("?")[1];
+  console.log(params);
+  if (params != null) {
+    urlParams = new URLSearchParams("?" + params);
+    var eventId = urlParams.get("eventId");
+    if (eventId != null) {
+      getEvent(eventId);
+    }
+  }
+
+  var translations = [];
+  var currentLocale = null;
+  var lastVaccinationHighlightState = null;
+  var lastStablePolioVaccinationValue = "";
+  var polioVaccinationHideTimer = null;
+  QueryAPI();
+  function QueryAPI() {
+    return fetch(window.location.origin + "/api/me.json", {
+      type: "GET",
+      credentials: "include",
+      cache: "force-cache",
+    })
+      .then((response) => response.json())
+      .then((commits) => {
+        currentLocale = commits.settings.keyUiLocale;
+        QueryAPIElements(currentLocale);
+        QueryAPIoptionsSet(currentLocale);
+      });
+  }
+
+  function QueryAPIElements(locale) {
+    return fetch(
+      window.location.origin +
+        "/api/dataElements?fields=id,translations&filter=id:in:[rHdCTGrROVr,yydCKkAEyDr,p7KilMxlhPR,LtD4GZFlwBq,WaZDJCVch0I,GZPDnkInYXV,q9iRSGD9Nxd,o2Sp5jmLWTu,WPZrpr1Mt9T,SrqBjQ9Dyom,hnUCN1JeofZ,Nl4PXTHky77,NdXDUi6HeMk,nAkh0ocyvs0,fESQaMDOGbf,aqyqjN6YgrZ,mEgpYppEhXw,sASzNqFqqXh,h10LIPtSVJG,lBVsUUAYH7B,r7NOKPIZT7w]&filter=translations.locale:eq:" +
+        locale,
+      {
+        type: "GET",
+        credentials: "include",
+        cache: "force-cache",
+      },
+    )
+      .then((response) => response.json())
+      .then((commits) =>
+        commits.dataElements.forEach((val) => {
+          val.translations.forEach((tra) => {
+            if (locale === tra.locale && tra.property === "FORM_NAME") {
+              if (document.getElementById(val.id) != null)
+                document.getElementById(val.id).innerHTML = tra.value;
+            }
+          });
+        }),
+      );
+  }
+
+  function applyOptionTranslations(locale, options) {
+    options.forEach(function (val) {
+      val.translations.forEach(function (tra) {
+        if (locale !== tra.locale) return;
+
+        getFieldDocuments().forEach(function (doc) {
+          var optionNode = doc.getElementById(val.id);
+          if (optionNode) optionNode.innerHTML = tra.value;
+        });
+      });
+    });
+  }
+
+  function fetchOptionTranslations(locale, optionSetIds) {
+    if (!locale || !optionSetIds.length) return Promise.resolve();
+
+    return fetch(
+      window.location.origin +
+        "/api/options?fields=id,translations&filter=optionSet.id:in:[" +
+        optionSetIds.join(",") +
+        "]&filter=translations.locale:eq:" +
+        locale,
+      {
+        type: "GET",
+        credentials: "include",
+      },
+    )
+      .then((response) => response.json())
+      .then((commits) => applyOptionTranslations(locale, commits.options || []));
+  }
+
+  function QueryAPIoptionsSet(locale) {
+    return fetchOptionTranslations(locale, ["YUXdQ1ahyPe"]);
+  }
+
+  var paralysisOptionSetIds = [
+    "Mp5FXCcu5Cr",
+    "ePhiewoLlm9",
+    "p9IPM2OB1jf",
+    "ZVLO8W66jD9",
+  ];
+
+  function refreshParalysisOptionTranslations(locale) {
+    return fetchOptionTranslations(locale, paralysisOptionSetIds);
+  }
+
+  function getCustomFormDocument() {
+    return document;
+  }
+
+  function getFieldDocuments() {
+    var docs = [];
+
+    if (window.parent && window.parent !== window) {
+      try {
+        if (window.parent.document && window.parent.document !== document) {
+          docs.push(window.parent.document);
+        }
+      } catch (error) {
+        // Cross-origin parent; stay on the iframe document.
+      }
+    }
+
+    docs.push(getCustomFormDocument());
+    return docs;
+  }
+
+  function isDhis2RenderedWidget(element) {
+    if (!element) return false;
+    if (element.tagName !== "INPUT") return true;
+    if (element.getAttribute("name") !== "entryfield") return true;
+    return false;
+  }
+
+  function resolveElementById(id) {
+    var candidates = [];
+
+    getFieldDocuments().forEach(function (doc) {
+      var element = doc.getElementById(id);
+      if (element) candidates.push(element);
+    });
+
+    for (var i = 0; i < candidates.length; i++) {
+      if (isDhis2RenderedWidget(candidates[i])) return candidates[i];
+    }
+
+    return candidates[0] || null;
+  }
+
+  function injectParalysisStylesIntoParent() {
+    if (!window.parent || window.parent === window) return;
+
+    try {
+      var parentDoc = window.parent.document;
+      if (!parentDoc) return;
+
+      var existing = parentDoc.getElementById("custom-form-paralysis-styles");
+      if (existing) existing.remove();
+
+      var style = parentDoc.createElement("style");
+      style.id = "custom-form-paralysis-styles";
+      style.type = "text/css";
+      style.textContent =
+        '[data-paralysis-widget-hidden="true"]{position:absolute!important;left:-99999px!important;top:auto!important;clip:rect(0,0,0,0)!important;overflow:hidden!important;opacity:0!important;pointer-events:none!important;visibility:hidden!important;}' +
+        '[data-paralysis-widget-hidden="false"]{position:static;left:auto;clip:auto;overflow:visible;opacity:1;pointer-events:auto;visibility:visible;}' +
+        'div[data-test="dhis2-uicore-popper"] .menu{width:auto!important;min-width:12rem!important;}' +
+        'div[role="listbox"][id$="-listbox"]{min-width:12rem!important;}';
+      parentDoc.head.appendChild(style);
+    } catch (error) {
+      // Cross-origin parent.
+    }
+  }
+
+  function dispatchFieldChange(element) {
+    var view = element.ownerDocument.defaultView || window;
+    element.dispatchEvent(new view.Event("input", { bubbles: true }));
+    element.dispatchEvent(new view.Event("change", { bubbles: true }));
+  }
+
+  function setNativeInputValue(input, value) {
+    if (!input) return;
+
+    var view = input.ownerDocument.defaultView || window;
+    var prototype =
+      input.tagName === "TEXTAREA"
+        ? view.HTMLTextAreaElement.prototype
+        : view.HTMLInputElement.prototype;
+    var descriptor = Object.getOwnPropertyDescriptor(prototype, "value");
+    if (descriptor && descriptor.set) {
+      descriptor.set.call(input, value);
+    } else {
+      input.value = value;
+    }
+    dispatchFieldChange(input);
+    input.dispatchEvent(new view.Event("blur", { bubbles: true }));
+  }
+
+  function findTextInput(fieldRoot) {
+    if (!fieldRoot) return null;
+
+    return fieldRoot.querySelector(
+      'input[data-test="dhis2-uicore-input"], input[data-test="dhis2-uiwidgets-calendar-inputfield"], [data-test="dhis2-uiwidgets-calendar-inputfield"] input, [data-test="dhis2-uiwidgets-inputfield"] input, .calendar-input-wrapper input, input[type="text"], input[type="date"], input[type="datetime-local"], textarea, select',
+    );
+  }
+
+  function fieldHasValue(fieldRoot) {
+    if (!fieldRoot) return false;
+
+    var selectedLabel = fieldRoot.querySelector(".selected-option-label");
+    if (selectedLabel && selectedLabel.textContent.trim()) return true;
+
+    var selection = fieldRoot.querySelector(".root-input");
+    if (selection && selection.textContent.trim()) return true;
+
+    var input = findTextInput(fieldRoot);
+    if (!input) return false;
+
+    if (input.type === "checkbox" || input.type === "radio") {
+      return input.checked;
+    }
+
+    return !!input.value;
+  }
+
+  var vaccinationDateFieldIds = {
+    "C9dBVr0UBuJ-L9zSlkzKZ3q-val": true,
+    "C9dBVr0UBuJ-SyNKwWcpK8J-val": true,
+    "C9dBVr0UBuJ-VaJKnAWNjWf-val": true,
+    "C9dBVr0UBuJ-I4R9ssXl1Kr-val": true,
+    "C9dBVr0UBuJ-B21B7j2ZcRR-val": true,
+    "C9dBVr0UBuJ-u1Xh2eieDdk-val": true,
+    "C9dBVr0UBuJ-ODtS5AIkDDu-val": true,
+  };
+
+  function isDateField(fieldRoot) {
+    if (!fieldRoot) return false;
+
+    if (fieldRoot.id && vaccinationDateFieldIds[fieldRoot.id]) return true;
+
+    return !!fieldRoot.querySelector(
+      '.calendar-input-wrapper, [data-test="dhis2-uiwidgets-calendar-inputfield"]',
+    );
+  }
+
+  function findClearButtons(fieldRoot) {
+    if (!fieldRoot) return [];
+
+    return Array.prototype.slice.call(
+      fieldRoot.querySelectorAll(
+        '[data-test="dhis2-simplesingleselect-selectedvalue-clear"], .calendar-clear-button button, .clear-button-container button, button.clear-button, button[aria-label="Clear"], button[aria-label="Limpiar"], button[title="Clear"], button[title="Limpiar"], .root-right button, [data-test*="clear"]',
+      ),
+    );
+  }
+
+  function clearDhis2DateField(fieldRoot) {
+    if (!fieldRoot) return false;
+
+    var clearButtons = findClearButtons(fieldRoot);
+    for (var i = 0; i < clearButtons.length; i++) {
+      clickElement(clearButtons[i]);
+      if (!fieldHasValue(fieldRoot)) return true;
+    }
+
+    var calendarInput = findTextInput(fieldRoot);
+    if (!calendarInput || !calendarInput.value) return false;
+
+    var view = calendarInput.ownerDocument.defaultView || window;
+    calendarInput.focus();
+    calendarInput.select();
+    setNativeInputValue(calendarInput, "");
+    calendarInput.dispatchEvent(
+      new view.FocusEvent("blur", {
+        bubbles: true,
+        relatedTarget: calendarInput.ownerDocument.body,
+      }),
+    );
+    return !fieldHasValue(fieldRoot);
+  }
+
+  function clickElement(element) {
+    if (!element) return false;
+
+    var view = element.ownerDocument.defaultView || window;
+    element.dispatchEvent(
+      new view.MouseEvent("mousedown", {
+        bubbles: true,
+        cancelable: true,
+        view: view,
+      }),
+    );
+    element.dispatchEvent(
+      new view.MouseEvent("mouseup", {
+        bubbles: true,
+        cancelable: true,
+        view: view,
+      }),
+    );
+    element.click();
+    return true;
+  }
+
+  function clickClearButton(fieldRoot) {
+    if (!fieldRoot) return false;
+
+    var clearButtons = findClearButtons(fieldRoot);
+    for (var i = 0; i < clearButtons.length; i++) {
+      clickElement(clearButtons[i]);
+      if (!fieldHasValue(fieldRoot)) return true;
+    }
+
+    var legacyClear = fieldRoot.querySelector(".Select-clear, .Select-clear-zone");
+    if (legacyClear) {
+      clickElement(legacyClear);
+      return !fieldHasValue(fieldRoot);
+    }
+
+    return false;
+  }
+
+  function clearDhis2EntryField(fieldRoot) {
+    if (!fieldRoot || !fieldHasValue(fieldRoot)) return;
+
+    if (isDateField(fieldRoot)) {
+      if (clearDhis2DateField(fieldRoot)) return;
+    }
+
+    if (clickClearButton(fieldRoot)) return;
+
+    var input = findTextInput(fieldRoot);
+    if (
+      !input &&
+      (fieldRoot.tagName === "INPUT" ||
+        fieldRoot.tagName === "TEXTAREA" ||
+        fieldRoot.tagName === "SELECT")
+    ) {
+      input = fieldRoot;
+    }
+    if (!input) return;
+
+    if (input.type === "checkbox" || input.type === "radio") {
+      if (input.checked) {
+        input.checked = false;
+        dispatchFieldChange(input);
+      }
+      return;
+    }
+
+    input.focus();
+    input.select();
+    setNativeInputValue(input, "");
+  }
+
+  var vaccinationHistoryFieldIds = [
+    "C9dBVr0UBuJ-WaZDJCVch0I-val",
+    "C9dBVr0UBuJ-p7KilMxlhPR-val",
+    "C9dBVr0UBuJ-L9zSlkzKZ3q-val",
+    "C9dBVr0UBuJ-uYZQAQkbCBb-val",
+    "C9dBVr0UBuJ-SyNKwWcpK8J-val",
+    "C9dBVr0UBuJ-oOJc2hC8v1A-val",
+    "C9dBVr0UBuJ-VaJKnAWNjWf-val",
+    "C9dBVr0UBuJ-VO9OFUBpVaq-val",
+    "C9dBVr0UBuJ-I4R9ssXl1Kr-val",
+    "C9dBVr0UBuJ-CAHEZDE5rnd-val",
+    "C9dBVr0UBuJ-B21B7j2ZcRR-val",
+    "C9dBVr0UBuJ-u1Xh2eieDdk-val",
+    "C9dBVr0UBuJ-ODtS5AIkDDu-val",
+  ];
+
+  function withTemporaryVaccinationSectionVisible(callback) {
+    var vaccinationSourceRow = resolveElementById("frow-WaZDJCVch0I");
+    var vaccinationHistoryTable = resolveElementById("table-vaccination-history");
+    if (vaccinationSourceRow) vaccinationSourceRow.classList.add("is-visible");
+    if (vaccinationHistoryTable) {
+      vaccinationHistoryTable.classList.add("is-visible");
+    }
+
+    try {
+      callback();
+    } finally {
+      if (vaccinationSourceRow) {
+        vaccinationSourceRow.classList.remove("is-visible");
+      }
+      if (vaccinationHistoryTable) {
+        vaccinationHistoryTable.classList.remove("is-visible");
+      }
+    }
+  }
+
+  function clearVaccinationHistoryFields() {
+    withTemporaryVaccinationSectionVisible(function () {
+      vaccinationHistoryFieldIds.forEach(function (fieldId) {
+        clearDhis2EntryField(resolveElementById(fieldId));
+      });
+    });
+
+    // Capture renders React widgets asynchronously after the section becomes visible.
+    window.setTimeout(function () {
+      withTemporaryVaccinationSectionVisible(function () {
+        vaccinationHistoryFieldIds.forEach(function (fieldId) {
+          clearDhis2EntryField(resolveElementById(fieldId));
+        });
+      });
+    }, 0);
+    window.setTimeout(function () {
+      withTemporaryVaccinationSectionVisible(function () {
+        vaccinationHistoryFieldIds.forEach(function (fieldId) {
+          clearDhis2EntryField(resolveElementById(fieldId));
+        });
+      });
+    }, 100);
+    window.setTimeout(function () {
+      withTemporaryVaccinationSectionVisible(function () {
+        vaccinationHistoryFieldIds.forEach(function (fieldId) {
+          clearDhis2EntryField(resolveElementById(fieldId));
+        });
+      });
+    }, 300);
+  }
+
+  function getPolioVaccinationValueText(field) {
+    if (!field) return "";
+
+    var selectedLabel = field.querySelector(".selected-option-label");
+    return selectedLabel
+      ? selectedLabel.textContent.trim()
+      : (field.textContent || "").trim();
+  }
+
+  function isPolioVaccinationYesValue(normalizedValue) {
+    return normalizedValue === "si" || normalizedValue === "yes";
+  }
+
+  function isPolioVaccinationDropdownOpen(field) {
+    var docs = getFieldDocuments();
+
+    for (var i = 0; i < docs.length; i++) {
+      var doc = docs[i];
+      if (
+        doc.querySelector(
+          '[aria-controls="LtD4GZFlwBq-listbox"][aria-expanded="true"]',
+        )
+      ) {
+        return true;
+      }
+
+      var listbox = doc.getElementById("LtD4GZFlwBq-listbox");
+      if (listbox) {
+        var popper = listbox.closest('div[data-test="dhis2-uicore-popper"]');
+        if (popper) return true;
+      }
+    }
+
+    return !!(field && field.querySelector('[aria-expanded="true"]'));
+  }
+
+  function resolvePolioVaccinationHighlightState(field) {
+    if (!field) return false;
+
+    var normalizedValue = getPolioVaccinationValueText(field).toLowerCase();
+    var dropdownOpen = isPolioVaccinationDropdownOpen(field);
+
+    if (normalizedValue) {
+      lastStablePolioVaccinationValue = normalizedValue;
+      return isPolioVaccinationYesValue(normalizedValue);
+    }
+
+    if (dropdownOpen && lastStablePolioVaccinationValue) {
+      return isPolioVaccinationYesValue(lastStablePolioVaccinationValue);
+    }
+
+    if (!dropdownOpen && !fieldHasValue(field)) {
+      lastStablePolioVaccinationValue = "";
+      return false;
+    }
+
+    return isPolioVaccinationYesValue(lastStablePolioVaccinationValue);
+  }
+
+  function applyPolioVaccinationVisibility(shouldHighlight) {
+    var vaccinationSourceRow = resolveElementById("frow-WaZDJCVch0I");
+    var vaccinationHistoryTable = resolveElementById(
+      "table-vaccination-history",
+    );
+
+    if (!shouldHighlight && lastVaccinationHighlightState !== false) {
+      clearVaccinationHistoryFields();
+    }
+
+    if (vaccinationSourceRow) {
+      vaccinationSourceRow.classList.toggle("is-visible", shouldHighlight);
+    }
+    if (vaccinationHistoryTable) {
+      vaccinationHistoryTable.classList.toggle("is-visible", shouldHighlight);
+    }
+
+    if (shouldHighlight && lastVaccinationHighlightState !== true && currentLocale) {
+      QueryAPIoptionsSet(currentLocale);
+    }
+
+    lastVaccinationHighlightState = shouldHighlight;
+  }
+
+  function updatePolioVaccinationFieldBackground() {
+    var field = resolveElementById("C9dBVr0UBuJ-LtD4GZFlwBq-val");
+    if (!field) return;
+
+    if (isPolioVaccinationDropdownOpen(field)) {
+      if (polioVaccinationHideTimer) {
+        clearTimeout(polioVaccinationHideTimer);
+        polioVaccinationHideTimer = null;
+      }
+
+      applyPolioVaccinationVisibility(
+        resolvePolioVaccinationHighlightState(field),
+      );
+      return;
+    }
+
+    var shouldHighlight = resolvePolioVaccinationHighlightState(field);
+
+    if (!shouldHighlight) {
+      if (polioVaccinationHideTimer) {
+        clearTimeout(polioVaccinationHideTimer);
+      }
+
+      polioVaccinationHideTimer = window.setTimeout(function () {
+        polioVaccinationHideTimer = null;
+        var fieldNow = resolveElementById("C9dBVr0UBuJ-LtD4GZFlwBq-val");
+        if (!fieldNow || isPolioVaccinationDropdownOpen(fieldNow)) return;
+
+        applyPolioVaccinationVisibility(
+          resolvePolioVaccinationHighlightState(fieldNow),
+        );
+      }, 200);
+      return;
+    }
+
+    if (polioVaccinationHideTimer) {
+      clearTimeout(polioVaccinationHideTimer);
+      polioVaccinationHideTimer = null;
+    }
+
+    applyPolioVaccinationVisibility(shouldHighlight);
+  }
+
+  function setupPolioVaccinationFieldWatcher() {
+    var field = resolveElementById("C9dBVr0UBuJ-LtD4GZFlwBq-val");
+    if (!field || field.dataset.redWatcherInitialized === "true") return false;
+    field.dataset.redWatcherInitialized = "true";
+
+    updatePolioVaccinationFieldBackground();
+
+    // DHIS2 custom selects update nested DOM nodes; watch for label changes.
+    var observer = new MutationObserver(updatePolioVaccinationFieldBackground);
+    observer.observe(field, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+    });
+
+    field.addEventListener("change", updatePolioVaccinationFieldBackground);
+    field.addEventListener("input", updatePolioVaccinationFieldBackground);
+    field.addEventListener("click", function () {
+      setTimeout(updatePolioVaccinationFieldBackground, 0);
+    });
+    return true;
+  }
+
+  function bootstrapPolioVaccinationHighlight() {
+    if (setupPolioVaccinationFieldWatcher()) return;
+
+    // In iframe/rendered contexts this element may appear after initial load.
+    var pageObserver = new MutationObserver(function () {
+      if (setupPolioVaccinationFieldWatcher()) {
+        updatePolioVaccinationFieldBackground();
+        pageObserver.disconnect();
+      }
+    });
+
+    getFieldDocuments().forEach(function (doc) {
+      pageObserver.observe(doc.documentElement, {
+        childList: true,
+        subtree: true,
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bootstrapPolioVaccinationHighlight);
+  } else {
+    bootstrapPolioVaccinationHighlight();
+  }
+
+  window.addEventListener("load", bootstrapPolioVaccinationHighlight);
+
+  function getFieldSelectedText(fieldRoot) {
+    if (!fieldRoot) return "";
+
+    var selectedLabel = fieldRoot.querySelector(".selected-option-label");
+    return selectedLabel
+      ? selectedLabel.textContent
+      : fieldRoot.textContent || "";
+  }
+
+  function isYesValue(normalizedValue) {
+    return normalizedValue === "si" || normalizedValue === "yes";
+  }
+
+  function getParalysisDataElementId(triggerId) {
+    return triggerId.replace("C9dBVr0UBuJ-", "").replace("-val", "");
+  }
+
+  function isParalysisTriggerDropdownOpen(field, dataElementId) {
+    var listboxId = dataElementId + "-listbox";
+    var docs = getFieldDocuments();
+
+    for (var i = 0; i < docs.length; i++) {
+      var doc = docs[i];
+      if (
+        doc.querySelector(
+          '[aria-controls="' + listboxId + '"][aria-expanded="true"]',
+        )
+      ) {
+        return true;
+      }
+
+      var listbox = doc.getElementById(listboxId);
+      if (listbox && listbox.closest('div[data-test="dhis2-uicore-popper"]')) {
+        return true;
+      }
+    }
+
+    return !!(field && field.querySelector('[aria-expanded="true"]'));
+  }
+
+  function resolveParalysisTriggerShouldShow(triggerId) {
+    var field = resolveElementById(triggerId);
+    if (!field) return lastParalysisVisibility[triggerId] === true;
+
+    var dataElementId = getParalysisDataElementId(triggerId);
+    var normalizedValue = getPolioVaccinationValueText(field).toLowerCase();
+    var dropdownOpen = isParalysisTriggerDropdownOpen(field, dataElementId);
+
+    if (normalizedValue) {
+      lastStableParalysisValue[triggerId] = normalizedValue;
+      return isYesValue(normalizedValue);
+    }
+
+    if (dropdownOpen && lastStableParalysisValue[triggerId]) {
+      return isYesValue(lastStableParalysisValue[triggerId]);
+    }
+
+    if (!dropdownOpen && !fieldHasValue(field)) {
+      lastStableParalysisValue[triggerId] = "";
+      return false;
+    }
+
+    return isYesValue(lastStableParalysisValue[triggerId] || "");
+  }
+
+  var lastParalysisVisibility = {};
+  var lastStableParalysisValue = {};
+  var paralysisHideTimers = {};
+
+  var paralysisExtremities = [
+    {
+      triggerId: "C9dBVr0UBuJ-vbaEVpoiIN9-val",
+      detailClass: "paralysis-detail-right-arm",
+      detailRowClass: "paralysis-arm-detail-row",
+      dependentIds: [
+        "C9dBVr0UBuJ-dgJalMCp1u8-val",
+        "C9dBVr0UBuJ-L43To5grvOq-val",
+        "C9dBVr0UBuJ-dptSMy2jlkU-val",
+        "C9dBVr0UBuJ-jwzIEk5G5yn-val",
+      ],
+    },
+    {
+      triggerId: "C9dBVr0UBuJ-R6elb7Kx7XS-val",
+      detailClass: "paralysis-detail-left-arm",
+      detailRowClass: "paralysis-arm-detail-row",
+      dependentIds: [
+        "C9dBVr0UBuJ-DuB1zAuS2om-val",
+        "C9dBVr0UBuJ-OlyonD79RhH-val",
+        "C9dBVr0UBuJ-JlVDus6FL1d-val",
+        "C9dBVr0UBuJ-aBM55Ep9CX2-val",
+      ],
+    },
+    {
+      triggerId: "C9dBVr0UBuJ-czFCemKk9BF-val",
+      detailClass: "paralysis-detail-right-leg",
+      detailRowClass: "paralysis-leg-detail-row",
+      dependentIds: [
+        "C9dBVr0UBuJ-MA5Q9cnDoN1-val",
+        "C9dBVr0UBuJ-X2F5ljP49mn-val",
+        "C9dBVr0UBuJ-jnvy2LV1dRX-val",
+        "C9dBVr0UBuJ-xu2JvD6KPLI-val",
+      ],
+    },
+    {
+      triggerId: "C9dBVr0UBuJ-SCgGzM1xweX-val",
+      detailClass: "paralysis-detail-left-leg",
+      detailRowClass: "paralysis-leg-detail-row",
+      dependentIds: [
+        "C9dBVr0UBuJ-YuqZdGfavq5-val",
+        "C9dBVr0UBuJ-vD8pOSpFIAg-val",
+        "C9dBVr0UBuJ-YnSviiajK9F-val",
+        "C9dBVr0UBuJ-qkX93do0o4k-val",
+      ],
+    },
+  ];
+
+  function setParalysisWidgetVisible(fieldId, visible) {
+    var field = resolveElementById(fieldId);
+    if (!field) return;
+
+    field.dataset.paralysisWidgetHidden = visible ? "false" : "true";
+
+    if (visible) {
+      field.style.removeProperty("position");
+      field.style.removeProperty("left");
+      field.style.removeProperty("top");
+      field.style.removeProperty("width");
+      field.style.removeProperty("height");
+      field.style.removeProperty("max-width");
+      field.style.removeProperty("min-width");
+      field.style.removeProperty("clip");
+      field.style.removeProperty("overflow");
+      field.style.removeProperty("opacity");
+      field.style.removeProperty("pointer-events");
+      field.style.removeProperty("visibility");
+    } else {
+      /* Do not set width/height — DHIS2 sizes dropdown poppers from the anchor width. */
+      field.style.setProperty("position", "absolute", "important");
+      field.style.setProperty("left", "-99999px", "important");
+      field.style.setProperty("top", "auto", "important");
+      field.style.setProperty("clip", "rect(0, 0, 0, 0)", "important");
+      field.style.setProperty("overflow", "hidden", "important");
+      field.style.setProperty("opacity", "0", "important");
+      field.style.setProperty("pointer-events", "none", "important");
+      field.style.setProperty("visibility", "hidden", "important");
+    }
+  }
+
+  function fixParalysisPopperMenuWidth() {
+    getFieldDocuments().forEach(function (doc) {
+      doc.querySelectorAll('div[data-test="dhis2-uicore-popper"] .menu').forEach(
+        function (menu) {
+          menu.style.setProperty("width", "auto", "important");
+          menu.style.setProperty("min-width", "12rem", "important");
+        },
+      );
+    });
+  }
+
+  function showAllParalysisDetailWidgets() {
+    paralysisExtremities.forEach(function (extremity) {
+      extremity.dependentIds.forEach(function (fieldId) {
+        setParalysisWidgetVisible(fieldId, true);
+      });
+    });
+
+    var formDoc = getCustomFormDocument();
+    formDoc.querySelectorAll(".paralysis-detail-cell").forEach(function (cell) {
+      cell.classList.add("is-visible");
+    });
+  }
+
+  function withTemporaryParalysisDetailVisible(callback) {
+    showAllParalysisDetailWidgets();
+
+    try {
+      callback();
+    } finally {
+      applyParalysisDetailVisibilityState();
+    }
+  }
+
+  function clearParalysisExtremityFields(extremity) {
+    withTemporaryParalysisDetailVisible(function () {
+      extremity.dependentIds.forEach(function (fieldId) {
+        clearDhis2EntryField(resolveElementById(fieldId));
+      });
+    });
+
+    [0, 100, 300].forEach(function (delay) {
+      window.setTimeout(function () {
+        withTemporaryParalysisDetailVisible(function () {
+          extremity.dependentIds.forEach(function (fieldId) {
+            clearDhis2EntryField(resolveElementById(fieldId));
+          });
+        });
+      }, delay);
+    });
+  }
+
+  function applyParalysisTableFieldConstraints() {
+    fixParalysisPopperMenuWidth();
+  }
+
+  function setupParalysisTableLayoutWatcher() {
+    var table = getCustomFormDocument().getElementById("table-paralysis");
+    if (!table || table.dataset.layoutWatcherInitialized === "true") {
+      return;
+    }
+    table.dataset.layoutWatcherInitialized = "true";
+
+    applyParalysisTableFieldConstraints();
+
+    var layoutObserver = new MutationObserver(function () {
+      applyParalysisTableFieldConstraints();
+      applyParalysisDetailVisibilityState();
+    });
+    layoutObserver.observe(table, { childList: true, subtree: true });
+
+    getFieldDocuments().forEach(function (doc) {
+      var popperObserver = new MutationObserver(function () {
+        fixParalysisPopperMenuWidth();
+      });
+      popperObserver.observe(doc.body, { childList: true, subtree: true });
+    });
+  }
+
+  function updateParalysisDetailRows(detailRowClass, detailClasses) {
+    getCustomFormDocument()
+      .querySelectorAll("." + detailRowClass)
+      .forEach(function (row) {
+        var anyVisible = detailClasses.some(function (detailClass) {
+          return !!row.querySelector("." + detailClass + ".is-visible");
+        });
+        row.classList.toggle("paralysis-detail-row-hidden", !anyVisible);
+      });
+  }
+
+  function applyParalysisExtremityVisibility(extremity, shouldShow) {
+    getCustomFormDocument()
+      .querySelectorAll("." + extremity.detailClass)
+      .forEach(function (cell) {
+        cell.classList.toggle("is-visible", shouldShow);
+      });
+
+    extremity.dependentIds.forEach(function (fieldId) {
+      setParalysisWidgetVisible(fieldId, shouldShow);
+    });
+
+    lastParalysisVisibility[extremity.triggerId] = shouldShow;
+  }
+
+  function finalizeParalysisDetailLayout() {
+    updateParalysisDetailRows("paralysis-arm-detail-row", [
+      "paralysis-detail-right-arm",
+      "paralysis-detail-left-arm",
+    ]);
+    updateParalysisDetailRows("paralysis-leg-detail-row", [
+      "paralysis-detail-right-leg",
+      "paralysis-detail-left-leg",
+    ]);
+    applyParalysisTableFieldConstraints();
+  }
+
+  function commitParalysisExtremityVisibility(extremity, shouldShow) {
+    var wasShown = lastParalysisVisibility[extremity.triggerId] === true;
+
+    if (!shouldShow && wasShown) {
+      clearParalysisExtremityFields(extremity);
+    }
+
+    if (shouldShow && !wasShown && currentLocale) {
+      refreshParalysisOptionTranslations(currentLocale);
+    }
+
+    applyParalysisExtremityVisibility(extremity, shouldShow);
+  }
+
+  function scheduleParalysisExtremityVisibilityUpdate(extremity) {
+    var field = resolveElementById(extremity.triggerId);
+    var dataElementId = getParalysisDataElementId(extremity.triggerId);
+
+    if (field && isParalysisTriggerDropdownOpen(field, dataElementId)) {
+      if (paralysisHideTimers[extremity.triggerId]) {
+        clearTimeout(paralysisHideTimers[extremity.triggerId]);
+        paralysisHideTimers[extremity.triggerId] = null;
+      }
+
+      commitParalysisExtremityVisibility(
+        extremity,
+        resolveParalysisTriggerShouldShow(extremity.triggerId),
+      );
+      return;
+    }
+
+    var shouldShow = resolveParalysisTriggerShouldShow(extremity.triggerId);
+
+    if (!shouldShow) {
+      if (paralysisHideTimers[extremity.triggerId]) {
+        clearTimeout(paralysisHideTimers[extremity.triggerId]);
+      }
+
+      paralysisHideTimers[extremity.triggerId] = window.setTimeout(function () {
+        paralysisHideTimers[extremity.triggerId] = null;
+        var fieldNow = resolveElementById(extremity.triggerId);
+        if (
+          fieldNow &&
+          isParalysisTriggerDropdownOpen(fieldNow, dataElementId)
+        ) {
+          return;
+        }
+
+        commitParalysisExtremityVisibility(
+          extremity,
+          resolveParalysisTriggerShouldShow(extremity.triggerId),
+        );
+        finalizeParalysisDetailLayout();
+      }, 200);
+      return;
+    }
+
+    if (paralysisHideTimers[extremity.triggerId]) {
+      clearTimeout(paralysisHideTimers[extremity.triggerId]);
+      paralysisHideTimers[extremity.triggerId] = null;
+    }
+
+    commitParalysisExtremityVisibility(extremity, shouldShow);
+  }
+
+  function applyParalysisDetailVisibilityState() {
+    paralysisExtremities.forEach(function (extremity) {
+      applyParalysisExtremityVisibility(
+        extremity,
+        resolveParalysisTriggerShouldShow(extremity.triggerId),
+      );
+    });
+
+    finalizeParalysisDetailLayout();
+  }
+
+  function updateParalysisDetailVisibility() {
+    paralysisExtremities.forEach(scheduleParalysisExtremityVisibilityUpdate);
+    finalizeParalysisDetailLayout();
+  }
+
+  function scheduleParalysisWidgetInitialization() {
+    [0, 100, 300, 600, 1200].forEach(function (delay) {
+      window.setTimeout(function () {
+        withTemporaryParalysisDetailVisible(function () {});
+        applyParalysisDetailVisibilityState();
+        if (currentLocale) refreshParalysisOptionTranslations(currentLocale);
+      }, delay);
+    });
+  }
+
+  function initializeParalysisDetailWidgets() {
+    injectParalysisStylesIntoParent();
+    scheduleParalysisWidgetInitialization();
+  }
+
+  function setupParalysisFieldWatcher(triggerId) {
+    var field = resolveElementById(triggerId);
+    if (!field || field.dataset.paralysisWatcherInitialized === "true") {
+      return false;
+    }
+    field.dataset.paralysisWatcherInitialized = "true";
+
+    updateParalysisDetailVisibility();
+
+    var observer = new MutationObserver(updateParalysisDetailVisibility);
+    observer.observe(field, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+    });
+
+    field.addEventListener("change", updateParalysisDetailVisibility);
+    field.addEventListener("input", updateParalysisDetailVisibility);
+    field.addEventListener("click", function () {
+      window.setTimeout(function () {
+        updateParalysisDetailVisibility();
+        fixParalysisPopperMenuWidth();
+      }, 0);
+    });
+    return true;
+  }
+
+  function bootstrapParalysisDetailVisibility() {
+    injectParalysisStylesIntoParent();
+
+    var allWatchersReady = paralysisExtremities.every(function (extremity) {
+      return setupParalysisFieldWatcher(extremity.triggerId);
+    });
+
+    setupParalysisTableLayoutWatcher();
+
+    if (allWatchersReady) {
+      initializeParalysisDetailWidgets();
+      return;
+    }
+
+    var pageObserver = new MutationObserver(function () {
+      injectParalysisStylesIntoParent();
+      setupParalysisTableLayoutWatcher();
+
+      var ready = paralysisExtremities.every(function (extremity) {
+        return setupParalysisFieldWatcher(extremity.triggerId);
+      });
+
+      if (ready) {
+        initializeParalysisDetailWidgets();
+        pageObserver.disconnect();
+      }
+    });
+
+    getFieldDocuments().forEach(function (doc) {
+      pageObserver.observe(doc.documentElement, {
+        childList: true,
+        subtree: true,
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      bootstrapParalysisDetailVisibility,
+    );
+  } else {
+    bootstrapParalysisDetailVisibility();
+  }
+
+  window.addEventListener("load", bootstrapParalysisDetailVisibility);
+  window.addEventListener("load", initializeParalysisDetailWidgets);
+
+  var immunodeficiencyTriggerFieldId = "C9dBVr0UBuJ-rHdCTGrROVr-val";
+  var lastStableImmunodeficiencyTriggerValue = "";
+  var immunodeficiencyLabelHideTimer = null;
+
+  function resolveImmunodeficiencyTypeLabelRow() {
+    var labelRow = getCustomFormDocument().getElementById("frow-hnUCN1JeofZ");
+    if (labelRow) return labelRow;
+
+    var docs = getFieldDocuments();
+    for (var i = 0; i < docs.length; i++) {
+      labelRow = docs[i].getElementById("frow-hnUCN1JeofZ");
+      if (labelRow) return labelRow;
+    }
+    return null;
+  }
+
+  function isImmunodeficiencyTriggerDropdownOpen(field) {
+    return isParalysisTriggerDropdownOpen(field, "rHdCTGrROVr");
+  }
+
+  function isImmunodeficiencyTypeFieldActuallyShown() {
+    var docs = getFieldDocuments();
+
+    for (var i = 0; i < docs.length; i++) {
+      var formField = docs[i].querySelector(
+        '[data-test="form-field-hnUCN1JeofZ"]',
+      );
+      if (!formField) continue;
+
+      var view = formField.ownerDocument.defaultView || window;
+      var node = formField;
+      while (node && node.nodeType === 1) {
+        var style = view.getComputedStyle(node);
+        if (style.display === "none" || style.visibility === "hidden") {
+          return false;
+        }
+        node = node.parentElement;
+      }
+
+      var rect = formField.getBoundingClientRect();
+      if (rect.width > 0 && rect.height > 0) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  function resolveImmunodeficiencyTriggerIsYes() {
+    var field = resolveElementById(immunodeficiencyTriggerFieldId);
+    if (!field) return false;
+
+    var normalizedValue = getPolioVaccinationValueText(field).toLowerCase();
+    var dropdownOpen = isImmunodeficiencyTriggerDropdownOpen(field);
+
+    if (normalizedValue) {
+      lastStableImmunodeficiencyTriggerValue = normalizedValue;
+      return isYesValue(normalizedValue);
+    }
+
+    if (dropdownOpen && lastStableImmunodeficiencyTriggerValue) {
+      return isYesValue(lastStableImmunodeficiencyTriggerValue);
+    }
+
+    if (!dropdownOpen && !fieldHasValue(field)) {
+      lastStableImmunodeficiencyTriggerValue = "";
+      return false;
+    }
+
+    return isYesValue(lastStableImmunodeficiencyTriggerValue || "");
+  }
+
+  function shouldShowImmunodeficiencyTypeLabel() {
+    if (!resolveImmunodeficiencyTriggerIsYes()) return false;
+    return isImmunodeficiencyTypeFieldActuallyShown();
+  }
+
+  function applyImmunodeficiencyTypeLabelVisibility(shouldShow) {
+    var labelRow = resolveImmunodeficiencyTypeLabelRow();
+    if (!labelRow) return;
+    labelRow.style.display = shouldShow ? "" : "none";
+  }
+
+  function updateImmunodeficiencyTypeLabelVisibility() {
+    var triggerField = resolveElementById(immunodeficiencyTriggerFieldId);
+
+    if (triggerField && isImmunodeficiencyTriggerDropdownOpen(triggerField)) {
+      if (immunodeficiencyLabelHideTimer) {
+        clearTimeout(immunodeficiencyLabelHideTimer);
+        immunodeficiencyLabelHideTimer = null;
+      }
+      applyImmunodeficiencyTypeLabelVisibility(shouldShowImmunodeficiencyTypeLabel());
+      return;
+    }
+
+    var shouldShow = shouldShowImmunodeficiencyTypeLabel();
+    var triggerIsYes = resolveImmunodeficiencyTriggerIsYes();
+
+    if (!shouldShow) {
+      // Hide immediately when immunodeficiency is No/empty; only debounce when
+      // trigger is still Yes but the type field has not settled yet.
+      if (!triggerIsYes) {
+        if (immunodeficiencyLabelHideTimer) {
+          clearTimeout(immunodeficiencyLabelHideTimer);
+          immunodeficiencyLabelHideTimer = null;
+        }
+        applyImmunodeficiencyTypeLabelVisibility(false);
+        return;
+      }
+
+      if (immunodeficiencyLabelHideTimer) {
+        clearTimeout(immunodeficiencyLabelHideTimer);
+      }
+
+      immunodeficiencyLabelHideTimer = window.setTimeout(function () {
+        immunodeficiencyLabelHideTimer = null;
+        var fieldNow = resolveElementById(immunodeficiencyTriggerFieldId);
+        if (fieldNow && isImmunodeficiencyTriggerDropdownOpen(fieldNow)) return;
+        applyImmunodeficiencyTypeLabelVisibility(
+          shouldShowImmunodeficiencyTypeLabel(),
+        );
+      }, 200);
+      return;
+    }
+
+    if (immunodeficiencyLabelHideTimer) {
+      clearTimeout(immunodeficiencyLabelHideTimer);
+      immunodeficiencyLabelHideTimer = null;
+    }
+
+    applyImmunodeficiencyTypeLabelVisibility(true);
+  }
+
+  function setupImmunodeficiencyTypeLabelWatcher() {
+    var triggerField = resolveElementById(immunodeficiencyTriggerFieldId);
+    if (!triggerField) return false;
+
+    if (triggerField.dataset.immunodeficiencyLabelWatcher !== "true") {
+      triggerField.dataset.immunodeficiencyLabelWatcher = "true";
+      triggerField.addEventListener("change", updateImmunodeficiencyTypeLabelVisibility);
+      triggerField.addEventListener("input", updateImmunodeficiencyTypeLabelVisibility);
+      triggerField.addEventListener("click", function () {
+        window.setTimeout(updateImmunodeficiencyTypeLabelVisibility, 0);
+      });
+
+      var triggerObserver = new MutationObserver(
+        updateImmunodeficiencyTypeLabelVisibility,
+      );
+      triggerObserver.observe(triggerField, {
+        childList: true,
+        subtree: true,
+        characterData: true,
+      });
+    }
+
+    getFieldDocuments().forEach(function (doc) {
+      var formField = doc.querySelector('[data-test="form-field-hnUCN1JeofZ"]');
+      if (
+        !formField ||
+        formField.dataset.immunodeficiencyLabelWatcher === "true"
+      ) {
+        return;
+      }
+      formField.dataset.immunodeficiencyLabelWatcher = "true";
+
+      var formFieldObserver = new MutationObserver(
+        updateImmunodeficiencyTypeLabelVisibility,
+      );
+      formFieldObserver.observe(formField, {
+        attributes: true,
+        attributeFilter: ["style", "class", "hidden", "aria-hidden"],
+        childList: true,
+        subtree: true,
+      });
+    });
+
+    updateImmunodeficiencyTypeLabelVisibility();
+    return true;
+  }
+
+  function bootstrapImmunodeficiencyTypeLabelVisibility() {
+    if (setupImmunodeficiencyTypeLabelWatcher()) return;
+
+    var pageObserver = new MutationObserver(function () {
+      if (setupImmunodeficiencyTypeLabelWatcher()) {
+        updateImmunodeficiencyTypeLabelVisibility();
+        pageObserver.disconnect();
+      }
+    });
+
+    getFieldDocuments().forEach(function (doc) {
+      pageObserver.observe(doc.documentElement, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ["style", "class", "hidden"],
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      bootstrapImmunodeficiencyTypeLabelVisibility,
+    );
+  } else {
+    bootstrapImmunodeficiencyTypeLabelVisibility();
+  }
+
+  window.addEventListener("load", bootstrapImmunodeficiencyTypeLabelVisibility);
+  window.addEventListener("load", function () {
+    window.setTimeout(updateImmunodeficiencyTypeLabelVisibility, 0);
+    window.setTimeout(updateImmunodeficiencyTypeLabelVisibility, 300);
+    window.setTimeout(updateImmunodeficiencyTypeLabelVisibility, 600);
+  });
+
+  var hospitalizationTriggerFieldId = "C9dBVr0UBuJ-SrqBjQ9Dyom-val";
+  var lastStableHospitalizationTriggerValue = "";
+  var hospitalizationLabelHideTimer = null;
+  var hospitalizationDependentLabels = [
+    { spanId: "WPZrpr1Mt9T", dataElementId: "WPZrpr1Mt9T" },
+    { spanId: "o2Sp5jmLWTu", dataElementId: "o2Sp5jmLWTu" },
+  ];
+
+  function resolveHospitalizationLabelFlabel(spanId) {
+    var span = getCustomFormDocument().getElementById(spanId);
+    if (span && span.closest(".flabel")) return span.closest(".flabel");
+
+    var docs = getFieldDocuments();
+    for (var i = 0; i < docs.length; i++) {
+      span = docs[i].getElementById(spanId);
+      if (span && span.closest(".flabel")) return span.closest(".flabel");
+    }
+    return null;
+  }
+
+  function isHospitalizationTriggerDropdownOpen(field) {
+    return isParalysisTriggerDropdownOpen(field, "SrqBjQ9Dyom");
+  }
+
+  function isHospitalizationDependentFieldActuallyShown(dataElementId) {
+    var docs = getFieldDocuments();
+
+    for (var i = 0; i < docs.length; i++) {
+      var formField = docs[i].querySelector(
+        '[data-test="form-field-' + dataElementId + '"]',
+      );
+      if (!formField) continue;
+
+      var view = formField.ownerDocument.defaultView || window;
+      var node = formField;
+      while (node && node.nodeType === 1) {
+        var style = view.getComputedStyle(node);
+        if (style.display === "none" || style.visibility === "hidden") {
+          return false;
+        }
+        node = node.parentElement;
+      }
+
+      var rect = formField.getBoundingClientRect();
+      if (rect.width > 0 && rect.height > 0) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  function resolveHospitalizationTriggerIsYes() {
+    var field = resolveElementById(hospitalizationTriggerFieldId);
+    if (!field) return false;
+
+    var normalizedValue = getPolioVaccinationValueText(field).toLowerCase();
+    var dropdownOpen = isHospitalizationTriggerDropdownOpen(field);
+
+    if (normalizedValue) {
+      lastStableHospitalizationTriggerValue = normalizedValue;
+      return isYesValue(normalizedValue);
+    }
+
+    if (dropdownOpen && lastStableHospitalizationTriggerValue) {
+      return isYesValue(lastStableHospitalizationTriggerValue);
+    }
+
+    if (!dropdownOpen && !fieldHasValue(field)) {
+      lastStableHospitalizationTriggerValue = "";
+      return false;
+    }
+
+    return isYesValue(lastStableHospitalizationTriggerValue || "");
+  }
+
+  function shouldShowHospitalizationDependentLabel(dataElementId) {
+    if (!resolveHospitalizationTriggerIsYes()) return false;
+    return isHospitalizationDependentFieldActuallyShown(dataElementId);
+  }
+
+  function applyHospitalizationDependentLabelsVisibility(shouldShow) {
+    hospitalizationDependentLabels.forEach(function (label) {
+      var flabel = resolveHospitalizationLabelFlabel(label.spanId);
+      if (!flabel) return;
+      flabel.style.display = shouldShow ? "" : "none";
+    });
+  }
+
+  function applyHospitalizationDependentLabelsVisibilityFromState() {
+    hospitalizationDependentLabels.forEach(function (label) {
+      var flabel = resolveHospitalizationLabelFlabel(label.spanId);
+      if (!flabel) return;
+      var shouldShow = shouldShowHospitalizationDependentLabel(label.dataElementId);
+      flabel.style.display = shouldShow ? "" : "none";
+    });
+  }
+
+  function updateHospitalizationDependentLabelsVisibility() {
+    var triggerField = resolveElementById(hospitalizationTriggerFieldId);
+
+    if (triggerField && isHospitalizationTriggerDropdownOpen(triggerField)) {
+      if (hospitalizationLabelHideTimer) {
+        clearTimeout(hospitalizationLabelHideTimer);
+        hospitalizationLabelHideTimer = null;
+      }
+      applyHospitalizationDependentLabelsVisibilityFromState();
+      return;
+    }
+
+    var triggerIsYes = resolveHospitalizationTriggerIsYes();
+    var anyLabelShouldShow = hospitalizationDependentLabels.some(function (label) {
+      return shouldShowHospitalizationDependentLabel(label.dataElementId);
+    });
+
+    if (!anyLabelShouldShow) {
+      if (!triggerIsYes) {
+        if (hospitalizationLabelHideTimer) {
+          clearTimeout(hospitalizationLabelHideTimer);
+          hospitalizationLabelHideTimer = null;
+        }
+        applyHospitalizationDependentLabelsVisibility(false);
+        return;
+      }
+
+      if (hospitalizationLabelHideTimer) {
+        clearTimeout(hospitalizationLabelHideTimer);
+      }
+
+      hospitalizationLabelHideTimer = window.setTimeout(function () {
+        hospitalizationLabelHideTimer = null;
+        var fieldNow = resolveElementById(hospitalizationTriggerFieldId);
+        if (fieldNow && isHospitalizationTriggerDropdownOpen(fieldNow)) return;
+        applyHospitalizationDependentLabelsVisibilityFromState();
+      }, 200);
+      return;
+    }
+
+    if (hospitalizationLabelHideTimer) {
+      clearTimeout(hospitalizationLabelHideTimer);
+      hospitalizationLabelHideTimer = null;
+    }
+
+    applyHospitalizationDependentLabelsVisibilityFromState();
+  }
+
+  function setupHospitalizationDependentLabelsWatcher() {
+    var triggerField = resolveElementById(hospitalizationTriggerFieldId);
+    if (!triggerField) return false;
+
+    if (triggerField.dataset.hospitalizationLabelWatcher !== "true") {
+      triggerField.dataset.hospitalizationLabelWatcher = "true";
+      triggerField.addEventListener(
+        "change",
+        updateHospitalizationDependentLabelsVisibility,
+      );
+      triggerField.addEventListener(
+        "input",
+        updateHospitalizationDependentLabelsVisibility,
+      );
+      triggerField.addEventListener("click", function () {
+        window.setTimeout(updateHospitalizationDependentLabelsVisibility, 0);
+      });
+
+      var triggerObserver = new MutationObserver(
+        updateHospitalizationDependentLabelsVisibility,
+      );
+      triggerObserver.observe(triggerField, {
+        childList: true,
+        subtree: true,
+        characterData: true,
+      });
+    }
+
+    hospitalizationDependentLabels.forEach(function (label) {
+      getFieldDocuments().forEach(function (doc) {
+        var formField = doc.querySelector(
+          '[data-test="form-field-' + label.dataElementId + '"]',
+        );
+        if (
+          !formField ||
+          formField.dataset.hospitalizationLabelWatcher === "true"
+        ) {
+          return;
+        }
+        formField.dataset.hospitalizationLabelWatcher = "true";
+
+        var formFieldObserver = new MutationObserver(
+          updateHospitalizationDependentLabelsVisibility,
+        );
+        formFieldObserver.observe(formField, {
+          attributes: true,
+          attributeFilter: ["style", "class", "hidden", "aria-hidden"],
+          childList: true,
+          subtree: true,
+        });
+      });
+    });
+
+    updateHospitalizationDependentLabelsVisibility();
+    return true;
+  }
+
+  function bootstrapHospitalizationDependentLabelsVisibility() {
+    if (setupHospitalizationDependentLabelsWatcher()) return;
+
+    var pageObserver = new MutationObserver(function () {
+      if (setupHospitalizationDependentLabelsWatcher()) {
+        updateHospitalizationDependentLabelsVisibility();
+        pageObserver.disconnect();
+      }
+    });
+
+    getFieldDocuments().forEach(function (doc) {
+      pageObserver.observe(doc.documentElement, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ["style", "class", "hidden"],
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      bootstrapHospitalizationDependentLabelsVisibility,
+    );
+  } else {
+    bootstrapHospitalizationDependentLabelsVisibility();
+  }
+
+  window.addEventListener(
+    "load",
+    bootstrapHospitalizationDependentLabelsVisibility,
+  );
+  window.addEventListener("load", function () {
+    window.setTimeout(updateHospitalizationDependentLabelsVisibility, 0);
+    window.setTimeout(updateHospitalizationDependentLabelsVisibility, 300);
+    window.setTimeout(updateHospitalizationDependentLabelsVisibility, 600);
+  });
+  // *******************
+</script>
+<div class="marginbox">
+<div class="containerbox">
+<div class="containertitle" id="CxquZsNGvpi-title"><strong><label class="changeText"><span id="CxquZsNGvpi">Vaccine History</span></label>&nbsp;</strong></div>
+
+<div class="frow">
+<div class="flabel"><span id="LtD4GZFlwBq">The patient is vaccinated against polio</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-LtD4GZFlwBq-val" name="entryfield" title="VPD-AFP-Is patient vaccinated against polio" value="[ VPD-AFP-Is patient vaccinated against polio ]" /></div>
+</div>
+
+<div class="frow" id="frow-WaZDJCVch0I">
+<div class="flabel"><span id="WaZDJCVch0I">Vaccination Information Source</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-WaZDJCVch0I-val" name="entryfield" title="VPD-Source of information on vaccinations" value="[ VPD-Source of information on vaccinations ]" /></div>
+</div>
+
+<table align="left" border="0" cellpadding="0" cellspacing="0" id="table-vaccination-history" style="width: 40%; margin-left: 1%">
+	<thead>
+		<tr>
+			<th scope="col" style="width: 5%">
+			<h2 style="text-align: left"><strong><span style="font-size: 16px">No.</span></strong></h2>
+			</th>
+			<th p7kilmxlhpr="" scope="col" style="width: 20%; white-space: nowrap">&nbsp;</th>
+			<th p7kilmxlhpr="" scope="col" style="width: 20%; white-space: nowrap">
+			<h2><strong><span id="eFlgkx2QP4b" style="font-size: 16px">Type of vaccine</span></strong></h2>
+			</th>
+			<th scope="col" style="width: 20%; white-space: nowrap" yydckkaeydr="">
+			<h2><strong><span id="MZBl5stq0s1" style="font-size: 16px">Date of dose</span></strong></h2>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th style="width: 5%">
+			<p style="text-align: left">1</p>
+			</th>
+			<td style="width: 5%">&nbsp;</td>
+			<td style="width: 5%">
+			<p><input id="C9dBVr0UBuJ-p7KilMxlhPR-val" name="entryfield" title="VPD-AFP-Type of vaccine - 1st" value="[ VPD-AFP-Type of vaccine - 1st ]" /></p>
+			</td>
+			<td style="width: 20%">
+			<p><input id="C9dBVr0UBuJ-L9zSlkzKZ3q-val" name="entryfield" title="VPD-AFP-Date of 1st vaccine dose" value="[ VPD-AFP-Date of 1st vaccine dose ]" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 5%">
+			<p><strong>2</strong></p>
+			</td>
+			<td style="width: 5%">&nbsp;</td>
+			<td style="width: 5%">
+			<p><input id="C9dBVr0UBuJ-uYZQAQkbCBb-val" name="entryfield" title="VPD-AFP-Type of vaccine - 2nd" value="[ VPD-AFP-Type of vaccine - 2nd ]" /></p>
+			</td>
+			<td>
+			<p><input id="C9dBVr0UBuJ-SyNKwWcpK8J-val" name="entryfield" title="VPD-AFP-Date of 2nd vaccine dose" value="[ VPD-AFP-Date of 2nd vaccine dose ]" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 5%">
+			<p><strong>3</strong></p>
+			</td>
+			<td style="width: 5%">&nbsp;</td>
+			<td style="width: 5%">
+			<p><input id="C9dBVr0UBuJ-oOJc2hC8v1A-val" name="entryfield" title="VPD-AFP-Type of vaccine - 3rd" value="[ VPD-AFP-Type of vaccine - 3rd ]" /></p>
+			</td>
+			<td>
+			<p><input id="C9dBVr0UBuJ-VaJKnAWNjWf-val" name="entryfield" title="VPD-AFP-Date of 3rd vaccine dose" value="[ VPD-AFP-Date of 3rd vaccine dose ]" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 5%">
+			<p><strong>4</strong></p>
+			</td>
+			<td style="width: 5%">&nbsp;</td>
+			<td style="width: 5%">
+			<p><input id="C9dBVr0UBuJ-VO9OFUBpVaq-val" name="entryfield" title="VPD-AFP-Type of vaccine - 4th" value="[ VPD-AFP-Type of vaccine - 4th ]" /></p>
+			</td>
+			<td>
+			<p><input id="C9dBVr0UBuJ-I4R9ssXl1Kr-val" name="entryfield" title="VPD-AFP-Date of 4th vaccine dose" value="[ VPD-AFP-Date of 4th vaccine dose ]" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 5%">
+			<p><strong>5</strong></p>
+			</td>
+			<td style="width: 5%">&nbsp;</td>
+			<td style="width: 5%">
+			<p><input id="C9dBVr0UBuJ-CAHEZDE5rnd-val" name="entryfield" title="VPD-AFP-Type of vaccine - 5th" value="[ VPD-AFP-Type of vaccine - 5th ]" /></p>
+			</td>
+			<td>
+			<p><input id="C9dBVr0UBuJ-B21B7j2ZcRR-val" name="entryfield" title="VPD-AFP-Date of 5th vaccine dose" value="[ VPD-AFP-Date of 5th vaccine dose ]" /></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p hidden=""><input id="C9dBVr0UBuJ-u1Xh2eieDdk-val" name="entryfield" title="VPD-AFP-Date of last dose OPV" value="[ VPD-AFP-Date of last dose OPV ]" /></p>
+
+<p hidden=""><input id="C9dBVr0UBuJ-ODtS5AIkDDu-val" name="entryfield" title="VPD-AFP-Date of last dose IPV" value="[ VPD-AFP-Date of last dose IPV ]" /></p>
+</div>
+</div>
+
+<div class="programStageSection" id="LtNqxSVPiOa" style="display: none">
+<div class="marginbox">
+<div class="containerbox">
+<div class="containertitle"><span id="Wohe5Sxv6dE" style="font-weight: bold">Vaccine History - Legacy</span></div>
+
+<div class="frow">
+<div class="flabel"><span id="qZQzgrrba1E">Number of doses</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-GZPDnkInYXV-val" name="entryfield" title="VPD-AFP-Number of vaccine doses applied-legacy" value="[ VPD-AFP-Number of vaccine doses applied-legacy ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="vUmCFDoQ89z">Type of vaccine</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-cUNaxbR3INn-val" name="entryfield" title="VPD-AFP-Type of vaccine-legacy" value="[ VPD-AFP-Type of vaccine-legacy ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="DU0kFUMrukZ">Date of last dose</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-yydCKkAEyDr-val" name="entryfield" title="VPD-AFP-Date of last dose-legacy" value="[ VPD-AFP-Date of last dose-legacy ]" /></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox">
+<p><span id="OIbnN09aAt2" style="font-weight: bold">Clinical data</span>&nbsp;</p>
+
+<div>
+<div class="containertitle"><strong><span id="dF1XxSA4mW5">Prodrome</span></strong></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="fAJtXRT7AUS">Fever</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-Nl4PXTHky77-val" name="entryfield" title="VPD-AFP-Patient had fever prior to paralysis onset" value="[ VPD-AFP-Patient had fever prior to paralysis onset ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="nAkh0ocyvs0">Respiratory Symptoms</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-nAkh0ocyvs0-val" name="entryfield" title="VPD-AFP-Respiratory symptoms prodome" value="[ VPD-AFP-Respiratory symptoms prodome ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="fESQaMDOGbf">Gastrointestinal Symptoms</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-fESQaMDOGbf-val" name="entryfield" title="VPD-AFP-Gastrointestinal symptoms prodrome" value="[ VPD-AFP-Gastrointestinal symptoms prodrome ]" /></div>
+</div>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox">
+<div>
+<div class="containertitle"><strong><span id="zEpQnjX08QZ">Signs and Symptoms</span></strong></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="NdXDUi6HeMk">Fever at paralysis onset?</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-NdXDUi6HeMk-val" name="entryfield" title="VPD-AFP-Fever at paralysis onset" value="[ VPD-AFP-Fever at paralysis onset ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="aqyqjN6YgrZ">Muscle pains</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-aqyqjN6YgrZ-val" name="entryfield" title="VPD-AFP-Muscle pain" value="[ VPD-AFP-Muscle pain ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="mEgpYppEhXw">Meningeal signs</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-mEgpYppEhXw-val" name="entryfield" title="VPD-AFP-Meningeal" value="[ VPD-AFP-Meningeal ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="sASzNqFqqXh">Craneal pairs compromise</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-sASzNqFqqXh-val" name="entryfield" title="VPD-AFP-Craneal pairs compromise" value="[ VPD-AFP-Craneal pairs compromise ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="wjEHkUdKRLR">Respiratory Symptoms at paralysis</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-lBVsUUAYH7B-val" name="entryfield" title="VPD-AFP-Respiratory symptoms at paralysis" value="[ VPD-AFP-Respiratory symptoms at paralysis ]" /></div>
+</div>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox">
+<div class="containertitle"><strong><span id="GMUMieFbtbC">Paralysis progression</span></strong></div>
+
+<div class="frow">
+<div class="flabel"><span id="h10LIPtSVJG">Paralysis direction</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-h10LIPtSVJG-val" name="entryfield" title="VPD-AFP-Direction" value="[ VPD-AFP-Direction ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="r7NOKPIZT7w"><span>Number of days for paralysis to fully develop</span></span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-r7NOKPIZT7w-val" name="entryfield" title="VPD-AFP-Days for paralysis to fully develop" value="[ VPD-AFP-Days for paralysis to fully develop ]" /></div>
+</div>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox paralysis-section">
+<div class="containertitle"><strong><span id="DPyLz1iZD52">Paralysis</span></strong></div>
+
+<table align="left" border="0" cellpadding="4" cellspacing="0" class="table-paralysis" id="table-paralysis">
+	<colgroup>
+		<col class="paralysis-col-label" />
+		<col class="paralysis-col-data" />
+		<col class="paralysis-col-data" />
+	</colgroup>
+	<tbody>
+		<tr class="paralysis-header-row">
+			<td>&nbsp;</td>
+			<td><span class="paralysis-extremity-title" id="MM0HOYX97V3"><strong>Right arm</strong></span></td>
+			<td><span class="paralysis-extremity-title" id="A9w1sq4ckKo"><strong>Left arm</strong></span></td>
+		</tr>
+		<tr>
+			<td><span id="DPyLz1iZD53">Paralysis&nbsp; &nbsp; &nbsp; &nbsp;</span></td>
+			<td><input id="C9dBVr0UBuJ-vbaEVpoiIN9-val" name="entryfield" title="VPD-AFP-Right arm paralysis" value="[ VPD-AFP-Right arm paralysis ]" /></td>
+			<td><input id="C9dBVr0UBuJ-R6elb7Kx7XS-val" name="entryfield" title="VPD-AFP-Left arm paralysis" value="[ VPD-AFP-Left arm paralysis ]" /></td>
+		</tr>
+		<tr class="paralysis-arm-detail-row">
+			<td><span id="o7e2lORoDJ2">Site of paralysis</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-arm"><input id="C9dBVr0UBuJ-dgJalMCp1u8-val" name="entryfield" title="VPD-AFP-Right arm paralysis site" value="[ VPD-AFP-Right arm paralysis site ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-arm"><input id="C9dBVr0UBuJ-DuB1zAuS2om-val" name="entryfield" title="VPD-AFP-Left arm paralysis site" value="[ VPD-AFP-Left arm paralysis site ]" /></td>
+		</tr>
+		<tr class="paralysis-arm-detail-row">
+			<td><span id="jWPaXLy16B2">Reflexes</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-arm"><input id="C9dBVr0UBuJ-L43To5grvOq-val" name="entryfield" title="VPD-AFP-Right arm reflexes" value="[ VPD-AFP-Right arm reflexes ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-arm"><input id="C9dBVr0UBuJ-OlyonD79RhH-val" name="entryfield" title="VPD-AFP-Left arm reflexes" value="[ VPD-AFP-Left arm reflexes ]" /></td>
+		</tr>
+		<tr class="paralysis-arm-detail-row">
+			<td><span id="GgSE1YVWGX2">Sensitivity</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-arm"><input id="C9dBVr0UBuJ-dptSMy2jlkU-val" name="entryfield" title="VPD-AFP-Right arm sensitivity" value="[ VPD-AFP-Right arm sensitivity ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-arm"><input id="C9dBVr0UBuJ-JlVDus6FL1d-val" name="entryfield" title="VPD-AFP-Left arm sensitivity" value="[ VPD-AFP-Left arm sensitivity ]" /></td>
+		</tr>
+		<tr class="paralysis-arm-detail-row">
+			<td><span id="xVSUhC69HV2">Muscle strength</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-arm"><input id="C9dBVr0UBuJ-jwzIEk5G5yn-val" name="entryfield" title="VPD-AFP-Right arm muscle strength paralysis" value="[ VPD-AFP-Right arm muscle strength paralysis ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-arm"><input id="C9dBVr0UBuJ-aBM55Ep9CX2-val" name="entryfield" title="VPD-AFP-Left arm muscle strength paralysis" value="[ VPD-AFP-Left arm muscle strength paralysis ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><span class="paralysis-extremity-title" id="iz7UKMvBns7"><strong>Right leg</strong></span></td>
+			<td><span class="paralysis-extremity-title" id="qqTTQMXP3cU"><strong>Left leg</strong></span></td>
+		</tr>
+		<tr>
+			<td><span id="DPyLz1iZD54">Paralysis</span></td>
+			<td><input id="C9dBVr0UBuJ-czFCemKk9BF-val" name="entryfield" title="VPD-AFP-Right leg paralysis" value="[ VPD-AFP-Right leg paralysis ]" /></td>
+			<td><input id="C9dBVr0UBuJ-SCgGzM1xweX-val" name="entryfield" title="VPD-AFP-Left leg paralysis" value="[ VPD-AFP-Left leg paralysis ]" /></td>
+		</tr>
+		<tr class="paralysis-leg-detail-row">
+			<td><span id="o7e2lORoDJQ">Site of paralysis</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-leg"><input id="C9dBVr0UBuJ-MA5Q9cnDoN1-val" name="entryfield" title="VPD-AFP-Right leg paralysis site" value="[ VPD-AFP-Right leg paralysis site ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-leg"><input id="C9dBVr0UBuJ-YuqZdGfavq5-val" name="entryfield" title="VPD-AFP-Left leg paralysis site" value="[ VPD-AFP-Left leg paralysis site ]" /></td>
+		</tr>
+		<tr class="paralysis-leg-detail-row">
+			<td><span id="jWPaXLy16BZ">Reflexes</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-leg"><input id="C9dBVr0UBuJ-X2F5ljP49mn-val" name="entryfield" title="VPD-AFP-Right leg reflexes" value="[ VPD-AFP-Right leg reflexes ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-leg"><input id="C9dBVr0UBuJ-vD8pOSpFIAg-val" name="entryfield" title="VPD-AFP-Left leg reflexes" value="[ VPD-AFP-Left leg reflexes ]" /></td>
+		</tr>
+		<tr class="paralysis-leg-detail-row">
+			<td><span id="GgSE1YVWGXv">Sensitivity</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-leg"><input id="C9dBVr0UBuJ-jnvy2LV1dRX-val" name="entryfield" title="VPD-AFP-Right leg sensitivity" value="[ VPD-AFP-Right leg sensitivity ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-leg"><input id="C9dBVr0UBuJ-YnSviiajK9F-val" name="entryfield" title="VPD-AFP-Left leg sensitivity" value="[ VPD-AFP-Left leg sensitivity ]" /></td>
+		</tr>
+		<tr class="paralysis-leg-detail-row">
+			<td><span id="xVSUhC69HVH">Muscle strength</span></td>
+			<td class="paralysis-detail-cell paralysis-detail-right-leg"><input id="C9dBVr0UBuJ-xu2JvD6KPLI-val" name="entryfield" title="VPD-AFP-Right Leg muscle strength paralysis" value="[ VPD-AFP-Right Leg muscle strength paralysis ]" /></td>
+			<td class="paralysis-detail-cell paralysis-detail-left-leg"><input id="C9dBVr0UBuJ-qkX93do0o4k-val" name="entryfield" title="VPD-AFP-Left Leg muscle strength paralysis" value="[ VPD-AFP-Left Leg muscle strength paralysis ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox">
+<div>&nbsp;</div>
+
+<div class="row" style="margin-left: 1%"><span id="rHdCTGrROVr">Does the patient have immunodeficiency</span></div>
+
+<div class="row" style="margin-left: 1%"><input id="C9dBVr0UBuJ-rHdCTGrROVr-val" name="entryfield" title="VPD-AFP-Has Primary Immunodeficency" value="[ VPD-AFP-Has Primary Immunodeficency ]" /></div>
+
+<div>&nbsp;</div>
+
+<div class="row" id="frow-hnUCN1JeofZ" style="margin-left: 1%; display: none;"><span id="hnUCN1JeofZ">Type of immunodeficiency</span></div>
+
+<div class="row" style="margin-left: 1%"><input id="C9dBVr0UBuJ-hnUCN1JeofZ-val" name="entryfield" title="VPD-AFP-Immunodeficency type" value="[ VPD-AFP-Immunodeficency type ]" /></div>
+
+<div>&nbsp;</div>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox">
+<div>
+<div class="containertitle"><strong><span id="ummACzjimvd">Hospitalization</span></strong></div>
+</div>
+
+<div class="frow">
+<div class="flabel"><span id="SrqBjQ9Dyom">Is the patient hospitalized?</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-SrqBjQ9Dyom-val" name="entryfield" title="VPD-AFP-Is the patient hospitalized" value="[ VPD-AFP-Is the patient hospitalized ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel" style="display: none;"><span id="WPZrpr1Mt9T">Hospital name</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-WPZrpr1Mt9T-val" name="entryfield" title="VPD-AFP-Hospital Name" value="[ VPD-AFP-Hospital Name ]" /></div>
+</div>
+
+<div class="frow">
+<div class="flabel" style="display: none;"><span id="o2Sp5jmLWTu">Admission date&nbsp; &nbsp; </span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-o2Sp5jmLWTu-val" name="entryfield" title="VPD-AFP-Date of hospital admission" value="[ VPD-AFP-Date of hospital admission ]" /></div>
+</div>
+
+<div class="OcultarOptionsHospitalized">
+<p class="ErrorDateAdminssion">&nbsp;</p>
+</div>
+</div>
+</div>
+
+<div class="marginbox">
+<div class="containerbox">
+<div class="containertitle"><strong><span id="Y4NV6PF1nPe">Sample Collection</span></strong></div>
+
+<div class="frow">
+<div class="flabel"><span id="q9iRSGD9Nxd">Is sample taken?</span></div>
+
+<div class="fitem"><input id="C9dBVr0UBuJ-q9iRSGD9Nxd-val" name="entryfield" title="VPD-AFP-Is Sample taken" value="[ VPD-AFP-Is Sample taken ]" /></div>
+</div>
+</div>
+</div>
