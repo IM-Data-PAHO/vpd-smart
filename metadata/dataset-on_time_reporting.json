@@ -1,10 +1,4 @@
 {
-    "system": {
-        "id": "vpd.paho-dhis2.org",
-        "rev": "3bdc3c5",
-        "version": "2.42.4.1",
-        "date": "2026-08-07T12:50:16.315+0000"
-    },
     "categoryOptionCombos": [
         {
             "code": "default",

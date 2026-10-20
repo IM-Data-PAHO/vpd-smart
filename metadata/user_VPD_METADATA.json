@@ -1,0 +1,109 @@
+{
+    "name": "VPD METADATA",
+    "created": "2025-07-09T20:17:45.799",
+    "lastUpdated": "2026-10-06T15:14:49.213",
+    "translations": [],
+    "username": "vpd_metadata",
+    "externalAuth": false,
+    "passwordLastUpdated": "2025-07-09T20:17:45.824",
+    "cogsDimensionConstraints": [],
+    "catDimensionConstraints": [],
+    "lastLogin": "2026-09-23T08:50:51.926",
+    "selfRegistered": false,
+    "invitation": false,
+    "disabled": false,
+    "surname": "METADATA",
+    "firstName": "VPD",
+    "COMMENT":"Replace ADD_ROOT_ORG_UNIT with the actual root organisation unit ID",
+    "organisationUnits": [        
+        {
+            "id": "ImspTQPwCqd",
+            "name": "Sierra Leone",
+            "shortName": "Sierra Leone",
+            "openingDate": "1961-04-27"
+        }
+    ],
+    "dataViewOrganisationUnits": [        
+        {
+            "id": "ImspTQPwCqd",
+            "name": "Sierra Leone",
+            "shortName": "Sierra Leone",
+            "openingDate": "1961-04-27"
+        }
+    ],
+    "teiSearchOrganisationUnits": [        
+        {
+            "id": "ImspTQPwCqd",
+            "name": "Sierra Leone",
+            "shortName": "Sierra Leone",
+            "openingDate": "1961-04-27"
+        }
+    ],
+    "emailVerified": false,
+    "displayName": "VPD METADATA",
+    "access": {
+        "manage": true,
+        "write": true,
+        "read": true,
+        "update": true,
+        "delete": true
+    },
+    "favorite": false,
+    "href": "https://vpd.paho-dhis2.org/api/users/PuGe1xoZb0k",
+    "id": "PuGe1xoZb0k",
+    "attributeValues": [],
+    "userRoles": [
+        {
+            "id": "J7SKbb9MEoQ",
+            "name": "VPD - Analytics",
+            "authorities": [
+                "M_EpiWeek",
+                "M_dhis-web-event-reports",
+                "F_VIEW_EVENT_ANALYTICS",
+                "M_dhis-web-data-visualizer",
+                "M_dhis-web-line-listing",
+                "M_dhis-web-dashboard",
+                "M_Information",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-event-visualizer",
+                "M_dhis-web-capture",
+                "F_REPORT_PRIVATE_ADD",
+                "M_dhis-web-reports",
+                "M_dhis-web-maps"
+            ],
+            "sharing":{"public":"rw------"}
+        },
+        {
+            "id": "mUyeAxU4veM",
+            "name": "VPD - PAHO Admin",
+            "authorities": [
+                "M_dhis-web-menu-management",
+                "M_dhis-web-line-listing",
+                "M_dhis-web-import-export",
+                "M_metadatamanagement",
+                "M_dhis-web-user",
+                "M_dhis-web-translations",
+                "M_dhis-web-maps",
+                "M_Tracker_Dataset_Metadata_Cloner",
+                "M_dhis-web-aggregate-data-entry",
+                "F_METADATA_IMPORT",
+                "M_dhis-web-event-reports",
+                "M_dhis-web-maintenance",
+                "M_dhis-web-data-visualizer",
+                "M_dhis-web-dashboard",
+                "M_dhis-web-data-administration",
+                "F_METADATA_EXPORT",
+                "F_EXPORT_DATA",
+                "M_dhis-web-scheduler",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-capture",
+                "M_dhis-web-event-visualizer",
+                "M_dhis-web-app-management",
+                "F_METADATA_MANAGE",
+                "M_dhis-web-datastore",
+                "M_dhis-web-reports"
+            ],
+            "sharing":{"public":"rw------"}
+        }
+    ]
+}

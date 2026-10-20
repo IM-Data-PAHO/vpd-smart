@@ -1,10 +1,4 @@
 {
-    "system": {
-        "id": "vpd-training.paho-dhis2.org",
-        "rev": "dd8bdbb",
-        "version": "2.42.6",
-        "date": "2026-10-06T16:48:15.866+0000"
-    },
     "programStages": [
         {
             "name": "Response measures",
@@ -39002,7 +38996,7 @@
                 "userGroups": {},
                 "public": "r-------"
             },
-            "shortName": "Sex",
+            "shortName": "VPD-Sex",
             "description": "Biological sex at birth",
             "formName": "Sex",
             "legendSets": [],
@@ -83029,38 +83023,6 @@
                     },
                     "favorite": false,
                     "id": "N9w4VsUmjpd",
-                    "attributeValues": []
-                },
-                {
-                    "name": "Case VPD-CRS-ID de caso CRS",
-                    "created": "2026-09-15T15:35:02.157",
-                    "lastUpdated": "2026-09-30T13:21:54.195",
-                    "translations": [],
-                    "favorites": [],
-                    "sharing": {
-                        "users": {},
-                        "userGroups": {}
-                    },
-                    "trackedEntityType": {
-                        "id": "Hb3HvqaWl2u"
-                    },
-                    "trackedEntityAttribute": {
-                        "id": "fPGvXrFhFxH"
-                    },
-                    "displayInList": true,
-                    "searchable": false,
-                    "valueType": "TEXT",
-                    "displayShortName": "Case CRS-ID de caso CRS",
-                    "displayName": "Case VPD-CRS-ID de caso CRS",
-                    "access": {
-                        "manage": true,
-                        "write": true,
-                        "read": true,
-                        "update": true,
-                        "delete": true
-                    },
-                    "favorite": false,
-                    "id": "L275nUTCkiq",
                     "attributeValues": []
                 }
             ],

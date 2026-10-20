@@ -1,0 +1,680 @@
+{
+    "userRoles": [
+        {
+            "name": "Custom - Empty User Role",
+            "created": "2024-03-26T10:46:24.682",
+            "lastUpdated": "2026-09-23T09:57:14.684",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Role with zero authorities (used for users disabled)",
+            "authorities": [],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "Custom - Empty User Role",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/tKQlcZjqfta",
+            "id": "tKQlcZjqfta",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - Analytics",
+            "created": "2021-10-25T10:31:49.090",
+            "lastUpdated": "2026-09-29T14:18:49.269",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Role to just see Analytics",
+            "authorities": [
+                "M_EpiWeek",
+                "M_dhis-web-event-reports",
+                "F_VIEW_EVENT_ANALYTICS",
+                "M_dhis-web-data-visualizer",
+                "M_dhis-web-line-listing",
+                "M_dhis-web-dashboard",
+                "M_Information",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-event-visualizer",
+                "M_dhis-web-capture",
+                "F_REPORT_PRIVATE_ADD",
+                "M_dhis-web-reports",
+                "M_dhis-web-maps"
+            ],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Analytics",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/J7SKbb9MEoQ",
+            "id": "J7SKbb9MEoQ",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - Cron",
+            "created": "2025-04-09T09:38:47.765",
+            "lastUpdated": "2025-07-09T20:42:58.713",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Use for epi week script execution with user like cron",
+            "authorities": [
+                "F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS",
+                "F_TRACKED_ENTITY_UPDATE"
+            ],
+            "restrictions": [],
+            "users": [
+                {
+                    "id": "KN0IO1UxhSH",
+                    "code": null,
+                    "name": "Cron User",
+                    "displayName": "Cron User",
+                    "username": "cron"
+                }
+            ],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Cron",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/er22HY7Bxs8",
+            "id": "er22HY7Bxs8",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - Data capture",
+            "created": "2021-10-26T13:42:29.315",
+            "lastUpdated": "2026-09-29T14:18:49.273",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Role to capture case-by-case data",
+            "authorities": [
+                "M_vpdtoolsplugin",
+                "M_dhis-web-cache-cleaner",
+                "M_printformpluginv42",
+                "M_dhis-web-menu-management",
+                "M_dhis-web-capture"
+            ],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Data capture",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/n39tkBLrVG7",
+            "id": "n39tkBLrVG7",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - Data entry",
+            "created": "2023-10-10T20:11:39.842",
+            "lastUpdated": "2026-09-29T14:18:49.271",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Role to enter aggregated data",
+            "authorities": [
+                "M_dhis-web-aggregate-data-entry",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-capture",
+                "F_DATAVALUE_ADD"
+            ],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Data entry",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/iyZTmw25vz5",
+            "id": "iyZTmw25vz5",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - Data entry (view only)",
+            "created": "2025-06-10T19:21:46.587",
+            "lastUpdated": "2025-07-09T20:42:58.707",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "description": "Role to view (only) aggregated data",
+            "authorities": [
+                "M_dhis-web-aggregate-data-entry",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-capture"
+            ],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Data entry (view only)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/pTa1kvUrdO2",
+            "id": "pTa1kvUrdO2",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - IT User Admin",
+            "created": "2024-08-09T17:18:53.709",
+            "lastUpdated": "2026-09-22T11:40:48.285",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Role to create users",
+            "authorities": [
+                "F_USER_DELETE_WITHIN_MANAGED_GROUP",
+                "F_USER_VIEW",
+                "F_USER_ADD_WITHIN_MANAGED_GROUP",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-capture",
+                "F_USER_ADD",
+                "M_dhis-web-user",
+                "F_USER_DELETE",
+                "F_REPLICATE_USER"
+            ],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - IT User Admin",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/F2VR3iWZsgH",
+            "id": "F2VR3iWZsgH",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD - PAHO Admin",
+            "created": "2021-10-26T13:48:34.142",
+            "lastUpdated": "2026-09-22T15:33:43.558",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "Role for the VPD-SMART WDC team (ALL authority)",
+            "authorities": [
+                "M_dhis-web-menu-management",
+                "M_dhis-web-line-listing",
+                "M_dhis-web-import-export",
+                "M_metadatamanagement",
+                "M_dhis-web-user",
+                "M_dhis-web-translations",
+                "M_dhis-web-maps",
+                "M_Tracker_Dataset_Metadata_Cloner",
+                "M_dhis-web-aggregate-data-entry",
+                "F_METADATA_IMPORT",
+                "M_dhis-web-event-reports",
+                "M_dhis-web-maintenance",
+                "M_dhis-web-data-visualizer",
+                "M_dhis-web-dashboard",
+                "M_dhis-web-data-administration",
+                "F_METADATA_EXPORT",
+                "F_EXPORT_DATA",
+                "M_dhis-web-scheduler",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-capture",
+                "M_dhis-web-event-visualizer",
+                "M_dhis-web-app-management",
+                "F_METADATA_MANAGE",
+                "M_dhis-web-datastore",
+                "M_dhis-web-reports"
+            ],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - PAHO Admin",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/mUyeAxU4veM",
+            "id": "mUyeAxU4veM",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD-AFP-LAB LIMITED AUTHORITIES (Lab data)",
+            "created": "2024-03-06T15:50:09.959",
+            "lastUpdated": "2025-07-09T20:42:58.714",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "DO NOT DELETE Only to add information or data after the first four fields (program rule \"IisAMNKD7VW\").",
+            "authorities": [],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD-AFP-LAB LIMITED AUTHORITIES (Lab data)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/nNIfusbNIWg",
+            "id": "nNIfusbNIWg",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD-AFP-VIG LIMITED AUTHORITIES (Lab data)",
+            "created": "2024-04-03T12:45:58.584",
+            "lastUpdated": "2025-07-09T20:42:58.714",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "DO NOT DELETE Only to add information or data in the first four fields (program rule \"QGD849TsXoc\").",
+            "authorities": [],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD-AFP-VIG LIMITED AUTHORITIES (Lab data)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/FWQvzzDDLd1",
+            "id": "FWQvzzDDLd1",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD-MR-LAB LIMITED AUTHORITIES (Lab data)",
+            "created": "2024-05-03T19:57:01.709",
+            "lastUpdated": "2025-07-09T20:42:58.715",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "DO NOT DELETE Only to add information or data after the first 8 fields (program rule \"heGi3GK9Dzg\").",
+            "authorities": [],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD-MR-LAB LIMITED AUTHORITIES (Lab data)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/MtdRG6Mx4L3",
+            "id": "MtdRG6Mx4L3",
+            "attributeValues": []
+        },
+        {
+            "name": "VPD-MR-VIG LIMITED AUTHORITIES (Lab data)",
+            "created": "2024-05-03T19:57:45.694",
+            "lastUpdated": "2025-07-09T20:42:58.715",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "description": "DO NOT DELETE Only to add information or data in the first 8 fields (program rule \"iF4L57OWhGa\").",
+            "authorities": [],
+            "restrictions": [],
+            "users": [],
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD-MR-VIG LIMITED AUTHORITIES (Lab data)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userRoles/pCQ0eDPtc05",
+            "id": "pCQ0eDPtc05",
+            "attributeValues": []
+        }
+    ]
+}

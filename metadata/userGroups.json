@@ -1,0 +1,1854 @@
+{
+    "userGroups": [
+        {
+            "code": "VPD_AFP_CHIEF_PUBLIC_HEALTH_NURSE",
+            "name": "VPD - AFP - Chief Public Health Nurse",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T21:25:13.072",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Chief Public Health Nurse",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/fDxqvJMGqxK",
+            "id": "fDxqvJMGqxK",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_CLINICAL_MEDICAL_OFFICER",
+            "name": "VPD - AFP - Clinical Medical Officer",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:43:00.980",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Clinical Medical Officer",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/EAYape9EnTi",
+            "id": "EAYape9EnTi",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_ENROLL_CASES",
+            "name": "VPD - AFP - Enroll cases",
+            "created": "2025-03-21T19:50:24.736",
+            "lastUpdated": "2025-07-09T20:47:40.511",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Enroll cases",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/y5mx8f04ixI",
+            "id": "y5mx8f04ixI",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_EPI_MANAGER_SMOH_S",
+            "name": "VPD - AFP - EPI Manager / SMOH (S)",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T21:24:02.309",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - EPI Manager / SMOH (S)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/Dkmp2WUUGpv",
+            "id": "Dkmp2WUUGpv",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_EPIDEMIOLOGIST",
+            "name": "VPD - AFP - Epidemiologist",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:52:43.465",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Epidemiologist",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/HC1Ja1M8Q6c",
+            "id": "HC1Ja1M8Q6c",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_LAB_USERS",
+            "name": "VPD - AFP - Lab Users",
+            "created": "2024-02-27T15:05:45.895",
+            "lastUpdated": "2025-07-09T20:47:40.522",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Lab Users",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/OXmxjLsV5G6",
+            "id": "OXmxjLsV5G6",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_LABORATORY",
+            "name": "VPD - AFP - Laboratory",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T21:29:24.281",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Laboratory",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/S95FQjhe7Zp",
+            "id": "S95FQjhe7Zp",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_MEDICAL_OFFICERS_OF_HEALTH",
+            "name": "VPD - AFP - Medical Officers of Health",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:49:24.110",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Medical Officers of Health",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/IgQ3oPlJmHH",
+            "id": "IgQ3oPlJmHH",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_PUBLIC_HEALTH_NURSE",
+            "name": "VPD - AFP - Public Health Nurse",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:45:53.029",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Public Health Nurse",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/I3dqePwExC5",
+            "id": "I3dqePwExC5",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_SURVEILLANCE_NURSE",
+            "name": "VPD - AFP - Surveillance Nurse",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T20:52:33.092",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Surveillance Nurse",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/W1HXHV6ReGs",
+            "id": "W1HXHV6ReGs",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_USERS_CAPTURE",
+            "name": "VPD - AFP - Users Capture",
+            "created": "2023-09-09T16:54:38.882",
+            "lastUpdated": "2026-09-30T21:16:01.401",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Users Capture",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/JYaxhwwNpOf",
+            "id": "JYaxhwwNpOf",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_AFP_VACCINATION_AND_CLINICAL_DATA",
+            "name": "VPD - AFP - Vaccination and Clinical Data",
+            "created": "2025-03-21T19:51:16.234",
+            "lastUpdated": "2025-07-09T20:47:40.512",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - AFP - Vaccination and Clinical Data",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/JRFtqpZvvo4",
+            "id": "JRFtqpZvvo4",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_ACCESS",
+            "name": "VPD - Dashoards Users",
+            "created": "2024-04-12T00:40:40.573",
+            "lastUpdated": "2026-09-30T21:16:01.380",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "r-------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Dashoards Users",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/LGB1LRUjjr7",
+            "id": "LGB1LRUjjr7",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_EMAIL_USER_ALERT",
+            "name": "VPD - Email Users Alerts",
+            "created": "2022-10-26T22:27:12.581",
+            "lastUpdated": "2025-07-09T20:47:40.523",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "r-------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Email Users Alerts",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/mEyOeS62c5D",
+            "id": "mEyOeS62c5D",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_ALERT_PROD",
+            "name": "VPD - Email Users Alerts Prod",
+            "created": "2024-03-08T11:44:57.815",
+            "lastUpdated": "2025-07-09T20:47:40.523",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "r-------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - Email Users Alerts Prod",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/LQ0fq2CnTOk",
+            "id": "LQ0fq2CnTOk",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_EN_IT_USER_ADMINISTRATOR",
+            "name": "VPD - EN - IT user administrator",
+            "created": "2024-08-09T17:16:43.898",
+            "lastUpdated": "2025-07-09T20:47:40.522",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "r-------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - EN - IT user administrator",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/dYchzCfVcZz",
+            "id": "dYchzCfVcZz",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_EN_VIEW_ONLY",
+            "name": "VPD - EN - View Only",
+            "created": "2024-03-04T11:55:40.743",
+            "lastUpdated": "2026-09-29T14:52:43.432",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - EN - View Only",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/rEavs5xzXn0",
+            "id": "rEavs5xzXn0",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_ES_IT_USER_ADMINISTRATOR",
+            "name": "VPD - ES - IT User administrator",
+            "created": "2025-03-20T20:29:35.094",
+            "lastUpdated": "2026-09-22T12:17:32.004",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - ES - IT User administrator",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/JL2rf6jQUfK",
+            "id": "JL2rf6jQUfK",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_ES_VIEW_ONLY",
+            "name": "VPD - View Only",
+            "created": "2025-03-17T15:12:11.927",
+            "lastUpdated": "2026-09-30T21:16:01.411",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "r-------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - ES - View Only",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/S8ByUlF7mZF",
+            "id": "S8ByUlF7mZF",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_CHIEF_PUBLIC_HEALTH_NURSE",
+            "name": "VPD - MR - Chief Public Health Nurse",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T21:25:13.068",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Chief Public Health Nurse",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/IRQFkHT4LXd",
+            "id": "IRQFkHT4LXd",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_CLINICAL_MEDICAL_OFFICER",
+            "name": "VPD - MR - Clinical Medical Officer",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:43:00.984",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Clinical Medical Officer",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/RvT62Xrlejm",
+            "id": "RvT62Xrlejm",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_ENROLL_CASES",
+            "name": "VPD - MR - Enroll cases",
+            "created": "2025-03-17T15:11:39.720",
+            "lastUpdated": "2025-07-09T20:47:40.512",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - MR - Enroll cases",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/gtYQ1WpWmEb",
+            "id": "gtYQ1WpWmEb",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_EPI_MANAGER_SMOH_S",
+            "name": "VPD - MR - EPI Manager / SMOH (S)",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T21:24:02.307",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - EPI Manager / SMOH (S)",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/YK0Rm5eq3ee",
+            "id": "YK0Rm5eq3ee",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_EPIDEMIOLOGIST",
+            "name": "VPD - MR - Epidemiologist",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:52:43.437",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Epidemiologist",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/iUFfzXXLyBJ",
+            "id": "iUFfzXXLyBJ",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_INVESTIGATION_FORM",
+            "name": "VPD - MR - Investigation Form",
+            "created": "2025-03-17T15:09:18.927",
+            "lastUpdated": "2025-07-09T20:47:40.512",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - MR - Investigation Form",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/oOH2Lty94ZQ",
+            "id": "oOH2Lty94ZQ",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_LAB_USERS",
+            "name": "VPD - MR - Lab Users",
+            "created": "2025-04-02T21:26:42.909",
+            "lastUpdated": "2025-07-09T20:47:40.512",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - MR - Lab Users",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/j2jyMEjig3T",
+            "id": "j2jyMEjig3T",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_LABORATORY",
+            "name": "VPD - MR - Laboratory",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T21:29:24.286",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Laboratory",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/NSMgQBDIo6d",
+            "id": "NSMgQBDIo6d",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_MEDICAL_OFFICERS_OF_HEALTH",
+            "name": "VPD - MR - Medical Officers of Health",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:49:24.116",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Medical Officers of Health",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/WhO6e88PcBz",
+            "id": "WhO6e88PcBz",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_PUBLIC_HEALTH_NURSE",
+            "name": "VPD - MR - Public Health Nurse",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-09-29T14:45:53.023",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Public Health Nurse",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/LKxLN41b6J8",
+            "id": "LKxLN41b6J8",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_SURVEILLANCE_NURSE",
+            "name": "VPD - MR - Surveillance Nurse",
+            "created": "2026-08-03T13:50:43.765",
+            "lastUpdated": "2026-08-31T20:52:33.092",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "xFHt1uk8v81",
+                "code": null,
+                "name": "Juan Pablo Espinoza",
+                "displayName": "Juan Pablo Espinoza",
+                "username": "espinozjua"
+            },
+            "displayName": "VPD - MR - Surveillance Nurse",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/jpHOweZtWPx",
+            "id": "jpHOweZtWPx",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_USERS_CAPTURE",
+            "name": "VPD - MR - Users Capture",
+            "created": "2023-09-09T16:54:06.901",
+            "lastUpdated": "2026-09-30T21:16:01.391",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "kwrFvwpHJ2A",
+                "code": null,
+                "name": "Marko Garcia",
+                "displayName": "Marko Garcia",
+                "username": "mgarcia"
+            },
+            "displayName": "VPD - MR - Users Capture",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/pKhsQOAGnGw",
+            "id": "pKhsQOAGnGw",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_MR_VACCINATION_AND_CLINICAL_DATA",
+            "name": "VPD - MR - Vaccination and Clinical Data",
+            "created": "2025-03-17T15:10:34.202",
+            "lastUpdated": "2025-07-09T20:47:40.512",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - MR - Vaccination and Clinical Data",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/hk2NmAm96zH",
+            "id": "hk2NmAm96zH",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_PAHO_ADMINS",
+            "name": "VPD - PAHO Admins",
+            "created": "2023-09-09T16:44:46.139",
+            "lastUpdated": "2026-09-22T12:17:10.327",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "kwrFvwpHJ2A",
+                "code": null,
+                "name": "Marko Garcia",
+                "displayName": "Marko Garcia",
+                "username": "mgarcia"
+            },
+            "displayName": "VPD - PAHO Admins",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/LkUmpgPOkdc",
+            "id": "LkUmpgPOkdc",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_PT_VIEW_ONLY_USER_GROUP",
+            "name": "VPD - PT - View Only",
+            "created": "2026-08-25T05:04:07.334",
+            "lastUpdated": "2026-09-22T09:35:58.076",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - PT - View Only",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/d5Kbv6f5WhL",
+            "id": "d5Kbv6f5WhL",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_DATA_CAPTURE",
+            "name": "VPD - Regional Users",
+            "created": "2023-09-11T20:47:15.671",
+            "lastUpdated": "2026-09-22T14:13:45.064",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "kwrFvwpHJ2A",
+                "code": null,
+                "name": "Marko Garcia",
+                "displayName": "Marko Garcia",
+                "username": "mgarcia"
+            },
+            "displayName": "VPD - Regional Users",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/QcpNmTd91zd",
+            "id": "QcpNmTd91zd",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_DATA_CAPTURE_ES",
+            "name": "VPD - Spanish speaking users",
+            "created": "2024-03-04T11:56:40.328",
+            "lastUpdated": "2025-07-09T23:09:54.428",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "rw------"
+            },
+            "user": {
+                "id": "FbdhKnDUz4H",
+                "code": null,
+                "name": "Felipe Millacura",
+                "displayName": "Felipe Millacura",
+                "username": "fmillacura"
+            },
+            "displayName": "VPD - Spanish speaking users",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/wcwfj2FMOjm",
+            "id": "wcwfj2FMOjm",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        },
+        {
+            "code": "VPD_USER_AGGREGATED_DATA",
+            "name": "VPD - User aggregated data",
+            "created": "2025-05-27T13:15:47.311",
+            "lastUpdated": "2026-09-22T12:30:35.745",
+            "translations": [],
+            "createdBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "favorites": [],
+            "lastUpdatedBy": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "sharing": {
+                "owner": "PuGe1xoZb0k",
+                "users": {},
+                "userGroups": {},
+                "public": "--------"
+            },
+            "user": {
+                "id": "PuGe1xoZb0k",
+                "code": null,
+                "name": "VPD METADATA",
+                "displayName": "VPD METADATA",
+                "username": "vpd_metadata"
+            },
+            "displayName": "VPD - User aggregated data",
+            "access": {
+                "manage": true,
+                "write": true,
+                "read": true,
+                "update": true,
+                "delete": true
+            },
+            "favorite": false,
+            "href": "https://vpd.paho-dhis2.org/api/userGroups/rSSsrsgl8PH",
+            "id": "rSSsrsgl8PH",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "managedByGroups": []
+        }
+    ]
+}

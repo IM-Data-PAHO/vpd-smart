@@ -63,6 +63,9 @@ def empty_organisation_units(text):
     return "".join(out), count, removed
 
 
+SYSTEM_RE = re.compile(r'\A(\s*\{)\s*"system"\s*:\s*\{[^{}]*\}\s*,')
+
+
 def process(path):
     with open(path, encoding="utf-8") as f:
         text = f.read()
@@ -74,13 +77,14 @@ def process(path):
 
     text = USER_REF_RE.sub(repl, text)
     text, n_ow = OWNER_RE.subn(rf'\1"{USER_ID}"', text)
+    text, n_sys = SYSTEM_RE.subn(r"\1", text)
     text, n_ou, n_removed = empty_organisation_units(text)
     json.loads(text)  # fail before writing if the result is invalid
     with open(path, "w", encoding="utf-8") as f:
         f.write(text)
     print(
         f"{path}: {counts['lastUpdatedBy']} lastUpdatedBy, "
-        f"{counts['createdBy']} createdBy, {n_ow} owner replaced, {n_ou} organisationUnits arrays emptied ({n_removed} organisationUnits deleted)"
+        f"{counts['createdBy']} createdBy, {n_ow} owner replaced, {n_sys} system block deleted, {n_ou} organisationUnits arrays emptied ({n_removed} organisationUnits deleted)"
     )
 
 
